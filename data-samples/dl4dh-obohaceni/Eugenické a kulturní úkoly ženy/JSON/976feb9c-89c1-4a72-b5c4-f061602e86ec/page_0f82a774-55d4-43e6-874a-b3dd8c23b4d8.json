@@ -1,0 +1,1314 @@
+{
+  "id" : "uuid:0f82a774-55d4-43e6-874a-b3dd8c23b4d8",
+  "created" : "2025-11-07T09:21:51.850Z",
+  "updated" : "2025-11-07T09:21:51.850Z",
+  "parentId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "index" : 9,
+  "rootId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "title" : "8",
+  "context" : [ ],
+  "tokens" : [ {
+    "tokenIndex" : 0,
+    "content" : "3",
+    "startOffset" : 0,
+    "endOffset" : 1,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "3",
+      "feats" : "NumForm=Digit|NumType=Card",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "TokenRange=0:1",
+      "uPosTag" : "NUM",
+      "xPosTag" : "C=-------------"
+    },
+    "nameTagMetadata" : "B-ni",
+    "altoMetadata" : {
+      "height" : 47.0,
+      "width" : 29.0,
+      "vpos" : 297.0,
+      "hpos" : 90.0
+    }
+  }, {
+    "tokenIndex" : 1,
+    "content" : "Vůči",
+    "startOffset" : 2,
+    "endOffset" : 6,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "vůči",
+      "feats" : "AdpType=Prep|Case=Dat",
+      "head" : "2",
+      "depRel" : "case",
+      "misc" : "TokenRange=2:6",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--3----------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 107.0,
+      "vpos" : 289.0,
+      "hpos" : 258.0
+    }
+  }, {
+    "tokenIndex" : 2,
+    "content" : "všemu",
+    "startOffset" : 7,
+    "endOffset" : 12,
+    "linguisticMetadata" : {
+      "position" : 2,
+      "lemma" : "všechen",
+      "feats" : "Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Tot",
+      "head" : "3",
+      "depRel" : "det",
+      "misc" : "TokenRange=7:12",
+      "uPosTag" : "DET",
+      "xPosTag" : "PLZS3----------"
+    },
+    "altoMetadata" : {
+      "height" : 54.0,
+      "width" : 155.0,
+      "vpos" : 290.0,
+      "hpos" : 407.0
+    }
+  }, {
+    "tokenIndex" : 3,
+    "content" : "tomu",
+    "startOffset" : 13,
+    "endOffset" : 17,
+    "linguisticMetadata" : {
+      "position" : 3,
+      "lemma" : "ten",
+      "feats" : "Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+      "head" : "11",
+      "depRel" : "obl:arg",
+      "misc" : "SpaceAfter=No|TokenRange=13:17",
+      "uPosTag" : "DET",
+      "xPosTag" : "PDZS3----------"
+    },
+    "altoMetadata" : {
+      "height" : 51.0,
+      "width" : 136.0,
+      "vpos" : 293.0,
+      "hpos" : 605.0
+    }
+  }, {
+    "tokenIndex" : 4,
+    "content" : ",",
+    "startOffset" : 17,
+    "endOffset" : 18,
+    "linguisticMetadata" : {
+      "position" : 4,
+      "lemma" : ",",
+      "head" : "8",
+      "depRel" : "punct",
+      "misc" : "TokenRange=17:18",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 51.0,
+      "width" : 136.0,
+      "vpos" : 293.0,
+      "hpos" : 605.0
+    }
+  }, {
+    "tokenIndex" : 5,
+    "content" : "jakož",
+    "startOffset" : 19,
+    "endOffset" : 24,
+    "linguisticMetadata" : {
+      "position" : 5,
+      "lemma" : "jakož",
+      "head" : "8",
+      "depRel" : "cc",
+      "misc" : "TokenRange=19:24",
+      "uPosTag" : "SCONJ",
+      "xPosTag" : "J,-------------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 132.0,
+      "vpos" : 289.0,
+      "hpos" : 787.0
+    }
+  }, {
+    "tokenIndex" : 6,
+    "content" : "i",
+    "startOffset" : 25,
+    "endOffset" : 26,
+    "linguisticMetadata" : {
+      "position" : 6,
+      "lemma" : "i",
+      "head" : "8",
+      "depRel" : "cc",
+      "misc" : "TokenRange=25:26",
+      "uPosTag" : "CCONJ",
+      "xPosTag" : "J^-------------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 13.0,
+      "vpos" : 289.0,
+      "hpos" : 947.0
+    }
+  }, {
+    "tokenIndex" : 7,
+    "content" : "vůči",
+    "startOffset" : 27,
+    "endOffset" : 31,
+    "linguisticMetadata" : {
+      "position" : 7,
+      "lemma" : "vůči",
+      "feats" : "AdpType=Prep|Case=Dat",
+      "head" : "8",
+      "depRel" : "case",
+      "misc" : "TokenRange=27:31",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--3----------"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 97.0,
+      "vpos" : 288.0,
+      "hpos" : 1003.0
+    }
+  }, {
+    "tokenIndex" : 8,
+    "content" : "námětu",
+    "startOffset" : 32,
+    "endOffset" : 38,
+    "linguisticMetadata" : {
+      "position" : 8,
+      "lemma" : "námět",
+      "feats" : "Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing",
+      "head" : "3",
+      "depRel" : "conj",
+      "misc" : "TokenRange=32:38",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS3-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 181.0,
+      "vpos" : 288.0,
+      "hpos" : 1144.0
+    }
+  }, {
+    "tokenIndex" : 9,
+    "content" : "spisu",
+    "startOffset" : 39,
+    "endOffset" : 44,
+    "linguisticMetadata" : {
+      "position" : 9,
+      "lemma" : "spis",
+      "feats" : "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+      "head" : "8",
+      "depRel" : "nmod",
+      "misc" : "TokenRange=39:44",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS2-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 125.0,
+      "vpos" : 289.0,
+      "hpos" : 1370.0
+    }
+  }, {
+    "tokenIndex" : 10,
+    "content" : "je",
+    "startOffset" : 45,
+    "endOffset" : 47,
+    "linguisticMetadata" : {
+      "position" : 10,
+      "lemma" : "být",
+      "feats" : "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "TokenRange=45:47",
+      "uPosTag" : "AUX",
+      "xPosTag" : "VB-S---3P-AAI--"
+    },
+    "altoMetadata" : {
+      "height" : 54.0,
+      "width" : 46.0,
+      "vpos" : 290.0,
+      "hpos" : 1538.0
+    }
+  }, {
+    "tokenIndex" : 11,
+    "content" : "řešiti",
+    "startOffset" : 48,
+    "endOffset" : 54,
+    "linguisticMetadata" : {
+      "position" : 11,
+      "lemma" : "řešit",
+      "feats" : "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+      "head" : "10",
+      "depRel" : "csubj",
+      "misc" : "TokenRange=48:54",
+      "uPosTag" : "VERB",
+      "xPosTag" : "Vf--------A-I--"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 126.0,
+      "vpos" : 288.0,
+      "hpos" : 1629.0
+    }
+  }, {
+    "tokenIndex" : 12,
+    "content" : "otázku",
+    "startOffset" : 55,
+    "endOffset" : 61,
+    "linguisticMetadata" : {
+      "position" : 12,
+      "lemma" : "otázka",
+      "feats" : "Case=Acc|Gender=Fem|Number=Sing",
+      "head" : "11",
+      "depRel" : "obj",
+      "misc" : "SpaceAfter=No|TokenRange=55:61",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 184.0,
+      "vpos" : 348.0,
+      "hpos" : 198.0
+    }
+  }, {
+    "tokenIndex" : 13,
+    "content" : ":",
+    "startOffset" : 61,
+    "endOffset" : 62,
+    "linguisticMetadata" : {
+      "position" : 13,
+      "lemma" : ":",
+      "head" : "15",
+      "depRel" : "punct",
+      "misc" : "TokenRange=61:62",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 184.0,
+      "vpos" : 348.0,
+      "hpos" : 198.0
+    }
+  }, {
+    "tokenIndex" : 14,
+    "content" : "Co",
+    "startOffset" : 63,
+    "endOffset" : 65,
+    "linguisticMetadata" : {
+      "position" : 14,
+      "lemma" : "co",
+      "feats" : "Animacy=Inan|Case=Acc|PronType=Int,Rel",
+      "head" : "16",
+      "depRel" : "obj",
+      "misc" : "TokenRange=63:65",
+      "uPosTag" : "PRON",
+      "xPosTag" : "PQ--4----------"
+    },
+    "altoMetadata" : {
+      "height" : 42.0,
+      "width" : 67.0,
+      "vpos" : 350.0,
+      "hpos" : 420.0
+    }
+  }, {
+    "tokenIndex" : 15,
+    "content" : "může",
+    "startOffset" : 66,
+    "endOffset" : 70,
+    "linguisticMetadata" : {
+      "position" : 15,
+      "lemma" : "moci",
+      "feats" : "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+      "head" : "12",
+      "depRel" : "acl",
+      "misc" : "TokenRange=66:70",
+      "uPosTag" : "VERB",
+      "xPosTag" : "VB-S---3P-AAI--"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 125.0,
+      "vpos" : 348.0,
+      "hpos" : 523.0
+    }
+  }, {
+    "tokenIndex" : 16,
+    "content" : "činiti",
+    "startOffset" : 71,
+    "endOffset" : 77,
+    "linguisticMetadata" : {
+      "position" : 16,
+      "lemma" : "činit",
+      "feats" : "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+      "head" : "15",
+      "depRel" : "xcomp",
+      "misc" : "TokenRange=71:77",
+      "uPosTag" : "VERB",
+      "xPosTag" : "Vf--------A-I-2"
+    },
+    "altoMetadata" : {
+      "height" : 43.0,
+      "width" : 123.0,
+      "vpos" : 349.0,
+      "hpos" : 686.0
+    }
+  }, {
+    "tokenIndex" : 17,
+    "content" : "žena",
+    "startOffset" : 78,
+    "endOffset" : 82,
+    "linguisticMetadata" : {
+      "position" : 17,
+      "lemma" : "žena",
+      "feats" : "Case=Nom|Gender=Fem|Number=Sing",
+      "head" : "15",
+      "depRel" : "nsubj",
+      "misc" : "TokenRange=78:82",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 108.0,
+      "vpos" : 348.0,
+      "hpos" : 846.0
+    }
+  }, {
+    "tokenIndex" : 18,
+    "content" : "na",
+    "startOffset" : 83,
+    "endOffset" : 85,
+    "linguisticMetadata" : {
+      "position" : 18,
+      "lemma" : "na",
+      "feats" : "AdpType=Prep|Case=Acc",
+      "head" : "24",
+      "depRel" : "case",
+      "misc" : "TokenRange=83:85",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--4----------"
+    },
+    "altoMetadata" : {
+      "height" : 30.0,
+      "width" : 58.0,
+      "vpos" : 362.0,
+      "hpos" : 988.0
+    }
+  }, {
+    "tokenIndex" : 19,
+    "content" : "prospěch",
+    "startOffset" : 86,
+    "endOffset" : 94,
+    "linguisticMetadata" : {
+      "position" : 19,
+      "lemma" : "prospěch",
+      "feats" : "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+      "head" : "18",
+      "depRel" : "fixed",
+      "misc" : "TokenRange=86:94",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 54.0,
+      "width" : 222.0,
+      "vpos" : 348.0,
+      "hpos" : 1083.0
+    }
+  }, {
+    "tokenIndex" : 20,
+    "content" : "duševně",
+    "startOffset" : 95,
+    "endOffset" : 102,
+    "linguisticMetadata" : {
+      "position" : 20,
+      "lemma" : "duševně",
+      "feats" : "Degree=Pos|Polarity=Pos",
+      "head" : "21",
+      "depRel" : "advmod",
+      "misc" : "TokenRange=95:102",
+      "uPosTag" : "ADV",
+      "xPosTag" : "Dg-------1A----"
+    },
+    "altoMetadata" : {
+      "height" : 54.0,
+      "width" : 198.0,
+      "vpos" : 348.0,
+      "hpos" : 1341.0
+    }
+  }, {
+    "tokenIndex" : 21,
+    "content" : "eugeni",
+    "startOffset" : 103,
+    "endOffset" : 109,
+    "linguisticMetadata" : {
+      "position" : 21,
+      "lemma" : "eugeni",
+      "feats" : "Degree=Pos|Hyph=Yes|Polarity=Pos",
+      "head" : "24",
+      "depRel" : "amod",
+      "misc" : "SpaceAfter=No|TokenRange=103:109",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "S2--------A----"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 179.0,
+      "vpos" : 349.0,
+      "hpos" : 1578.0
+    }
+  }, {
+    "tokenIndex" : 22,
+    "content" : "-",
+    "startOffset" : 109,
+    "endOffset" : 110,
+    "linguisticMetadata" : {
+      "position" : 22,
+      "lemma" : "-",
+      "head" : "21",
+      "depRel" : "punct",
+      "misc" : "TokenRange=109:110",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 179.0,
+      "vpos" : 349.0,
+      "hpos" : 1578.0
+    }
+  }, {
+    "tokenIndex" : 23,
+    "content" : "ckých",
+    "startOffset" : 111,
+    "endOffset" : 116,
+    "linguisticMetadata" : {
+      "position" : 23,
+      "lemma" : "cký",
+      "feats" : "Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+      "head" : "24",
+      "depRel" : "amod",
+      "misc" : "TokenRange=111:116",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AAFP2----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 52.0,
+      "width" : 136.0,
+      "vpos" : 408.0,
+      "hpos" : 198.0
+    }
+  }, {
+    "tokenIndex" : 24,
+    "content" : "snah",
+    "startOffset" : 117,
+    "endOffset" : 121,
+    "linguisticMetadata" : {
+      "position" : 24,
+      "lemma" : "snaha",
+      "feats" : "Case=Gen|Gender=Fem|Number=Plur",
+      "head" : "16",
+      "depRel" : "obl",
+      "misc" : "TokenRange=117:121",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFP2-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 51.0,
+      "width" : 110.0,
+      "vpos" : 409.0,
+      "hpos" : 370.0
+    }
+  }, {
+    "tokenIndex" : 25,
+    "content" : "a",
+    "startOffset" : 122,
+    "endOffset" : 123,
+    "linguisticMetadata" : {
+      "position" : 25,
+      "lemma" : "a",
+      "head" : "29",
+      "depRel" : "cc",
+      "misc" : "TokenRange=122:123",
+      "uPosTag" : "CCONJ",
+      "xPosTag" : "J^-------------"
+    },
+    "altoMetadata" : {
+      "height" : 37.0,
+      "width" : 27.0,
+      "vpos" : 423.0,
+      "hpos" : 512.0
+    }
+  }, {
+    "tokenIndex" : 26,
+    "content" : "na",
+    "startOffset" : 124,
+    "endOffset" : 126,
+    "linguisticMetadata" : {
+      "position" : 26,
+      "lemma" : "na",
+      "feats" : "AdpType=Prep|Case=Acc",
+      "head" : "29",
+      "depRel" : "case",
+      "misc" : "TokenRange=124:126",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--4----------"
+    },
+    "altoMetadata" : {
+      "height" : 38.0,
+      "width" : 55.0,
+      "vpos" : 422.0,
+      "hpos" : 574.0
+    }
+  }, {
+    "tokenIndex" : 27,
+    "content" : "prospěch",
+    "startOffset" : 127,
+    "endOffset" : 135,
+    "linguisticMetadata" : {
+      "position" : 27,
+      "lemma" : "prospěch",
+      "feats" : "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+      "head" : "26",
+      "depRel" : "fixed",
+      "misc" : "TokenRange=127:135",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 223.0,
+      "vpos" : 408.0,
+      "hpos" : 664.0
+    }
+  }, {
+    "tokenIndex" : 28,
+    "content" : "kulturního",
+    "startOffset" : 136,
+    "endOffset" : 146,
+    "linguisticMetadata" : {
+      "position" : 28,
+      "lemma" : "kulturní",
+      "feats" : "Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos",
+      "head" : "29",
+      "depRel" : "amod",
+      "misc" : "TokenRange=136:146",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AAIS2----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 258.0,
+      "vpos" : 408.0,
+      "hpos" : 922.0
+    }
+  }, {
+    "tokenIndex" : 29,
+    "content" : "vzestupu",
+    "startOffset" : 147,
+    "endOffset" : 155,
+    "linguisticMetadata" : {
+      "position" : 29,
+      "lemma" : "vzestup",
+      "feats" : "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+      "head" : "24",
+      "depRel" : "conj",
+      "misc" : "TokenRange=147:155",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS2-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 52.0,
+      "width" : 216.0,
+      "vpos" : 411.0,
+      "hpos" : 1213.0
+    }
+  }, {
+    "tokenIndex" : 30,
+    "content" : "národa",
+    "startOffset" : 156,
+    "endOffset" : 162,
+    "linguisticMetadata" : {
+      "position" : 30,
+      "lemma" : "národ",
+      "feats" : "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+      "head" : "29",
+      "depRel" : "nmod",
+      "misc" : "SpaceAfter=No|TokenRange=156:162",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS2-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 202.0,
+      "vpos" : 408.0,
+      "hpos" : 1465.0
+    }
+  }, {
+    "tokenIndex" : 31,
+    "content" : "?",
+    "startOffset" : 162,
+    "endOffset" : 163,
+    "linguisticMetadata" : {
+      "position" : 31,
+      "lemma" : "?",
+      "head" : "10",
+      "depRel" : "punct",
+      "misc" : "TokenRange=162:163",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 202.0,
+      "vpos" : 408.0,
+      "hpos" : 1465.0
+    }
+  }, {
+    "tokenIndex" : 32,
+    "content" : "Aby",
+    "startOffset" : 164,
+    "endOffset" : 167,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "aby",
+      "head" : "6",
+      "depRel" : "mark",
+      "misc" : "TokenRange=164:167",
+      "uPosTag" : "SCONJ",
+      "xPosTag" : "J,-------------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 101.0,
+      "vpos" : 469.0,
+      "hpos" : 258.0
+    }
+  }, {
+    "tokenIndex" : 33,
+    "content" : "tato",
+    "startOffset" : 168,
+    "endOffset" : 172,
+    "linguisticMetadata" : {
+      "position" : 3,
+      "lemma" : "tento",
+      "feats" : "Case=Nom|Gender=Fem|Number=Sing|PronType=Dem",
+      "head" : "5",
+      "depRel" : "det",
+      "misc" : "TokenRange=168:172",
+      "uPosTag" : "DET",
+      "xPosTag" : "PDFS1----------"
+    },
+    "altoMetadata" : {
+      "height" : 53.0,
+      "width" : 92.0,
+      "vpos" : 471.0,
+      "hpos" : 402.0
+    }
+  }, {
+    "tokenIndex" : 34,
+    "content" : "její",
+    "startOffset" : 173,
+    "endOffset" : 177,
+    "linguisticMetadata" : {
+      "position" : 4,
+      "lemma" : "jeho",
+      "feats" : "Gender=Fem|Gender[psor]=Fem|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs",
+      "head" : "5",
+      "depRel" : "det",
+      "misc" : "TokenRange=173:177",
+      "uPosTag" : "DET",
+      "xPosTag" : "P9FXXFS3-------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 82.0,
+      "vpos" : 469.0,
+      "hpos" : 539.0
+    }
+  }, {
+    "tokenIndex" : 35,
+    "content" : "práce",
+    "startOffset" : 178,
+    "endOffset" : 183,
+    "linguisticMetadata" : {
+      "position" : 5,
+      "lemma" : "práce",
+      "feats" : "Case=Nom|Gender=Fem|Number=Sing",
+      "head" : "6",
+      "depRel" : "nsubj",
+      "misc" : "TokenRange=178:183",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 131.0,
+      "vpos" : 467.0,
+      "hpos" : 667.0
+    }
+  }, {
+    "tokenIndex" : 36,
+    "content" : "mohla",
+    "startOffset" : 184,
+    "endOffset" : 189,
+    "linguisticMetadata" : {
+      "position" : 6,
+      "lemma" : "moci",
+      "feats" : "Aspect=Imp|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act",
+      "head" : "14",
+      "depRel" : "advcl",
+      "misc" : "TokenRange=184:189",
+      "uPosTag" : "VERB",
+      "xPosTag" : "VpQW----R-AAI--"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 153.0,
+      "vpos" : 467.0,
+      "hpos" : 842.0
+    }
+  }, {
+    "tokenIndex" : 37,
+    "content" : "býti",
+    "startOffset" : 190,
+    "endOffset" : 194,
+    "linguisticMetadata" : {
+      "position" : 7,
+      "lemma" : "být",
+      "feats" : "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+      "head" : "8",
+      "depRel" : "cop",
+      "misc" : "TokenRange=190:194",
+      "uPosTag" : "AUX",
+      "xPosTag" : "Vf--------A-I-2"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 96.0,
+      "vpos" : 467.0,
+      "hpos" : 1037.0
+    }
+  }, {
+    "tokenIndex" : 38,
+    "content" : "úspěšnou",
+    "startOffset" : 195,
+    "endOffset" : 203,
+    "linguisticMetadata" : {
+      "position" : 8,
+      "lemma" : "úspěšný",
+      "feats" : "Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+      "head" : "6",
+      "depRel" : "xcomp",
+      "misc" : "SpaceAfter=No|TokenRange=195:203",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AAFS7----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 243.0,
+      "vpos" : 467.0,
+      "hpos" : 1179.0
+    }
+  }, {
+    "tokenIndex" : 39,
+    "content" : ",",
+    "startOffset" : 203,
+    "endOffset" : 204,
+    "linguisticMetadata" : {
+      "position" : 9,
+      "lemma" : ",",
+      "head" : "6",
+      "depRel" : "punct",
+      "misc" : "TokenRange=203:204",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 243.0,
+      "vpos" : 467.0,
+      "hpos" : 1179.0
+    }
+  }, {
+    "tokenIndex" : 40,
+    "content" : "je",
+    "startOffset" : 205,
+    "endOffset" : 207,
+    "linguisticMetadata" : {
+      "position" : 10,
+      "lemma" : "být",
+      "feats" : "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+      "head" : "14",
+      "depRel" : "cop",
+      "misc" : "TokenRange=205:207",
+      "uPosTag" : "AUX",
+      "xPosTag" : "VB-S---3P-AAI--"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 45.0,
+      "vpos" : 469.0,
+      "hpos" : 1467.0
+    }
+  }, {
+    "tokenIndex" : 41,
+    "content" : "v",
+    "startOffset" : 208,
+    "endOffset" : 209,
+    "linguisticMetadata" : {
+      "position" : 11,
+      "lemma" : "v",
+      "feats" : "AdpType=Prep|Case=Loc",
+      "head" : "13",
+      "depRel" : "case",
+      "misc" : "TokenRange=208:209",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--6----------"
+    },
+    "altoMetadata" : {
+      "height" : 42.0,
+      "width" : 29.0,
+      "vpos" : 482.0,
+      "hpos" : 1556.0
+    }
+  }, {
+    "tokenIndex" : 42,
+    "content" : "první",
+    "startOffset" : 210,
+    "endOffset" : 215,
+    "linguisticMetadata" : {
+      "position" : 12,
+      "lemma" : "první",
+      "feats" : "Case=Loc|Gender=Fem|Number=Sing|NumType=Ord",
+      "head" : "13",
+      "depRel" : "amod",
+      "misc" : "TokenRange=210:215",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "CrFS6----------"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 127.0,
+      "vpos" : 468.0,
+      "hpos" : 1629.0
+    }
+  }, {
+    "tokenIndex" : 43,
+    "content" : "řadě",
+    "startOffset" : 216,
+    "endOffset" : 220,
+    "linguisticMetadata" : {
+      "position" : 13,
+      "lemma" : "řada",
+      "feats" : "Case=Loc|Gender=Fem|Number=Sing",
+      "head" : "14",
+      "depRel" : "obl",
+      "misc" : "TokenRange=216:220",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS6-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 108.0,
+      "vpos" : 528.0,
+      "hpos" : 198.0
+    }
+  }, {
+    "tokenIndex" : 44,
+    "content" : "třeba",
+    "startOffset" : 221,
+    "endOffset" : 226,
+    "linguisticMetadata" : {
+      "position" : 14,
+      "lemma" : "třeba",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "TokenRange=221:226",
+      "uPosTag" : "ADV",
+      "xPosTag" : "Db-------------"
+    },
+    "altoMetadata" : {
+      "height" : 43.0,
+      "width" : 128.0,
+      "vpos" : 529.0,
+      "hpos" : 345.0
+    }
+  }, {
+    "tokenIndex" : 45,
+    "content" : "jednati",
+    "startOffset" : 227,
+    "endOffset" : 234,
+    "linguisticMetadata" : {
+      "position" : 15,
+      "lemma" : "jednat",
+      "feats" : "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+      "head" : "14",
+      "depRel" : "csubj",
+      "misc" : "TokenRange=227:234",
+      "uPosTag" : "VERB",
+      "xPosTag" : "Vf--------A-I-2"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 172.0,
+      "vpos" : 528.0,
+      "hpos" : 508.0
+    }
+  }, {
+    "tokenIndex" : 46,
+    "content" : "o",
+    "startOffset" : 235,
+    "endOffset" : 236,
+    "linguisticMetadata" : {
+      "position" : 16,
+      "lemma" : "o",
+      "feats" : "AdpType=Prep|Case=Loc",
+      "head" : "17",
+      "depRel" : "case",
+      "misc" : "TokenRange=235:236",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--6----------"
+    },
+    "altoMetadata" : {
+      "height" : 41.0,
+      "width" : 27.0,
+      "vpos" : 542.0,
+      "hpos" : 718.0
+    }
+  }, {
+    "tokenIndex" : 47,
+    "content" : "příčinách",
+    "startOffset" : 237,
+    "endOffset" : 246,
+    "linguisticMetadata" : {
+      "position" : 17,
+      "lemma" : "příčina",
+      "feats" : "Case=Loc|Gender=Fem|Number=Plur",
+      "head" : "15",
+      "depRel" : "obl:arg",
+      "misc" : "SpaceAfter=No|TokenRange=237:246",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFP6-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 240.0,
+      "vpos" : 526.0,
+      "hpos" : 786.0
+    }
+  }, {
+    "tokenIndex" : 48,
+    "content" : ",",
+    "startOffset" : 246,
+    "endOffset" : 247,
+    "linguisticMetadata" : {
+      "position" : 18,
+      "lemma" : ",",
+      "head" : "19",
+      "depRel" : "punct",
+      "misc" : "TokenRange=246:247",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 240.0,
+      "vpos" : 526.0,
+      "hpos" : 786.0
+    }
+  }, {
+    "tokenIndex" : 49,
+    "content" : "zaviňujících",
+    "startOffset" : 248,
+    "endOffset" : 260,
+    "linguisticMetadata" : {
+      "position" : 19,
+      "lemma" : "zaviňující",
+      "feats" : "Aspect=Imp|Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+      "head" : "17",
+      "depRel" : "amod",
+      "misc" : "TokenRange=248:260",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AGFP6-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 288.0,
+      "vpos" : 527.0,
+      "hpos" : 1066.0
+    }
+  }, {
+    "tokenIndex" : 50,
+    "content" : "různá",
+    "startOffset" : 261,
+    "endOffset" : 266,
+    "linguisticMetadata" : {
+      "position" : 20,
+      "lemma" : "různý",
+      "feats" : "Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos",
+      "head" : "22",
+      "depRel" : "amod",
+      "misc" : "TokenRange=261:266",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AANP4----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 136.0,
+      "vpos" : 527.0,
+      "hpos" : 1393.0
+    }
+  }, {
+    "tokenIndex" : 51,
+    "content" : "duševní",
+    "startOffset" : 267,
+    "endOffset" : 274,
+    "linguisticMetadata" : {
+      "position" : 21,
+      "lemma" : "duševní",
+      "feats" : "Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos",
+      "head" : "22",
+      "depRel" : "amod",
+      "misc" : "TokenRange=267:274",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AANP4----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 189.0,
+      "vpos" : 526.0,
+      "hpos" : 1567.0
+    }
+  }, {
+    "tokenIndex" : 52,
+    "content" : "onemocnění",
+    "startOffset" : 275,
+    "endOffset" : 285,
+    "linguisticMetadata" : {
+      "position" : 22,
+      "lemma" : "onemocnění",
+      "feats" : "Case=Acc|Gender=Neut|Number=Plur|VerbForm=Vnoun",
+      "head" : "19",
+      "depRel" : "obj",
+      "misc" : "TokenRange=275:285",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNNP4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 44.0,
+      "width" : 294.0,
+      "vpos" : 589.0,
+      "hpos" : 198.0
+    }
+  }, {
+    "tokenIndex" : 53,
+    "content" : "a",
+    "startOffset" : 286,
+    "endOffset" : 287,
+    "linguisticMetadata" : {
+      "position" : 23,
+      "lemma" : "a",
+      "head" : "24",
+      "depRel" : "cc",
+      "misc" : "TokenRange=286:287",
+      "uPosTag" : "CCONJ",
+      "xPosTag" : "J^-------------"
+    },
+    "altoMetadata" : {
+      "height" : 31.0,
+      "width" : 25.0,
+      "vpos" : 602.0,
+      "hpos" : 528.0
+    }
+  }, {
+    "tokenIndex" : 54,
+    "content" : "vytýčiti",
+    "startOffset" : 288,
+    "endOffset" : 296,
+    "linguisticMetadata" : {
+      "position" : 24,
+      "lemma" : "vytýčit",
+      "feats" : "Aspect=Perf|Polarity=Pos|VerbForm=Inf",
+      "head" : "15",
+      "depRel" : "conj",
+      "misc" : "TokenRange=288:296",
+      "uPosTag" : "VERB",
+      "xPosTag" : "Vf--------A-P-2"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 183.0,
+      "vpos" : 588.0,
+      "hpos" : 585.0
+    }
+  }, {
+    "tokenIndex" : 55,
+    "content" : "jich",
+    "startOffset" : 297,
+    "endOffset" : 301,
+    "linguisticMetadata" : {
+      "position" : 25,
+      "lemma" : "on",
+      "feats" : "Case=Gen|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs",
+      "head" : "24",
+      "depRel" : "obl:arg",
+      "misc" : "TokenRange=297:301",
+      "uPosTag" : "PRON",
+      "xPosTag" : "PEXP2--3------1"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 88.0,
+      "vpos" : 587.0,
+      "hpos" : 806.0
+    }
+  }, {
+    "tokenIndex" : 56,
+    "content" : "účin",
+    "startOffset" : 302,
+    "endOffset" : 306,
+    "linguisticMetadata" : {
+      "position" : 26,
+      "lemma" : "účin",
+      "feats" : "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+      "head" : "24",
+      "depRel" : "obj",
+      "misc" : "TokenRange=302:306",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNIS4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 57.0,
+      "width" : 98.0,
+      "vpos" : 586.0,
+      "hpos" : 929.0
+    }
+  }, {
+    "tokenIndex" : 57,
+    "content" : "na",
+    "startOffset" : 307,
+    "endOffset" : 309,
+    "linguisticMetadata" : {
+      "position" : 27,
+      "lemma" : "na",
+      "feats" : "AdpType=Prep|Case=Acc",
+      "head" : "29",
+      "depRel" : "case",
+      "misc" : "TokenRange=307:309",
+      "uPosTag" : "ADP",
+      "xPosTag" : "RR--4----------"
+    },
+    "altoMetadata" : {
+      "height" : 42.0,
+      "width" : 54.0,
+      "vpos" : 601.0,
+      "hpos" : 1067.0
+    }
+  }, {
+    "tokenIndex" : 58,
+    "content" : "duševní",
+    "startOffset" : 310,
+    "endOffset" : 317,
+    "linguisticMetadata" : {
+      "position" : 28,
+      "lemma" : "duševní",
+      "feats" : "Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+      "head" : "29",
+      "depRel" : "amod",
+      "misc" : "TokenRange=310:317",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "AAFS4----1A----"
+    },
+    "altoMetadata" : {
+      "height" : 56.0,
+      "width" : 186.0,
+      "vpos" : 587.0,
+      "hpos" : 1159.0
+    }
+  }, {
+    "tokenIndex" : 59,
+    "content" : "zdatnost",
+    "startOffset" : 318,
+    "endOffset" : 326,
+    "linguisticMetadata" : {
+      "position" : 29,
+      "lemma" : "zdatnost",
+      "feats" : "Case=Acc|Gender=Fem|Number=Sing",
+      "head" : "26",
+      "depRel" : "nmod",
+      "misc" : "SpaceAfter=No|TokenRange=318:326",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 221.0,
+      "vpos" : 588.0,
+      "hpos" : 1381.0
+    }
+  }, {
+    "tokenIndex" : 60,
+    "content" : ".",
+    "startOffset" : 326,
+    "endOffset" : 327,
+    "linguisticMetadata" : {
+      "position" : 30,
+      "lemma" : ".",
+      "head" : "14",
+      "depRel" : "punct",
+      "misc" : "SpaceAfter=No|TokenRange=326:327",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 55.0,
+      "width" : 221.0,
+      "vpos" : 588.0,
+      "hpos" : 1381.0
+    }
+  } ],
+  "policy" : "private",
+  "pageType" : "normalPage",
+  "pageNumber" : "8",
+  "nameTagMetadata" : {
+    "namedEntities" : {
+      "NUMBER_EXPRESSIONS" : [ {
+        "tokens" : [ {
+          "tokenIndex" : 0,
+          "content" : "3",
+          "startOffset" : 0,
+          "endOffset" : 1,
+          "linguisticMetadata" : {
+            "position" : 1,
+            "lemma" : "3",
+            "feats" : "NumForm=Digit|NumType=Card",
+            "head" : "0",
+            "depRel" : "root",
+            "misc" : "TokenRange=0:1",
+            "uPosTag" : "NUM",
+            "xPosTag" : "C=-------------"
+          },
+          "nameTagMetadata" : "B-ni",
+          "altoMetadata" : {
+            "height" : 47.0,
+            "width" : 29.0,
+            "vpos" : 297.0,
+            "hpos" : 90.0
+          }
+        } ],
+        "entityType" : "ni"
+      } ]
+    }
+  },
+  "model" : "PAGE"
+}

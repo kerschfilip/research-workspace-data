@@ -1,0 +1,107 @@
+{
+  "format": "full/json",
+  "format_version": "0.1-draft",
+  "doc_uuid": "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz",
+    "url": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+    "citation": "Eugenické a kulturní úkoly ženy, 1928. Kramerius, uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec."
+  },
+  "provenance": {
+    "ocr": [
+      {
+        "engine": "tuzkaocr dec-B-v2",
+        "version": ""
+      }
+    ],
+    "enrichment": {
+      "udpipe": "czech-pdtc-ud-2.17-251125",
+      "nametag": "nametag3-czech-cnec2.0-240830",
+      "morphodita": "czech-morfflex2.1-pdtc2.0-250909"
+    },
+    "enriched_at": "2026-11-03",
+    "intermediate_format_version": null
+  },
+  "generator": {
+    "name": "krakatit-plus full_export",
+    "version": "0.1-draft"
+  },
+  "licence": {
+    "data": "TBD",
+    "metadata": "TBD",
+    "note": "To be resolved: licence of the derived data and of the Kramerius metadata, and whether the licence of the UDPipe model (CC BY-NC-SA) carries over to derived counts."
+  },
+  "transformations": [
+    "Text recognised by OCR (tuzkaocr dec-B-v2) from the page scans.",
+    "Tokenised, lemmatised, tagged and parsed with UDPipe (czech-pdtc-ud-2.17-251125); multiword tokens are kept with all their words.",
+    "Named entities recognised by NameTag (nametag3-czech-cnec2.0-240830); base forms of entities generated with MorphoDiTa (czech-morfflex2.1-pdtc2.0-250909).",
+    "Paragraphs are ALTO TextBlocks; a sentence stays whole and belongs to the paragraph where it starts.",
+    "Contains the full text of the document."
+  ],
+  "encoding": "JSON, UTF-8, LF line ends",
+  "checksums": {
+    "metadata.json": "sha256:9c79094ac76aed170f2ba0f09636b3359105b28e4477dfed5d1e43143deb12c9",
+    "mods.xml": "sha256:6214f50343fcbfd25343bb094c7f67b224209b1e12aa09289ec7cc6dcc0f9eba",
+    "pages.csv": "sha256:4b4913b125982bf1d26a539cb756400c43a3c7600b29d598c6fe27b1a2fea8a1",
+    "0001_13036e54-67ed-4b6c-92e5-2c516f0a600f.json": "sha256:cd4263f8b536dd1dc4a936ed776eb642677b81147fd29e4cad424e3116e14e1e",
+    "0002_01085094-7a44-4fa1-bd08-0434badef08b.json": "sha256:8f287f59c2e6010e0a927d9e85d275a011a383114509d4725e04c687a5e629aa",
+    "0003_facd5458-456b-4e95-8427-688659802acc.json": "sha256:a59dfb8e87d495bad767a5bc20a8b99b4c92166f91c61e531f92109bf9c4ac4e",
+    "0004_e4cca85b-fefb-4181-bf6b-872633ab2e0d.json": "sha256:480e0dfe23223654c65cf473bf6a344018a5b097b5b6a53b36ac33e40d9d237b",
+    "0005_90f5062d-e4e1-44fe-9d07-f24bcd165526.json": "sha256:14185edd5d46c46dea3f3cf6ee0cf8a0b37ccd811151d1d54e7ca97c15635a9a",
+    "0006_f50f2c75-d4b3-4c19-8f02-2d9bf6586c48.json": "sha256:e2b10ac8c18359e5b23e9ceaf5655dfb165fae45c7ac4a26ef13ec09cd642ce1",
+    "0007_0d9c8e76-888a-4f5a-b95a-4bb4b78a8762.json": "sha256:12b7aab6086cfa882ce15167403c150e7a63e670e5e79821429b85b778431589",
+    "0008_0c00d0b5-6248-4fd3-be55-afe661ef49b1.json": "sha256:00add5c5e6aded42ae4a92a352d949600aa3ea05a6e2a0130a7b643c0e2a37ab",
+    "0009_5475f2bb-2137-4823-bc26-dc2d423acb69.json": "sha256:38f0906d5818818319e036d7e3dbee3ef8a80c05f00ac67213b74e66816ed1ae",
+    "0010_0f82a774-55d4-43e6-874a-b3dd8c23b4d8.json": "sha256:b28cd50de4f450d76e1356ba9706e17bc7bf279397b9c064aab134c22db51d44",
+    "0011_f35cd058-6052-4a7a-b777-73c46bd65b79.json": "sha256:f4294b20b9ec36c5502d0c70c940859fd8477f37dfb16ffd600c9c115da7b4d4",
+    "0012_8afb20f9-3c84-4ac3-86e7-a6ba54d59117.json": "sha256:1a2e04d42578ba69ec7bbcdff930384d664ea831d5d9ae0db9fec05adbe49f29",
+    "0013_f028a107-b934-4c68-8ecb-36bdb2a46148.json": "sha256:6be9111b349c4b98b69ab10e76fc9b56b25ff6ff11b5962e94866659ece05f55",
+    "0014_3b8d319c-97c7-475c-aa68-04b6ec13d038.json": "sha256:a58d42a63d1768599e2b0168be718c477c56902a5ee7f3d4c60fdb890752ce7a",
+    "0015_d7cd799e-9f2c-4382-b3b6-0236984e78fd.json": "sha256:49da89beb59dead092dcd899b202f6e9dc808e0a4944512f92fac5dd6298ebdf",
+    "0016_fd0b3edb-197b-442e-a7c6-82490e34f72a.json": "sha256:2b413302e51b90c1045e0f65b7d4604b61cd1372dc10f2014f8c9c74f6968086",
+    "0017_5cb13634-7edd-45d8-8a22-aecb722b1260.json": "sha256:78d326430f60aec3841687c3f40eaca71d7fe75228a8d22cc166973ea4e6ddf3",
+    "0018_f53b7dea-b327-4ec9-a609-f8c42426d7b4.json": "sha256:83473abc70fbe4f8f04696cb5ba15bd9729f3f7a8eb66121de9817bc250f72b4",
+    "0019_efb7573e-e872-42a7-a77c-2007f549018c.json": "sha256:d021b3d9d06ddb8a2a06468353f180ff04e4e71d643e0966782e68dc5b44d5d6",
+    "0020_0c9d6047-a4c7-4377-a137-6583beb22cb0.json": "sha256:950825b5334e262b613bc5eeeb5053c836d78ca1683da4ea23240b3e1551c087",
+    "0021_850d5c94-6561-4c12-ac7a-952e62d092f5.json": "sha256:b215acfbfe60a790194ab16ad270fffcf8c14e8fecce91940974ae14ad257afe",
+    "0022_ae40543a-3b04-42b7-9ccd-ce2addd4024b.json": "sha256:910ba8aeb22024d0bcb8cc53c71a634b5f9794109a77e915a941fe27525fd5d8",
+    "0023_f759c8d2-e5a4-4a62-893f-abaa48d4547b.json": "sha256:8cb360c937ce011b1b93ae3629a87e7282bc3c3073de05713ee41f60107b1051",
+    "0024_61b37083-104d-4966-8452-41e48293f747.json": "sha256:387a0c593e01f2db6897576f270e20dd3f70c556113481c9417020fe424e1303",
+    "0025_91f33f52-6676-4cde-86ec-b5981b569166.json": "sha256:d5e34d77916de73e761120646daf6e1c5a54e362237c2f3fb6ff4b21dbe3f006",
+    "0026_af50ea2d-dc18-4963-9f5f-e042bcbb549f.json": "sha256:201c0768b62ef5eb8c925e1375a5a971c0284b1c434ddcb6d994712bc1162ec1",
+    "0027_c009164b-0204-41cf-b652-57e0f24de2f1.json": "sha256:a9d9a143fdc660b5b760596de9a02d4abb6ad80043b389c0236833155c8db15f",
+    "0028_8f95fd89-d4f2-45de-a18c-4d6accfb9ebe.json": "sha256:b1f38c9d376ff7179578a2f18902d0e1e00b20532f11779debfe5b3c1490e001",
+    "0029_ccc7da20-b74b-40c6-bfeb-e8310246b77a.json": "sha256:b7c703f719d4ad0b80851dbdc741e2cdf34e4303eca14ed851b772bae5e3b35a",
+    "0030_2e458756-5aee-45c9-9ac2-ea7be7dec9eb.json": "sha256:ba3be29eef0b5de6e695aa710af9f57ee2e93f55fdc012cea09bf5269e9a175d",
+    "0031_f61cd22a-6025-4297-9d17-ebd357015075.json": "sha256:58b08f157ae4120fc2dbed7e46eeaeee4a53ba428ecfcd837c945cfce142d5e1",
+    "0032_175d5097-b013-4802-ba97-a80dfd79df56.json": "sha256:a17722a6255ea90f2bca23253e93831b14f72a8c1305497a5ec5c859824858a9",
+    "0033_4b24a893-a4bb-4db2-94ac-ca39771f2ab1.json": "sha256:55d10b5dd99fe6221fc3e875e7fe3438d709458f462d6b31599a05fbee40bcf3",
+    "0034_5fcea1db-6d4d-4f79-bbc1-c2a5b895b50d.json": "sha256:eb124cd09153a1b0913c923055815690bd4da930351ce103e5b52e10fe5c8e0f",
+    "0035_a2bc1435-c69e-42dc-9c8b-81516d76b0da.json": "sha256:2a86fa39f4560544f705fcd81cd1614c3d7cea87038950773f76803b8c3839df",
+    "0036_6794b9eb-14a4-4748-af59-3164b4e35fd0.json": "sha256:62e5956e7de06713eba6bf15c8596841edb8d197ec1f6b928fd334a0d385d40f",
+    "0037_685db298-cf9a-47ad-91f8-c5808d5f9563.json": "sha256:5fded35018bc2dc2a53b9056f0ff9d095be606d7564864dde49e0a236dac3f79",
+    "0038_2b0e8832-77fa-4985-a0b2-bc3aa836ec9a.json": "sha256:ac3e77643e8d84c1b10bdb20d01714d95441498368c28acd55d429afbfb86221",
+    "0039_fb843fae-346f-4b2a-9751-e04e7e41c28c.json": "sha256:7c8249e34c17e3868bbbaddad4a91a9b1824dcf2aa5f976ffe35c59d7ba1eaee",
+    "0040_2254b8c3-9ca0-4da1-8a40-8f4ad240915c.json": "sha256:a49c88a20880a31bb817a123eb20c4c66875a6901a81f83e84d9516b2bb34d40",
+    "0041_0ed9aca7-d5f0-42e5-9ede-b29fe8a031e1.json": "sha256:9fa8264febcaec3bced8e1886240440220aac47b23d50ec225878938896a170e",
+    "0042_ed9d0b93-ae5a-468e-abff-56b7b62fc516.json": "sha256:82e582907a8ba98895d0d764edec134f1566ab9e81b7fae66de3100113031dbb",
+    "0043_6832d67d-42e2-418a-b715-0354c786e43a.json": "sha256:70b856aeee65316abcf34a5ea8c1ae477c1e1e1437bfe386c6c413ceb6b6174b",
+    "0044_1144f234-913b-4e6e-8db6-09369c45fb79.json": "sha256:3820d4a8d70565a8098f23a95721d7e31c11fafba5437570d7f687f3e950bea3",
+    "0045_c1c1e2c5-5260-4728-ba34-81aa47786e35.json": "sha256:c7fc856abd5a46f44815b28c871f311789d99e5d7f73bfde575a57096c40f75b",
+    "0046_48037c88-c252-469a-8112-09e32cd6c1c9.json": "sha256:e966567cbeea5ee43a74967706b3dedb904848a8f1599f0dc19d880928e0005a",
+    "0047_a120b43b-47a2-4d45-a4e6-b85d2687a374.json": "sha256:66fa8eaba1d4866648bb825a73248b13b19bf511ce206b0101f8513b7c34c31c",
+    "0048_895777a2-2ad4-4b75-95cf-7d911412f9be.json": "sha256:dca3c9880bd5d817968e8c768136e00e8e5a0b467f5aa39de82796e5ea63c03b",
+    "0049_3fbeb14a-86d4-480c-8a9c-b3f5ff86e884.json": "sha256:ed946ce9ce2a2678016b948e05090c2a6092ee725bdd779bbc245465be8a8768",
+    "0050_dc03fc88-1996-4740-ab8a-238e20a5fc81.json": "sha256:3cc389de8547e2c37404bbe3e57749df047dc7b9ccf9e80e8bf8903c0f29cde6",
+    "0051_d66eb1de-1c23-40b2-903f-db614886fdc4.json": "sha256:44f506a7c1f671b59589c6daeda385a062443178d66fd5181f1992e5282c996d",
+    "0052_c1c4b973-a629-46da-915e-c0a356a5670d.json": "sha256:d9ebb6554fcc25824313822d0c5030606bc2e51420650f5fffdf77c990c58c16",
+    "0053_165e7026-dad5-4d0d-9a32-ed7325dcce52.json": "sha256:fa4f25cc3c255174ec274d9caefccd288b2fedd800bb7668c93dbbedd0365269",
+    "0054_93f559ca-0e9a-4fe1-8615-eadcac630e31.json": "sha256:495c304cd9880e1b1f2457d308067fb6d7b3e0f774a2acc415f7f6b5eadd9510",
+    "0055_d2b52d51-3cd8-4781-ab24-8a810ee30b09.json": "sha256:c7a073009917aeff9adf5ccd99067b5468102ce6937062c3f69332b43ec5fe65",
+    "0056_b6f06839-a598-4d5f-9548-9d8e0dc3fec4.json": "sha256:c21207795850167401baf82f29f64c4871b3825ddc6d9ff17d25c5b670544790",
+    "0057_27e3977d-2341-4c40-9efc-bb4c2a419d6b.json": "sha256:81017c79c72b96f76b04e76d3de8e81b6a9f9a602bb43475fc8fbe670c4caa45",
+    "0058_2839429d-164c-40e6-b195-27e619d20495.json": "sha256:baebea4744e5e9cfe1ef1da2213518069d75ced8f4b7addb5795e369a498d6ff",
+    "0059_ffbc0fdc-4dd3-4c1c-9642-11fbd49287a0.json": "sha256:e902ab45c6a5fd7361ce37bf64db3a512d50cb1d8b98e12612fc324325a61069",
+    "0060_d34b68c3-89b9-43fd-8058-54ea85dd74ef.json": "sha256:73af44fe4610459825feff6174068cf4a7af839ac127369969a0aedfd1f54a1d"
+  }
+}

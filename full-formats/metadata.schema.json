@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:elc-dhlr:full:metadata:0.1-draft",
+  "title": "Document metadata (metadata.json)",
+  "type": "object",
+  "required": ["uuid", "model", "title", "issue_number", "date", "authors", "publisher", "place", "language",
+               "extent", "identifiers", "hierarchy", "pages", "licences", "source"],
+  "additionalProperties": false,
+  "properties": {
+    "uuid": { "$ref": "#/$defs/uuid" },
+    "model": { "type": "string" },
+    "title": { "type": ["string", "null"] },
+    "issue_number": { "type": ["string", "null"] },
+    "date": { "type": ["string", "null"] },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["name", "dates", "role", "authority"], "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "dates": { "type": ["string", "null"] },
+          "role": { "type": ["string", "null"] },
+          "authority": { "type": "object", "additionalProperties": { "type": "string" } }
+        }
+      }
+    },
+    "publisher": { "type": ["string", "null"] },
+    "place": { "type": ["string", "null"] },
+    "language": { "type": "array", "items": { "type": "string", "pattern": "^[a-z]{3}$" } },
+    "extent": { "type": ["string", "null"] },
+    "identifiers": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "ccnb": { "type": "string" }, "urnnbn": { "type": "string" },
+        "isbn": { "type": "string" }, "issn": { "type": "string" }
+      }
+    },
+    "hierarchy": {
+      "type": "object", "required": ["periodical", "volume"], "additionalProperties": false,
+      "properties": {
+        "periodical": {
+          "type": ["object", "null"], "required": ["uuid", "title"], "additionalProperties": false,
+          "properties": { "uuid": { "$ref": "#/$defs/uuid" }, "title": { "type": ["string", "null"] } }
+        },
+        "volume": {
+          "type": ["object", "null"], "required": ["uuid", "number", "year"], "additionalProperties": false,
+          "properties": { "uuid": { "$ref": "#/$defs/uuid" }, "number": { "type": ["string", "null"] }, "year": { "type": ["string", "null"] } }
+        }
+      }
+    },
+    "pages": { "type": "integer", "minimum": 0 },
+    "licences": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object", "required": ["kramerius", "url"], "additionalProperties": false,
+      "properties": { "kramerius": { "type": ["string", "null"] }, "url": { "type": ["string", "null"] } }
+    }
+  },
+  "$defs": {
+    "uuid": { "type": "string", "pattern": "^uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$" }
+  }
+}

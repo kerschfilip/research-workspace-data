@@ -1,0 +1,250 @@
+{
+  "schema": "elc-dhlr-page/0.1",
+  "doc_uuid": "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "page_uuid": "uuid:2839429d-164c-40e6-b195-27e619d20495",
+  "pageIndex": 58,
+  "pageNumber": "[56]",
+  "pageType": null,
+  "language": "cze",
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz",
+    "url": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec?page=uuid:2839429d-164c-40e6-b195-27e619d20495"
+  },
+  "paradata": {
+    "ocr": {
+      "engine": "tuzkaocr dec-B-v2",
+      "version": null,
+      "when": "2026-11-03T15:33:44.862938+00:00"
+    },
+    "udpipe": {
+      "model": "czech-pdtc-ud-2.17-251125",
+      "when": "2026-11-03T16:39:28.408193+00:00"
+    },
+    "nametag": {
+      "model": "nametag3-czech-cnec2.0-240830",
+      "when": "2026-11-03T16:39:28.535518+00:00"
+    },
+    "morphodita": {
+      "model": "czech-morfflex2.1-pdtc2.0-250909",
+      "when": "2026-11-03T16:39:28.543653+00:00"
+    }
+  },
+  "geometry": {
+    "width": 1910,
+    "height": 3300,
+    "unit": "pixel"
+  },
+  "text": "KNIHOVNA AV ČR\nMAP 14160\n\n14160/15",
+  "paragraphs": [
+    {
+      "index": 1,
+      "lines": 2,
+      "sentences": [
+        {
+          "index": 1,
+          "tokens": [
+            {
+              "index": 0,
+              "id": 1,
+              "form": "KNIHOVNA",
+              "start": 0,
+              "end": 8,
+              "ling": {
+                "lemma": "knihovna",
+                "upos": "NOUN",
+                "xpos": "NNFS1-----A----",
+                "feats": "Case=Nom|Gender=Fem|Number=Sing",
+                "head": 0,
+                "deprel": "root",
+                "misc": null
+              },
+              "ne": "B-ic",
+              "mwt": null,
+              "alto": {
+                "hpos": 1112,
+                "vpos": 0,
+                "width": 385,
+                "height": 88
+              }
+            },
+            {
+              "index": 1,
+              "id": 2,
+              "form": "AV",
+              "start": 9,
+              "end": 11,
+              "ling": {
+                "lemma": "AV",
+                "upos": "PROPN",
+                "xpos": "BNXXX-----A----",
+                "feats": "Abbr=Yes|NameType=Oth",
+                "head": 1,
+                "deprel": "nmod",
+                "misc": null
+              },
+              "ne": "I-ic",
+              "mwt": null,
+              "alto": {
+                "hpos": 1498,
+                "vpos": 8,
+                "width": 108,
+                "height": 81
+              }
+            },
+            {
+              "index": 2,
+              "id": 3,
+              "form": "ČR",
+              "start": 12,
+              "end": 14,
+              "ling": {
+                "lemma": "ČR",
+                "upos": "PROPN",
+                "xpos": "BNXXX-----A----",
+                "feats": "Abbr=Yes|NameType=Geo",
+                "head": 2,
+                "deprel": "nmod",
+                "misc": null
+              },
+              "ne": "I-ic|B-gc",
+              "mwt": null,
+              "alto": {
+                "hpos": 1607,
+                "vpos": 11,
+                "width": 50,
+                "height": 79
+              }
+            },
+            {
+              "index": 3,
+              "id": 4,
+              "form": "MAP",
+              "start": 15,
+              "end": 18,
+              "ling": {
+                "lemma": "MAP",
+                "upos": "NOUN",
+                "xpos": "BNXXX-----A----",
+                "feats": "Abbr=Yes",
+                "head": 1,
+                "deprel": "nmod",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 1085,
+                "vpos": 86,
+                "width": 313,
+                "height": 132
+              }
+            },
+            {
+              "index": 4,
+              "id": 5,
+              "form": "14160",
+              "start": 19,
+              "end": 24,
+              "ling": {
+                "lemma": "14160",
+                "upos": "NUM",
+                "xpos": "C=-------------",
+                "feats": "NumForm=Digit|NumType=Card",
+                "head": 6,
+                "deprel": "compound",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 1401,
+                "vpos": 94,
+                "width": 276,
+                "height": 131
+              }
+            },
+            {
+              "index": 5,
+              "id": 6,
+              "form": "14160",
+              "start": 26,
+              "end": 31,
+              "ling": {
+                "lemma": "14160",
+                "upos": "NUM",
+                "xpos": "C=-------------",
+                "feats": "NumForm=Digit|NumType=Card",
+                "head": 1,
+                "deprel": "dep",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 6,
+              "id": 7,
+              "form": "/",
+              "start": 31,
+              "end": 32,
+              "ling": {
+                "lemma": "/",
+                "upos": "PUNCT",
+                "xpos": "Z:-------------",
+                "feats": null,
+                "head": 8,
+                "deprel": "punct",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 7,
+              "id": 8,
+              "form": "15",
+              "start": 32,
+              "end": 34,
+              "ling": {
+                "lemma": "15",
+                "upos": "NUM",
+                "xpos": "C=-------------",
+                "feats": "NumForm=Digit|NumType=Card",
+                "head": 6,
+                "deprel": "compound",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "type": "ic",
+      "tokens": [
+        0,
+        1,
+        2
+      ],
+      "form": "KNIHOVNA AV ČR",
+      "lemma": "knihovna AV ČR",
+      "base": "KNIHOVNA AV ČR"
+    },
+    {
+      "type": "gc",
+      "tokens": [
+        2
+      ],
+      "form": "ČR",
+      "lemma": "ČR",
+      "base": "ČR"
+    }
+  ]
+}

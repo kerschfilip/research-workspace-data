@@ -1,0 +1,185 @@
+{
+ "schema": "dl-enricher-page/0.1",
+ "id": "uuid:2839429d-164c-40e6-b195-27e619d20495",
+ "title": "[56]",
+ "source": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec?page=uuid:2839429d-164c-40e6-b195-27e619d20495",
+ "index": 57,
+ "language": "ces",
+ "paradata": {
+  "udpipe": {
+   "model": "czech-pdtc-ud-2.17-251125",
+   "generator": "UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe",
+   "licence": "CC BY-NC-SA",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "nametag": {
+   "model": "nametag3-czech-cnec2.0-240830",
+   "engine": "nametag",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "ocr": {
+   "creator": "I2S",
+   "software": "Limb",
+   "version": "4.3.0.0",
+   "description": "Abbyy11 OCR Engine"
+  }
+ },
+ "geometry": {
+  "width": 1995.0,
+  "height": 3349.0,
+  "unit": "pixel",
+  "source": "enricher-page"
+ },
+ "sentences": [
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "KNIHOVNA",
+     "lemma": "knihovna",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=0:8",
+     "ne": "B-ic",
+     "alto": {
+      "hpos": 1124.0,
+      "vpos": 15.0,
+      "width": 348.0,
+      "height": 60.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "AV",
+     "lemma": "AV",
+     "upos": "PROPN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes|NameType=Oth",
+     "head": 1,
+     "deprel": "nmod",
+     "misc": "TokenRange=9:11",
+     "ne": "I-ic",
+     "alto": {
+      "hpos": 1495.0,
+      "vpos": 25.0,
+      "width": 88.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "ČR",
+     "lemma": "ČR",
+     "upos": "PROPN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes|NameType=Geo",
+     "head": 2,
+     "deprel": "nmod",
+     "misc": "TokenRange=12:14",
+     "ne": "I-ic|B-gc",
+     "alto": {
+      "hpos": 1607.0,
+      "vpos": 15.0,
+      "width": 91.0,
+      "height": 67.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "MAP",
+     "lemma": "MAP",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 1,
+     "deprel": "nmod",
+     "misc": "TokenRange=15:18",
+     "alto": {
+      "hpos": 1094.0,
+      "vpos": 104.0,
+      "width": 255.0,
+      "height": 96.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "14160",
+     "lemma": "14160",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 1,
+     "deprel": "parataxis",
+     "misc": "SpacesAfter=\\n\\n|TokenRange=19:24",
+     "alto": {
+      "hpos": 1400.0,
+      "vpos": 113.0,
+      "width": 322.0,
+      "height": 99.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "14160",
+     "lemma": "14160",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 0,
+     "deprel": "root",
+     "misc": "SpaceAfter=No|TokenRange=26:31",
+     "ne": "B-n_",
+     "alto": {
+      "hpos": 1269.0,
+      "vpos": 464.0,
+      "width": 266.0,
+      "height": 58.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "/",
+     "lemma": "/",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 3,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=31:32",
+     "ne": "I-n_",
+     "alto": {
+      "hpos": 1269.0,
+      "vpos": 464.0,
+      "width": 266.0,
+      "height": 58.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "15",
+     "lemma": "15",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 1,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=32:34",
+     "ne": "I-n_",
+     "alto": {
+      "hpos": 1269.0,
+      "vpos": 464.0,
+      "width": 266.0,
+      "height": 58.0
+     }
+    }
+   ]
+  }
+ ]
+}

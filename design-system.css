@@ -1,0 +1,971 @@
+/* ============================================================
+   digiscimap design system
+   Sdílený základ pro všechny nástroje v tomto repozitáři (dashboard,
+   tools/hub, …). Viz design/AGENTS.md pro filozofii a pravidla použití.
+
+   Fonty jsou self-hosted (žádný hotlinking na Google Fonts) — soubory
+   design/fonts/inter-*.woff2 jsou součástí repozitáře.
+
+   Vzdušný, bezrámečkový vzhled: hierarchie stojí na typografii a
+   bílém prostoru, ne na boxech a linkách. Rámečky/pozadí, které
+   zůstávají, jsou buď funkční (vstupní pole, aktivní stav v menu),
+   nebo explicitní součást definice loga (viz .title-bar-rule).
+   ============================================================ */
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Newsreader (OFL, variabilní 400–800) — jen pro nadpisy obsahu (h2,
+   titulky karet/boxů), UI zůstává v Interu. Dva soubory podle znakové
+   sady, latin-ext kvůli češtině. */
+@font-face {
+  font-family: "Newsreader";
+  src: url("fonts/newsreader-latin.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("fonts/newsreader-latin-ext.woff2") format("woff2");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* ---------------------------------------------------------------- tokeny */
+
+:root {
+  /* Základní dvojice manifestu: inkoust (text) + modrá (odkazy, akcent) —
+     přesně #0000FF, barva výchozího HTML hypertextového odkazu. Text není
+     čistě černý, ale "inkoustový" #121212 — měkčí, knižnější. */
+  --foreground: #121212;
+  --background: #ffffff;
+  --muted: #474747;      /* sekundární text, rubriky — dost tmavý na čtení */
+  --hair: #d9d6cf;       /* tenké oddělovače (teplá šedá) */
+  --line: var(--foreground); /* silná strukturní linka nad sekcí */
+  --soft: #f5f2ea;       /* teplý papírový podklad (code, karty, hover) */
+  /* Starší názvy — aliasy na nové plné tóny, používají je hub/phd. */
+  --gray: var(--soft);
+  --gray-mid: var(--hair);
+  --gray-strong: var(--muted);
+  --blue: #0000FF;
+  --blue-dark: #0000B3;  /* hover primárních prvků */
+  --blue-light: #E5E5FF; /* focus ring, zvýraznění */
+  --flag: #0000FF;
+
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Škála mezer — nové věci staví na ní, ne na nahodilých hodnotách. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+
+  /* Stavová paleta — sémantické signály (hotovo/čeká/urgentní), ne dekorace.
+     Používá se výhradně v malých plochách (tečka, badge, progress), nikdy
+     jako barva textu nebo velké plochy. Viz design/AGENTS.md. */
+  --green: #4ade80;
+  --orange: #fbbf24;
+  --red: #f87171;
+}
+html[data-theme="dark"] {
+  --foreground: #f2f0eb;
+  --background: #0e0e0d;
+  --muted: #bdb9b1;
+  --hair: #34322e;
+  --soft: #1b1a17;
+  /* Čisté #0000FF má na tmavém pozadí špatný kontrast — použij světlejší
+     tón téže modré, ne jinou barvu. Hover jde v tmavém režimu do světla. */
+  --blue: #6266FF;
+  --blue-dark: #8C8FFF;
+  --blue-light: #23244d;
+  --flag: #6266FF;
+  --green: #4ade80;
+  --orange: #fbbf24;
+  --red: #fca5a5;
+}
+
+/* ---------------------------------------------------------------- reset */
+
+/* Bez !important: výchozí je 0 (ostré hrany), ale konkrétní komponenty
+   (tečka ve stepperu) si radius smí zapnout zpátky. */
+* { box-sizing: border-box; border-radius: 0; }
+
+/* ---------------------------------------------------------------- typografie */
+
+body {
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  background: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+}
+/* Puntíková mřížka na pozadí (z PhD dashboardu) — volitelná, zapíná se
+   atributem na <html>, stejně jako [data-theme]. Viz design/AGENTS.md.
+   background-attachment: fixed drží vzor ukotvený k viewportu, takže
+   navazuje beze švu i přes header a sidebar (mají vlastní neprůhledné
+   pozadí kvůli sticky pozicování). */
+html[data-grid="on"] body,
+html[data-grid="on"] header,
+html[data-grid="on"] .sidebar,
+html[data-grid="on"] .sidebar-arrow {
+  background-image: radial-gradient(circle, var(--gray-mid) 0.8px, transparent 0.8px);
+  background-size: 14px 14px;
+  background-attachment: fixed;
+}
+a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+a:hover { color: var(--blue-dark); text-decoration-thickness: 2px; }
+/* Odkaz mimo aktuální aplikaci (jiný nástroj nebo web, nové okno): šipka ↗ za
+   textem jako <span class="ext" aria-hidden="true">↗</span>; že jde ven, říká
+   i title odkazu. Bez podtržení, aby nesplývala s textem. Viz design/AGENTS.md. */
+.ext { display: inline-block; margin-left: 0.3em; font-weight: 400; text-decoration: none; }
+strong { font-weight: 600; }
+em { font-style: italic; }
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--soft);
+  padding: 1px 5px;
+}
+del { color: var(--muted); }
+
+/* Jednotný viditelný focus pro klávesnici (inputy mají vlastní, níže). */
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: none; }
+
+/* Rubrika — popisek verzálkami (styl časopisecké rubriky). Jeden styl pro
+   všechny "nadpisky" UI: label, legend, sekce v sidebaru, box-label.
+   Hlavička tabulky NE — ta je normálním tučným písmem (čitelnější). */
+.rubric, label, legend, .sidebar-section-label, .box-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+/* h2 = nadpis obsahu v serifu; h3 zůstává bezpatkový (UI podnadpis). */
+h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--foreground);
+}
+h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* ---------------------------------------------------------------- header / title bar */
+
+header {
+  background-color: var(--background);
+  padding: 22px 32px 26px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-actions { display: flex; gap: 8px; flex-shrink: 0; }
+
+/* Rámující linky title baru — jediné "rámečky" v celém systému, protože
+   jsou explicitní součástí definice loga (viz LaTeX \DigiScimaptitlebar). */
+.title-bar-rule {
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--gray-strong);
+  opacity: 0.5;
+  min-width: 20px;
+}
+.title-row { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.flag-logo { flex-shrink: 0; width: 30px; height: 30px; }
+.flag-logo .flag-fill { fill: var(--flag); }
+.flag-logo .flag-stroke { stroke: var(--foreground); }
+
+.meta {
+  display: flex;
+  gap: 22px;
+  font-size: 13px;
+  color: var(--gray-strong);
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.meta strong { color: var(--foreground); font-weight: 600; }
+.source-badge {
+  padding: 1px 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray-strong);
+}
+
+/* Přepínače v hlavičce — hranaté jako tlačítka, tučné verzálky jako
+   navigace v asbooks (jasně čitelné "odkazy" vpravo v hlavičce). */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--foreground);
+  background: transparent;
+  color: var(--foreground);
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.chip:hover { background: var(--foreground); color: var(--background); }
+.chip.active, .chip.active:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
+/* Chip s ikonou místo textu (např. přepínač tématu ◐) — čtvercový, glyf bez verzálek
+   a trackingu. Význam nese title + aria-label, ne text. Viz design/AGENTS.md. */
+.chip.chip-icon {
+  justify-content: center;
+  min-width: 30px;
+  padding: 4px 8px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1;
+}
+
+/* ---------------------------------------------------------------- horizontální menu */
+
+.nav-h {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.nav-h a {
+  color: var(--foreground);
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+}
+.nav-h a:hover { color: var(--blue); }
+.nav-h a.active { color: var(--blue); border-bottom-color: var(--blue); }
+
+/* ---------------------------------------------------------------- breadcrumbs */
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+.breadcrumb-item { display: flex; align-items: center; }
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  margin: 0 8px;
+  color: var(--gray-strong);
+}
+.breadcrumb-item a { color: var(--blue); text-decoration: none; }
+.breadcrumb-item a:hover { text-decoration: underline; }
+.breadcrumb-item.active { color: var(--gray-strong); }
+
+/* ---------------------------------------------------------------- taby (Material-styl, posuvný indikátor) */
+
+.tabs-list {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid var(--gray-mid);
+}
+.tab {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--gray-strong);
+  white-space: nowrap;
+}
+.tab:hover { color: var(--foreground); }
+.tab.active { color: var(--blue); }
+.tab-indicator {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--blue);
+  transition: left 0.2s ease, width 0.2s ease;
+}
+.tab-panel { padding-top: 20px; }
+
+/* ---------------------------------------------------------------- filtry / hledání */
+
+.filters { padding: 14px 32px; }
+.search {
+  width: 100%;
+  padding: 6px 2px;
+  border: none;
+  border-bottom: 1px solid var(--gray-mid);
+  background: transparent;
+  color: var(--foreground);
+  font-family: inherit;
+  font-size: 15px;
+}
+.search:focus { outline: none; border-bottom-color: var(--blue); }
+.search::placeholder { color: var(--gray-strong); }
+
+/* ---------------------------------------------------------------- layout skeleton */
+
+.layout { display: flex; align-items: flex-start; }
+main { flex: 1; padding: 36px 40px; max-width: 900px; min-width: 0; }
+
+/* vertikální menu (sidebar) */
+.sidebar {
+  width: 190px;
+  background-color: var(--background);
+  padding: 36px 0;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  align-self: stretch;
+  min-height: 100vh;
+  overflow: hidden;
+  transition: width 0.18s ease, padding 0.18s ease;
+}
+.sidebar.collapsed,
+html[data-sidebar="collapsed"] .sidebar { width: 0; padding: 0; }
+.sidebar-section-label {
+  padding: 0 32px 12px;
+  margin: 0;
+  white-space: nowrap;
+}
+/* Položky menu jako navigace v asbooks: tučné verzálky, aktivní
+   podtržená silnou modrou linkou, hover podtržení v barvě inkoustu. */
+.sidebar-item {
+  display: block;
+  padding: 8px 32px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  text-decoration: none;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+.sidebar-item:hover { text-decoration-line: underline; text-decoration-color: var(--foreground); }
+.sidebar-item.active { text-decoration-line: underline; text-decoration-color: var(--blue); }
+.sidebar-note {
+  padding: 16px 32px 0;
+  margin: 0;
+  font-size: 12px;
+  color: var(--gray-strong);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* Volitelný sbalovací sloupek se šipkou vedle sidebaru (viz tools/hub) */
+.sidebar-arrow {
+  flex-shrink: 0;
+  width: 18px;
+  align-self: stretch;
+  position: sticky;
+  top: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+  margin: 0;
+  border: none;
+  background-color: var(--background);
+  color: var(--gray-strong);
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 1;
+  cursor: pointer;
+}
+.sidebar-arrow:hover { color: var(--blue); }
+
+/* Skládací (accordion) tree menu — vnořené položky s expand/collapse,
+   aktivní/hover stav jako hranatý papírový podklad. */
+.tree-nav { padding: 10px 10px; }
+.tree-group { margin-bottom: 2px; }
+.tree-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 9px 10px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--foreground);
+}
+.tree-item:hover, .tree-item.active { background: var(--soft); }
+.tree-chevron {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  color: var(--gray-strong);
+  transition: transform 0.15s ease;
+}
+.tree-item.expanded .tree-chevron { transform: rotate(90deg); }
+.tree-children {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.tree-children.collapsed { display: none; }
+.tree-child {
+  display: block;
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--foreground);
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+}
+.tree-child:hover { color: var(--blue); }
+.tree-child.active { color: var(--blue); font-weight: 500; }
+.tree-divider { border: none; border-top: 1px solid var(--gray-mid); margin: 10px 10px; }
+
+/* Nadpis sekce s linkou v barvě inkoustu nahoře — strukturní předěl
+   (editorský prvek, ne box). Jediná "silná" linka v obsahu (silná barvou,
+   ne tloušťkou); vše ostatní je hairline. */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  margin: 0 0 var(--space-4);
+}
+.count { font-size: 13px; color: var(--muted); font-weight: 400; }
+
+/* ---------------------------------------------------------------- výběr v seznamu */
+
+/* Jednotný vzor vybrané položky v seznamech a stromech (mlOCR, PEN, …):
+   3px modrá lišta vlevo + papírový podklad + tučný titulek v barvě
+   inkoustu. Hover jen podklad. Projektové stromy (.m-tree-node,
+   .p-tree-node) ho opakují se svými třídami. */
+.list-row { display: block; padding: 6px 12px; cursor: pointer; color: var(--foreground); text-decoration: none; }
+.list-row:hover { background: var(--soft); }
+.list-row.active { background: var(--soft); box-shadow: inset 3px 0 0 var(--blue); font-weight: 600; }
+
+/* ---------------------------------------------------------------- formuláře */
+
+fieldset { border: none; margin: 0 0 32px; padding: 0; }
+legend {
+  padding: 0 0 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  width: 100%;
+}
+label {
+  display: block;
+  margin: 16px 0 6px;
+}
+input[type=text], input[type=number], input[type=search], input[type=email],
+input[type=password], input[type=date], select, textarea {
+  width: 100%;
+  background: transparent;
+  color: var(--foreground);
+  border: none;
+  border-bottom: 1px solid var(--hair);
+  padding: 7px 2px;
+  font-size: 15px;
+  font-family: inherit;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+input::placeholder, textarea::placeholder { color: var(--muted); opacity: 0.8; }
+textarea {
+  min-height: 120px;
+  resize: vertical;
+  font-family: var(--mono);
+  font-size: 13.5px;
+  border: 1px solid var(--hair);
+  padding: 10px;
+}
+/* Focus: podtržení zesílí do modré; textarea (jediné pole s rámečkem)
+   dostane světle modrý ring jako hledací pole v asbooks. */
+input:focus, select:focus { outline: none; border-color: var(--blue); box-shadow: 0 1px 0 0 var(--blue); }
+textarea:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-light); }
+select { cursor: pointer; }
+
+/* Label obalující checkbox/radio není rubrika, ale běžný text volby. */
+label:has(input[type=checkbox], input[type=radio]) {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--foreground);
+}
+.inline-options { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 6px; }
+.inline-options label, .checkbox-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--foreground);
+  cursor: pointer;
+  margin: 4px 0;
+}
+.inline-options input, .checkbox-row input { width: auto; accent-color: var(--blue); }
+
+/* ---------------------------------------------------------------- tlačítka */
+
+/* Hranatá, 1px rámeček, normální text (verzálky patří jen rubrikám —
+   v hustém UI s mnoha tlačítky by verzálky křičely). Tři varianty:
+   primary (plná modrá), secondary (obrysová v barvě inkoustu, při hoveru
+   se vyplní), dark (pevně černá nezávisle na tématu). Hover je explicitní
+   tón (--blue-dark), ne filter. Pro řádkové akce v tabulkách .btn-sm. */
+.btn-row { display: flex; gap: 10px; align-items: center; margin: var(--space-4) 0; flex-wrap: wrap; }
+button { font-family: inherit; }
+.btn {
+  display: inline-block;
+  border: 1px solid var(--foreground);
+  padding: 7px 16px;
+  background: transparent;
+  color: var(--foreground);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+.btn:hover { text-decoration: none; }
+.btn:disabled { opacity: 0.4; cursor: default; pointer-events: none; }
+
+.btn-primary { background: var(--blue); border-color: var(--blue); color: #fff; }
+.btn-primary:hover { background: var(--blue-dark); border-color: var(--blue-dark); color: #fff; }
+
+.btn-secondary { background: transparent; border-color: var(--foreground); color: var(--foreground); }
+.btn-secondary:hover { background: var(--foreground); color: var(--background); }
+
+.btn-dark { background: #121212; border-color: #121212; color: #fff; }
+.btn-dark:hover { background: #333333; border-color: #333333; color: #fff; }
+/* Na tmavém pozadí by černé tlačítko splynulo — obrys v hairline tónu. */
+html[data-theme="dark"] .btn-dark { border-color: var(--muted); }
+
+/* Tiché tlačítko pro řádkové akce (Upravit / Smazat v tabulce) — bez
+   rámečku, tlumená barva, podklad až při hoveru. Nesmí přebít data. */
+.btn-sm {
+  padding: 3px 8px;
+  border-color: transparent;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+}
+.btn-sm:hover { background: var(--soft); border-color: transparent; color: var(--foreground); }
+
+/* ---------------------------------------------------------------- rámeček */
+
+/* Orámovaný box (černý 1px border, bílé/tmavé pozadí), volitelně se
+   stínem — vzor z PhD dashboardu (.timeline-card / .postup-text).
+   Další záměrná výjimka z "žádné rámečky" — na rozdíl od karet zůstává
+   hranatý, žádné zaoblení. */
+.box {
+  border: 1px solid var(--foreground);
+  background: var(--background);
+  padding: 22px 26px 26px;
+}
+.box.shadow { box-shadow: 8px 8px var(--gray-mid); }
+
+.box-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--hair);
+}
+.box-title { font-family: var(--serif); font-size: 22px; font-weight: 500; letter-spacing: -0.01em; line-height: 1.15; }
+.box-badge {
+  background: var(--foreground);
+  color: var(--background);
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.box-label { margin: 20px 0 10px; }
+.box-label:first-child { margin-top: 0; }
+.box p { margin: 0 0 14px; line-height: 1.6; }
+.box p:last-child { margin-bottom: 0; }
+.box ul { margin: 0; padding-left: 20px; }
+.box li { margin-bottom: 8px; line-height: 1.5; }
+
+.box-checklist { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.box-checklist label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--foreground);
+  margin: 0;
+  cursor: pointer;
+}
+.box-checklist input { accent-color: var(--blue); }
+.box-checklist .done { color: var(--gray-strong); text-decoration: line-through; }
+
+/* ---------------------------------------------------------------- stepper */
+
+/* Vzor podle Angular Material stepper — jen vizuální, neklikací.
+   Tečka (s číslem) + propojovací linka, vedle ní titulek a volitelný
+   popisek pod ním. Modrá tečka je další jmenovitá výjimka ze
+   sharp-corners resetu (kruh) — jediné zaoblení v systému. */
+.stepper { display: flex; flex-direction: column; }
+.step { display: flex; gap: 14px; align-items: stretch; }
+.step-marker { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+.step-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.step-line { flex: 1; width: 2px; min-height: 16px; background: var(--gray-mid); margin: 4px 0; }
+.step:last-child .step-line { display: none; }
+.step-content { flex: 1; padding: 3px 0 24px; }
+.step:last-child .step-content { padding-bottom: 0; }
+.step-title { font-size: 15px; font-weight: 600; }
+.step-desc { font-size: 13px; color: var(--gray-strong); line-height: 1.5; margin-top: 4px; }
+
+/* ---------------------------------------------------------------- poster (zkušební) */
+
+/* Náhled akademického posteru — experimentální komponenta, tvar se
+   ještě může měnit. Znovupoužívá .box vzhled (rámeček, hranaté) pro
+   jednotlivé sloupce, aby to sedělo se zbytkem systému. Poster samotný
+   má jen obyčejný rámeček bez stínu — stín je vyhrazený pro sloupce
+   uvnitř (.box.shadow), aby vynikly jako samostatné bloky. */
+.poster {
+  position: relative;
+  border: 1px solid var(--foreground);
+  background-color: var(--background);
+  padding: 40px 44px;
+  overflow: hidden;
+}
+/* Síť na pozadí jako samostatná vrstva (ne přímo .poster background),
+   aby šla vymaskovat — pod titulkem není vidět vůbec, od dělicí linky
+   hlavičky se postupně zesiluje na plnou sílu. */
+.poster::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(circle, var(--gray-mid) 1px, transparent 1px);
+  background-size: 14px 14px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, transparent 150px, black 230px);
+  mask-image: linear-gradient(to bottom, transparent 0, transparent 150px, black 230px);
+}
+.poster-header, .poster-rows, .poster-footer { position: relative; z-index: 1; }
+.poster-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid var(--foreground);
+}
+.poster-header .flag-logo { width: 76px; height: 76px; flex-shrink: 0; margin-top: 4px; }
+.poster-title { font-family: var(--serif); font-size: 30px; font-weight: 500; letter-spacing: -0.015em; line-height: 1.12; margin: 0 0 8px; }
+.poster-subtitle { font-size: 15px; color: var(--gray-strong); font-weight: 500; margin: 0 0 14px; }
+.poster-authors { font-size: 13px; font-weight: 600; margin: 0 0 4px; }
+.poster-affil { display: flex; flex-direction: column; gap: 2px; font-size: 12px; color: var(--gray-strong); margin: 0; }
+/* Řádky (ne sloupce) — každý blok přes celou šířku posteru, hlavička
+   jako v .box-header (výrazný titulek + dělicí linka), stejně jako
+   "2025 / 2026" v Rámečku. */
+.poster-rows { display: flex; flex-direction: column; gap: 32px; }
+.poster-row-split { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+.poster-row { padding: 22px 26px 26px; }
+.poster-row p { font-size: 14px; line-height: 1.6; }
+.poster-row ul { font-size: 14px; padding-left: 20px; }
+.poster-row li { margin-bottom: 6px; line-height: 1.55; }
+.poster-row .box-label { font-size: 11px; }
+/* Karty se vejdou vedle sebe — řádek je přes celou šířku posteru.
+   Zmenšené oproti běžné .card (samostatná Karty záložka), ať nejsou
+   tak vysoké. */
+.poster-row .cards { overflow: visible; padding-bottom: 0; justify-content: center; }
+.poster-row .card { flex-basis: 190px; padding: 16px 16px 14px; }
+.poster-row .card-icon { width: 36px; height: 36px; margin: 0 auto 10px; }
+.poster-row .card-title { font-size: 13px; margin-bottom: 4px; }
+.poster-row .card-desc { font-size: 11.5px; line-height: 1.45; }
+
+/* Šedý mockup místo obrázku/QR kódu, dokud není hotový skutečný. */
+.poster-placeholder {
+  background: var(--gray);
+  aspect-ratio: 16 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  color: var(--gray-strong);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.poster-qr {
+  background: var(--gray);
+  width: 92px;
+  height: 92px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-strong);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.poster-footer {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--gray-mid);
+  font-size: 11px;
+  color: var(--gray-strong);
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------- karty */
+
+/* Vzor podle NYT "Puzzles & Games" shelf — horizontální řada karet
+   s ikonou, titulkem, popiskem a odkazem dole. Barevné podklady
+   nahrazené šedou (žádné brand barvy mimo černou/modrou); hranaté,
+   žádná výjimka ze sharp-corners resetu. */
+.cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+.card {
+  flex: 0 0 220px;
+  display: flex;
+  flex-direction: column;
+  background: var(--gray);
+  padding: 26px 22px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--foreground);
+}
+.card:hover { background: var(--hair); }
+.card-icon {
+  width: 56px;
+  height: 56px;
+  margin: 4px auto 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-icon svg { width: 100%; height: 100%; }
+.card-title { font-family: var(--serif); font-size: 19px; font-weight: 500; line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 8px; }
+.card-desc { font-size: 13px; color: var(--gray-strong); line-height: 1.5; flex: 1; }
+.card-cta { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); margin-top: 22px; }
+
+/* ---------------------------------------------------------------- tabulky */
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; font-family: inherit; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 10px 16px 10px 0; border-bottom: 1px solid var(--hair); vertical-align: top; }
+th {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--foreground);
+  white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--gray); }
+.table-scroll { max-height: 380px; overflow: auto; }
+.table-scroll table { font-size: 14px; }
+.table-scroll th { position: sticky; top: 0; background: var(--background); }
+
+/* ---------------------------------------------------------------- metadata (dl) */
+
+/* Dvousloupcový seznam klíč–hodnota (z asbooks detailu knihy): silná
+   linka nahoře, hairline mezi řádky, klíč jako rubrika. */
+dl.meta-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0 var(--space-5);
+  margin: var(--space-4) 0;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+}
+dl.meta-list dt, dl.meta-list dd { margin: 0; padding: 10px 0; border-bottom: 1px solid var(--hair); }
+dl.meta-list dt {
+  padding-top: 13px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+dl.meta-list dd { overflow-wrap: anywhere; }
+
+/* ---------------------------------------------------------------- rozbalovací sekce */
+
+/* Nativní <details> se šipkou — rubrika jako přepínač, hairline mezi
+   položkami. Žádné JS. */
+details.disclosure { border-top: 1px solid var(--hair); }
+details.disclosure:last-of-type { border-bottom: 1px solid var(--hair); }
+details.disclosure > summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  cursor: pointer;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+details.disclosure > summary::-webkit-details-marker { display: none; }
+details.disclosure > summary::before {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  flex: none;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+}
+details.disclosure[open] > summary::before { transform: translateY(-0.15em) rotate(45deg); }
+details.disclosure > summary:hover { color: var(--blue); }
+details.disclosure > .disclosure-body { padding: 0 0 var(--space-3); font-size: 15px; }
+
+/* ---------------------------------------------------------------- štítky */
+
+/* Obrysový hranatý štítek (klíčová slova, typ dokumentu). Na rozdíl od
+   .chip není interaktivní (jen popisek). */
+.tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.tag {
+  display: inline-block;
+  border: 1px solid var(--foreground);
+  padding: 2px 9px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ---------------------------------------------------------------- footer */
+
+footer {
+  padding: 0 32px 40px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray-strong);
+}
+/* Stejná linka jako v title baru (.title-bar-rule), ale tady stojí
+   samostatně přes celou šířku patičky, ne po stranách loga. */
+footer .title-bar-rule { display: block; width: 100%; margin: 0 0 24px; }
+footer .flag-logo { display: block; margin: 0 auto 14px; }
+footer p { margin: 0; }
+footer a { color: var(--gray-strong); }
+footer a:hover { color: var(--blue); }
+
+/* ---------------------------------------------------------------- utility */
+
+.empty {
+  color: var(--gray-strong);
+  padding: 24px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hint { color: var(--gray-strong); font-size: 14px; margin: 6px 0 0; }
+.hidden { display: none !important; }

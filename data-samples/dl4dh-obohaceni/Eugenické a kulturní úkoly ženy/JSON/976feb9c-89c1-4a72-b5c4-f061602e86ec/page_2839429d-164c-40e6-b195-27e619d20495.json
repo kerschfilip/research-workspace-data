@@ -1,0 +1,285 @@
+{
+  "id" : "uuid:2839429d-164c-40e6-b195-27e619d20495",
+  "created" : "2025-11-07T09:21:51.879Z",
+  "updated" : "2025-11-07T09:21:51.879Z",
+  "parentId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "index" : 57,
+  "rootId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "title" : "[56]",
+  "context" : [ ],
+  "tokens" : [ {
+    "tokenIndex" : 0,
+    "content" : "KNIHOVNA",
+    "startOffset" : 0,
+    "endOffset" : 8,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "knihovna",
+      "feats" : "Case=Nom|Gender=Fem|Number=Sing",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "TokenRange=0:8",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "nameTagMetadata" : "B-ic",
+    "altoMetadata" : {
+      "height" : 60.0,
+      "width" : 348.0,
+      "vpos" : 15.0,
+      "hpos" : 1124.0
+    }
+  }, {
+    "tokenIndex" : 1,
+    "content" : "AV",
+    "startOffset" : 9,
+    "endOffset" : 11,
+    "linguisticMetadata" : {
+      "position" : 2,
+      "lemma" : "AV",
+      "feats" : "Abbr=Yes|NameType=Oth",
+      "head" : "1",
+      "depRel" : "nmod",
+      "misc" : "TokenRange=9:11",
+      "uPosTag" : "PROPN",
+      "xPosTag" : "BNXXX-----A----"
+    },
+    "nameTagMetadata" : "I-ic",
+    "altoMetadata" : {
+      "height" : 53.0,
+      "width" : 88.0,
+      "vpos" : 25.0,
+      "hpos" : 1495.0
+    }
+  }, {
+    "tokenIndex" : 2,
+    "content" : "ČR",
+    "startOffset" : 12,
+    "endOffset" : 14,
+    "linguisticMetadata" : {
+      "position" : 3,
+      "lemma" : "ČR",
+      "feats" : "Abbr=Yes|NameType=Geo",
+      "head" : "2",
+      "depRel" : "nmod",
+      "misc" : "TokenRange=12:14",
+      "uPosTag" : "PROPN",
+      "xPosTag" : "BNXXX-----A----"
+    },
+    "nameTagMetadata" : "I-ic|B-gc",
+    "altoMetadata" : {
+      "height" : 67.0,
+      "width" : 91.0,
+      "vpos" : 15.0,
+      "hpos" : 1607.0
+    }
+  }, {
+    "tokenIndex" : 3,
+    "content" : "MAP",
+    "startOffset" : 15,
+    "endOffset" : 18,
+    "linguisticMetadata" : {
+      "position" : 4,
+      "lemma" : "MAP",
+      "feats" : "Abbr=Yes",
+      "head" : "1",
+      "depRel" : "nmod",
+      "misc" : "TokenRange=15:18",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "BNXXX-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 96.0,
+      "width" : 255.0,
+      "vpos" : 104.0,
+      "hpos" : 1094.0
+    }
+  }, {
+    "tokenIndex" : 4,
+    "content" : "14160",
+    "startOffset" : 19,
+    "endOffset" : 24,
+    "linguisticMetadata" : {
+      "position" : 5,
+      "lemma" : "14160",
+      "feats" : "NumForm=Digit|NumType=Card",
+      "head" : "1",
+      "depRel" : "dep",
+      "misc" : "TokenRange=19:24",
+      "uPosTag" : "NUM",
+      "xPosTag" : "C=-------------"
+    },
+    "altoMetadata" : {
+      "height" : 99.0,
+      "width" : 322.0,
+      "vpos" : 113.0,
+      "hpos" : 1400.0
+    }
+  }, {
+    "tokenIndex" : 5,
+    "content" : "14160",
+    "startOffset" : 25,
+    "endOffset" : 30,
+    "linguisticMetadata" : {
+      "position" : 6,
+      "lemma" : "14160",
+      "feats" : "NumForm=Digit|NumType=Card",
+      "head" : "1",
+      "depRel" : "dep",
+      "misc" : "SpaceAfter=No|TokenRange=25:30",
+      "uPosTag" : "NUM",
+      "xPosTag" : "C=-------------"
+    },
+    "altoMetadata" : {
+      "height" : 58.0,
+      "width" : 266.0,
+      "vpos" : 464.0,
+      "hpos" : 1269.0
+    }
+  }, {
+    "tokenIndex" : 6,
+    "content" : "/",
+    "startOffset" : 30,
+    "endOffset" : 31,
+    "linguisticMetadata" : {
+      "position" : 7,
+      "lemma" : "/",
+      "head" : "8",
+      "depRel" : "punct",
+      "misc" : "SpaceAfter=No|TokenRange=30:31",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 58.0,
+      "width" : 266.0,
+      "vpos" : 464.0,
+      "hpos" : 1269.0
+    }
+  }, {
+    "tokenIndex" : 7,
+    "content" : "15",
+    "startOffset" : 31,
+    "endOffset" : 33,
+    "linguisticMetadata" : {
+      "position" : 8,
+      "lemma" : "15",
+      "feats" : "NumForm=Digit|NumType=Card",
+      "head" : "6",
+      "depRel" : "conj",
+      "misc" : "SpaceAfter=No|TokenRange=31:33",
+      "uPosTag" : "NUM",
+      "xPosTag" : "C=-------------"
+    },
+    "altoMetadata" : {
+      "height" : 58.0,
+      "width" : 266.0,
+      "vpos" : 464.0,
+      "hpos" : 1269.0
+    }
+  } ],
+  "policy" : "private",
+  "pageType" : "normalPage",
+  "pageNumber" : "[56]",
+  "nameTagMetadata" : {
+    "namedEntities" : {
+      "GEOGRAPHICAL_NAMES" : [ {
+        "tokens" : [ {
+          "tokenIndex" : 2,
+          "content" : "ČR",
+          "startOffset" : 12,
+          "endOffset" : 14,
+          "linguisticMetadata" : {
+            "position" : 3,
+            "lemma" : "ČR",
+            "feats" : "Abbr=Yes|NameType=Geo",
+            "head" : "2",
+            "depRel" : "nmod",
+            "misc" : "TokenRange=12:14",
+            "uPosTag" : "PROPN",
+            "xPosTag" : "BNXXX-----A----"
+          },
+          "nameTagMetadata" : "I-ic|B-gc",
+          "altoMetadata" : {
+            "height" : 67.0,
+            "width" : 91.0,
+            "vpos" : 15.0,
+            "hpos" : 1607.0
+          }
+        } ],
+        "entityType" : "gc"
+      } ],
+      "INSTITUTIONS" : [ {
+        "tokens" : [ {
+          "tokenIndex" : 0,
+          "content" : "KNIHOVNA",
+          "startOffset" : 0,
+          "endOffset" : 8,
+          "linguisticMetadata" : {
+            "position" : 1,
+            "lemma" : "knihovna",
+            "feats" : "Case=Nom|Gender=Fem|Number=Sing",
+            "head" : "0",
+            "depRel" : "root",
+            "misc" : "TokenRange=0:8",
+            "uPosTag" : "NOUN",
+            "xPosTag" : "NNFS1-----A----"
+          },
+          "nameTagMetadata" : "B-ic",
+          "altoMetadata" : {
+            "height" : 60.0,
+            "width" : 348.0,
+            "vpos" : 15.0,
+            "hpos" : 1124.0
+          }
+        }, {
+          "tokenIndex" : 1,
+          "content" : "AV",
+          "startOffset" : 9,
+          "endOffset" : 11,
+          "linguisticMetadata" : {
+            "position" : 2,
+            "lemma" : "AV",
+            "feats" : "Abbr=Yes|NameType=Oth",
+            "head" : "1",
+            "depRel" : "nmod",
+            "misc" : "TokenRange=9:11",
+            "uPosTag" : "PROPN",
+            "xPosTag" : "BNXXX-----A----"
+          },
+          "nameTagMetadata" : "I-ic",
+          "altoMetadata" : {
+            "height" : 53.0,
+            "width" : 88.0,
+            "vpos" : 25.0,
+            "hpos" : 1495.0
+          }
+        }, {
+          "tokenIndex" : 2,
+          "content" : "ČR",
+          "startOffset" : 12,
+          "endOffset" : 14,
+          "linguisticMetadata" : {
+            "position" : 3,
+            "lemma" : "ČR",
+            "feats" : "Abbr=Yes|NameType=Geo",
+            "head" : "2",
+            "depRel" : "nmod",
+            "misc" : "TokenRange=12:14",
+            "uPosTag" : "PROPN",
+            "xPosTag" : "BNXXX-----A----"
+          },
+          "nameTagMetadata" : "I-ic|B-gc",
+          "altoMetadata" : {
+            "height" : 67.0,
+            "width" : 91.0,
+            "vpos" : 15.0,
+            "hpos" : 1607.0
+          }
+        } ],
+        "entityType" : "ic"
+      } ]
+    }
+  },
+  "model" : "PAGE"
+}

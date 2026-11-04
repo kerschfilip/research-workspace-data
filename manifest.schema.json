@@ -1,0 +1,619 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:elc-dhlr:dtf:manifest:0.1-draft",
+  "title": "DTF manifest",
+  "description": "manifest.json of a derived text format package or a full export package (ELC-DHLR WP3). Three variants: one manifest per document folder of a derived format (terms, structure, entities, pos_ngrams), one manifest for a whole selection (ngrams, syntactic_ngrams), and one manifest per document folder of a full export (full/json, full/csv, full/conllu, full/txt, full/alto).",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/documentManifest"
+    },
+    {
+      "$ref": "#/$defs/selectionManifest"
+    },
+    {
+      "$ref": "#/$defs/fullManifest"
+    }
+  ],
+  "$defs": {
+    "documentManifest": {
+      "title": "Manifest of one document folder",
+      "type": "object",
+      "required": [
+        "format",
+        "format_version",
+        "granularity",
+        "columns",
+        "doc_uuid",
+        "source",
+        "provenance",
+        "generator",
+        "licence",
+        "transformations",
+        "encoding",
+        "checksums"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "enum": [
+            "dtf/terms",
+            "dtf/structure",
+            "dtf/entities",
+            "dtf/pos_ngrams"
+          ]
+        },
+        "format_version": {
+          "$ref": "#/$defs/formatVersion"
+        },
+        "granularity": {
+          "description": "The unit the counts are per.",
+          "enum": [
+            "paragraph",
+            "article",
+            "page",
+            "document"
+          ]
+        },
+        "columns": {
+          "description": "Columns of the data file, in order.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "doc_uuid": {
+          "$ref": "#/$defs/uuid"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "kramerius",
+            "url",
+            "citation"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "kramerius": {
+              "$ref": "#/$defs/nullableUri",
+              "description": "Base URL of the Kramerius instance."
+            },
+            "url": {
+              "$ref": "#/$defs/nullableUri",
+              "description": "Link to the document in Kramerius."
+            },
+            "citation": {
+              "type": "string"
+            }
+          }
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "generator": {
+          "$ref": "#/$defs/generator"
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "transformations": {
+          "$ref": "#/$defs/transformations"
+        },
+        "encoding": {
+          "type": "string"
+        },
+        "checksums": {
+          "$ref": "#/$defs/checksums"
+        },
+        "entities_dropped_too_long": {
+          "description": "Entity counts only: entities longer than 10 tokens left out of the folder.",
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "if": {
+        "properties": {
+          "format": {
+            "const": "dtf/entities"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "entities_dropped_too_long"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "entities_dropped_too_long"
+          ]
+        }
+      }
+    },
+    "selectionManifest": {
+      "title": "Manifest of a whole selection",
+      "type": "object",
+      "required": [
+        "format",
+        "format_version",
+        "parameters",
+        "conditions",
+        "selection",
+        "source",
+        "provenance",
+        "generator",
+        "licence",
+        "transformations",
+        "encoding",
+        "checksums"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "enum": [
+            "dtf/ngrams",
+            "dtf/syntactic_ngrams"
+          ]
+        },
+        "format_version": {
+          "$ref": "#/$defs/formatVersion"
+        },
+        "parameters": {
+          "description": "What the package was computed with.",
+          "type": "object",
+          "required": [
+            "k"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "n": {
+              "type": "integer",
+              "minimum": 2,
+              "maximum": 5
+            },
+            "unit": {
+              "enum": [
+                "lc",
+                "lemma"
+              ]
+            },
+            "k": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "conditions": {
+          "description": "Download conditions and whether the selection meets them. met = false: for testing only, not for publication.",
+          "type": "object",
+          "required": [
+            "k",
+            "min_documents",
+            "min_words",
+            "met"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "n_max": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "k": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "min_documents": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "min_words": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "met": {
+              "type": "boolean"
+            }
+          }
+        },
+        "selection": {
+          "type": "object",
+          "required": [
+            "documents",
+            "pages",
+            "words",
+            "doc_uuids"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "documents": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "pages": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "words": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "doc_uuids": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/uuid"
+              },
+              "minItems": 1
+            }
+          }
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "kramerius"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "kramerius": {
+              "$ref": "#/$defs/nullableUri"
+            }
+          }
+        },
+        "generator": {
+          "$ref": "#/$defs/generator"
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "transformations": {
+          "$ref": "#/$defs/transformations"
+        },
+        "encoding": {
+          "type": "string"
+        },
+        "checksums": {
+          "$ref": "#/$defs/checksums"
+        }
+      },
+      "if": {
+        "properties": {
+          "format": {
+            "const": "dtf/ngrams"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "parameters": {
+            "required": [
+              "n",
+              "unit",
+              "k"
+            ]
+          },
+          "conditions": {
+            "required": [
+              "n_max"
+            ]
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "parameters": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "n"
+                  ]
+                },
+                {
+                  "required": [
+                    "unit"
+                  ]
+                }
+              ]
+            }
+          },
+          "conditions": {
+            "not": {
+              "required": [
+                "n_max"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "formatVersion": {
+      "description": "Version of the format specification.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(-[a-z0-9]+)?$"
+    },
+    "uuid": {
+      "description": "Kramerius UUID.",
+      "type": "string",
+      "pattern": "^uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "nullableUri": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "provenance": {
+      "description": "Where the text came from and what enriched it.",
+      "type": "object",
+      "required": [
+        "ocr",
+        "enrichment",
+        "enriched_at",
+        "intermediate_format_version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ocr": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "engine",
+              "version"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "engine": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "enrichment": {
+          "description": "Models used, by tool; \"?\" where unknown.",
+          "type": "object",
+          "required": [
+            "udpipe"
+          ],
+          "properties": {
+            "udpipe": {
+              "type": "string"
+            },
+            "nametag": {
+              "type": "string"
+            },
+            "morphodita": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "enriched_at": {
+          "description": "Day of the latest enrichment (UDPipe, NameTag, MorphoDiTa) of the data, UTC; identifies the version of the data.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "intermediate_format_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "generator": {
+      "description": "The software that produced the package.",
+      "type": "object",
+      "required": [
+        "name",
+        "version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    },
+    "licence": {
+      "description": "Licence of the data and of the metadata; TBD until resolved.",
+      "type": "object",
+      "required": [
+        "data",
+        "metadata"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "transformations": {
+      "description": "What was done to the text, step by step, in English.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "checksums": {
+      "description": "SHA-256 of every other file of the folder or package, by file name.",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[^/]+$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^sha256:[0-9a-f]{64}$"
+      }
+    },
+    "fullManifest": {
+      "title": "Manifest of one document folder of a full export",
+      "type": "object",
+      "required": [
+        "format",
+        "format_version",
+        "doc_uuid",
+        "source",
+        "provenance",
+        "generator",
+        "licence",
+        "transformations",
+        "encoding",
+        "checksums"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "format": {
+          "enum": [
+            "full/json",
+            "full/csv",
+            "full/conllu",
+            "full/txt",
+            "full/alto"
+          ]
+        },
+        "format_version": {
+          "$ref": "#/$defs/formatVersion"
+        },
+        "doc_uuid": {
+          "$ref": "#/$defs/uuid"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "kramerius",
+            "url",
+            "citation"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "kramerius": {
+              "$ref": "#/$defs/nullableUri",
+              "description": "Base URL of the Kramerius instance."
+            },
+            "url": {
+              "$ref": "#/$defs/nullableUri",
+              "description": "Link to the document in Kramerius."
+            },
+            "citation": {
+              "type": "string"
+            }
+          }
+        },
+        "provenance": {
+          "description": "As for derived formats; the ALTO package has no enrichment.",
+          "type": "object",
+          "required": [
+            "ocr",
+            "intermediate_format_version"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "ocr": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "engine",
+                  "version"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "engine": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "enrichment": {
+              "description": "Models used, by tool; \"?\" where unknown.",
+              "type": "object",
+              "required": [
+                "udpipe"
+              ],
+              "properties": {
+                "udpipe": {
+                  "type": "string"
+                },
+                "nametag": {
+                  "type": "string"
+                },
+                "morphodita": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "enriched_at": {
+              "description": "Day of the latest enrichment (UDPipe, NameTag, MorphoDiTa) of the data, UTC; identifies the version of the data.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "intermediate_format_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "generator": {
+          "$ref": "#/$defs/generator"
+        },
+        "licence": {
+          "$ref": "#/$defs/licence"
+        },
+        "transformations": {
+          "$ref": "#/$defs/transformations"
+        },
+        "encoding": {
+          "type": "string"
+        },
+        "checksums": {
+          "description": "SHA-256 of every other file of the folder, by file name.",
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "pattern": "^[^/]+$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

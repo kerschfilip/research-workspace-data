@@ -1,0 +1,7874 @@
+{
+ "schema": "dl-enricher-page/0.1",
+ "id": "uuid:3fbeb14a-86d4-480c-8a9c-b3f5ff86e884",
+ "title": "47",
+ "source": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec?page=uuid:3fbeb14a-86d4-480c-8a9c-b3f5ff86e884",
+ "index": 48,
+ "language": "ces",
+ "paradata": {
+  "udpipe": {
+   "model": "czech-pdtc-ud-2.17-251125",
+   "generator": "UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe",
+   "licence": "CC BY-NC-SA",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "nametag": {
+   "model": "nametag3-czech-cnec2.0-240830",
+   "engine": "nametag",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "ocr": {
+   "creator": "I2S",
+   "software": "Limb",
+   "version": "4.3.0.0",
+   "description": "Abbyy11 OCR Engine"
+  }
+ },
+ "geometry": {
+  "width": 1910.0,
+  "height": 3300.0,
+  "unit": "pixel",
+  "source": "enricher-page"
+ },
+ "sentences": [
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "ganické",
+     "lemma": "ganický",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 2,
+     "deprel": "amod",
+     "misc": "TokenRange=0:7",
+     "alto": {
+      "hpos": 115.0,
+      "vpos": 297.0,
+      "width": 186.0,
+      "height": 57.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "bytosti",
+     "lemma": "bytost",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 4,
+     "deprel": "nsubj",
+     "misc": "TokenRange=8:15",
+     "alto": {
+      "hpos": 336.0,
+      "vpos": 299.0,
+      "width": 170.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "budou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3F-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act",
+     "head": 4,
+     "deprel": "aux",
+     "misc": "TokenRange=16:21",
+     "alto": {
+      "hpos": 540.0,
+      "vpos": 298.0,
+      "width": 152.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "obývati",
+     "lemma": "obývat",
+     "upos": "VERB",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=22:29",
+     "alto": {
+      "hpos": 727.0,
+      "vpos": 298.0,
+      "width": 179.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "svět",
+     "lemma": "svět",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 4,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=30:34",
+     "alto": {
+      "hpos": 940.0,
+      "vpos": 298.0,
+      "width": 109.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 6,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=34:35",
+     "alto": {
+      "hpos": 940.0,
+      "vpos": 298.0,
+      "width": 109.0,
+      "height": 56.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "I",
+     "lemma": "i",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "ExtPos=SCONJ",
+     "head": 6,
+     "deprel": "mark",
+     "misc": "TokenRange=36:37",
+     "alto": {
+      "hpos": 1088.0,
+      "vpos": 300.0,
+      "width": 13.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "když",
+     "lemma": "když",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "fixed",
+     "misc": "TokenRange=38:42",
+     "alto": {
+      "hpos": 1138.0,
+      "vpos": 299.0,
+      "width": 114.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "rasová",
+     "lemma": "rasový",
+     "upos": "ADJ",
+     "xpos": "AAFS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+     "head": 4,
+     "deprel": "amod",
+     "misc": "TokenRange=43:49",
+     "alto": {
+      "hpos": 1285.0,
+      "vpos": 298.0,
+      "width": 158.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "hygiena",
+     "lemma": "hygiena",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 6,
+     "deprel": "nsubj",
+     "misc": "TokenRange=50:57",
+     "alto": {
+      "hpos": 1477.0,
+      "vpos": 299.0,
+      "width": 190.0,
+      "height": 57.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "47",
+     "lemma": "47",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 4,
+     "deprel": "nummod",
+     "misc": "TokenRange=58:60",
+     "ne": "B-n_",
+     "alto": {
+      "hpos": 1747.0,
+      "vpos": 307.0,
+      "width": 64.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "uskuteční",
+     "lemma": "uskutečnit",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 25,
+     "deprel": "advcl",
+     "misc": "TokenRange=61:70",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 357.0,
+      "width": 233.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "všechny",
+     "lemma": "všechen",
+     "upos": "DET",
+     "xpos": "PLYP4----------",
+     "feats": "Case=Acc|Gender=Masc|Number=Plur|PronType=Tot",
+     "head": 9,
+     "deprel": "det",
+     "misc": "TokenRange=71:78",
+     "alto": {
+      "hpos": 373.0,
+      "vpos": 357.0,
+      "width": 198.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "své",
+     "lemma": "svůj",
+     "upos": "DET",
+     "xpos": "P8YP4---------1",
+     "feats": "Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes",
+     "head": 9,
+     "deprel": "det",
+     "misc": "TokenRange=79:82",
+     "alto": {
+      "hpos": 598.0,
+      "vpos": 356.0,
+      "width": 75.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "ideály",
+     "lemma": "ideál",
+     "upos": "NOUN",
+     "xpos": "NNIP4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur",
+     "head": 6,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=83:89",
+     "alto": {
+      "hpos": 705.0,
+      "vpos": 356.0,
+      "width": 162.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 10,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 17,
+     "deprel": "punct",
+     "misc": "TokenRange=89:90",
+     "alto": {
+      "hpos": 705.0,
+      "vpos": 356.0,
+      "width": 162.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "když",
+     "lemma": "když",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 17,
+     "deprel": "mark",
+     "misc": "TokenRange=91:95",
+     "alto": {
+      "hpos": 899.0,
+      "vpos": 358.0,
+      "width": 114.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "statné",
+     "lemma": "statný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 15,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=96:102",
+     "alto": {
+      "hpos": 1040.0,
+      "vpos": 358.0,
+      "width": 160.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "punct",
+     "misc": "TokenRange=102:103",
+     "alto": {
+      "hpos": 1040.0,
+      "vpos": 358.0,
+      "width": 160.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "vzdorné",
+     "lemma": "vzdorný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 12,
+     "deprel": "conj",
+     "misc": "TokenRange=104:111",
+     "alto": {
+      "hpos": 1231.0,
+      "vpos": 357.0,
+      "width": 195.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "pokolení",
+     "lemma": "pokolení",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing",
+     "head": 17,
+     "deprel": "nsubj",
+     "misc": "TokenRange=112:120",
+     "alto": {
+      "hpos": 1458.0,
+      "vpos": 359.0,
+      "width": 210.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "bude",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3F-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act",
+     "head": 17,
+     "deprel": "aux",
+     "misc": "TokenRange=121:125",
+     "alto": {
+      "hpos": 118.0,
+      "vpos": 416.0,
+      "width": 116.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "obývati",
+     "lemma": "obývat",
+     "upos": "VERB",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 6,
+     "deprel": "advcl",
+     "misc": "TokenRange=126:133",
+     "alto": {
+      "hpos": 269.0,
+      "vpos": 416.0,
+      "width": 184.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "zemi",
+     "lemma": "země",
+     "upos": "NOUN",
+     "xpos": "NNFS4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Sing",
+     "head": 17,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=134:138",
+     "alto": {
+      "hpos": 491.0,
+      "vpos": 417.0,
+      "width": 124.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 19,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "punct",
+     "misc": "TokenRange=138:139",
+     "alto": {
+      "hpos": 491.0,
+      "vpos": 417.0,
+      "width": 124.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "budou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3F-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act",
+     "head": 25,
+     "deprel": "aux",
+     "misc": "TokenRange=140:145",
+     "alto": {
+      "hpos": 657.0,
+      "vpos": 417.0,
+      "width": 150.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "i",
+     "lemma": "i",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=146:147",
+     "alto": {
+      "hpos": 837.0,
+      "vpos": 418.0,
+      "width": 11.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "ty",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDIP1----------",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem",
+     "head": 24,
+     "deprel": "det",
+     "misc": "TokenRange=148:150",
+     "alto": {
+      "hpos": 887.0,
+      "vpos": 420.0,
+      "width": 46.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "nejlepší",
+     "lemma": "lepší",
+     "upos": "ADJ",
+     "xpos": "AAIP1----3A----",
+     "feats": "Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos",
+     "head": 24,
+     "deprel": "amod",
+     "misc": "TokenRange=151:159",
+     "alto": {
+      "hpos": 968.0,
+      "vpos": 417.0,
+      "width": 197.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "stroje",
+     "lemma": "stroj",
+     "upos": "NOUN",
+     "xpos": "NNIP1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur",
+     "head": 25,
+     "deprel": "nsubj",
+     "misc": "TokenRange=160:166",
+     "alto": {
+      "hpos": 1204.0,
+      "vpos": 419.0,
+      "width": 140.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "potřebovati",
+     "lemma": "potřebovat",
+     "upos": "VERB",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=167:178",
+     "alto": {
+      "hpos": 1383.0,
+      "vpos": 417.0,
+      "width": 285.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "opravy",
+     "lemma": "oprava",
+     "upos": "NOUN",
+     "xpos": "NNFP4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Plur",
+     "head": 25,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=179:185",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 490.0,
+      "width": 183.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 27,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 32,
+     "deprel": "punct",
+     "misc": "TokenRange=185:186",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 490.0,
+      "width": 183.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "poněvadž",
+     "lemma": "poněvadž",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 32,
+     "deprel": "mark",
+     "misc": "TokenRange=187:195",
+     "alto": {
+      "hpos": 343.0,
+      "vpos": 476.0,
+      "width": 231.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "jich",
+     "lemma": "on",
+     "upos": "PRON",
+     "xpos": "PEXP2--3------1",
+     "feats": "Case=Gen|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=196:200",
+     "alto": {
+      "hpos": 614.0,
+      "vpos": 477.0,
+      "width": 89.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "opotřebení",
+     "lemma": "opotřebení",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 32,
+     "deprel": "nsubj",
+     "misc": "TokenRange=201:211",
+     "alto": {
+      "hpos": 747.0,
+      "vpos": 476.0,
+      "width": 268.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 32,
+     "deprel": "cop",
+     "misc": "TokenRange=212:214",
+     "alto": {
+      "hpos": 1054.0,
+      "vpos": 479.0,
+      "width": 45.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "nezbytné",
+     "lemma": "zbytný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1N----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg",
+     "head": 25,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=215:223",
+     "alto": {
+      "hpos": 1143.0,
+      "vpos": 478.0,
+      "width": 233.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 33,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "punct",
+     "misc": "TokenRange=223:224",
+     "alto": {
+      "hpos": 1143.0,
+      "vpos": 478.0,
+      "width": 233.0,
+      "height": 53.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Nezměrné",
+     "lemma": "změrný",
+     "upos": "ADJ",
+     "xpos": "AAIP1----1N----",
+     "feats": "Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg",
+     "head": 2,
+     "deprel": "amod",
+     "misc": "TokenRange=225:233",
+     "alto": {
+      "hpos": 1422.0,
+      "vpos": 478.0,
+      "width": 246.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "otřesy",
+     "lemma": "otřes",
+     "upos": "NOUN",
+     "xpos": "NNIP1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur",
+     "head": 4,
+     "deprel": "nsubj",
+     "misc": "TokenRange=234:240",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 535.0,
+      "width": 156.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "přítomna",
+     "lemma": "přítomný",
+     "upos": "ADJ",
+     "xpos": "ACQW------A----",
+     "feats": "Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short",
+     "head": 2,
+     "deprel": "amod",
+     "misc": "TokenRange=241:249",
+     "alto": {
+      "hpos": 299.0,
+      "vpos": 536.0,
+      "width": 226.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "nutí",
+     "lemma": "nutit",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=250:254",
+     "alto": {
+      "hpos": 553.0,
+      "vpos": 536.0,
+      "width": 94.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "nás",
+     "lemma": "my",
+     "upos": "PRON",
+     "xpos": "PP-P4--1-------",
+     "feats": "Case=Acc|Number=Plur|Person=1|PronType=Prs",
+     "head": 4,
+     "deprel": "iobj",
+     "misc": "TokenRange=255:258",
+     "alto": {
+      "hpos": 679.0,
+      "vpos": 536.0,
+      "width": 78.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "však",
+     "lemma": "však",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "cc",
+     "misc": "TokenRange=259:263",
+     "alto": {
+      "hpos": 786.0,
+      "vpos": 537.0,
+      "width": 109.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "mnohem",
+     "lemma": "mnohem",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "advmod",
+     "misc": "TokenRange=264:270",
+     "alto": {
+      "hpos": 926.0,
+      "vpos": 537.0,
+      "width": 204.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "více",
+     "lemma": "více",
+     "upos": "ADV",
+     "xpos": "Dg-------2A----",
+     "feats": "Degree=Cmp|Polarity=Pos",
+     "head": 4,
+     "deprel": "advmod",
+     "misc": "TokenRange=271:275",
+     "alto": {
+      "hpos": 1161.0,
+      "vpos": 536.0,
+      "width": 93.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "než",
+     "lemma": "než",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "mark",
+     "misc": "TokenRange=276:279",
+     "alto": {
+      "hpos": 1286.0,
+      "vpos": 536.0,
+      "width": 81.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "dříve",
+     "lemma": "dříve",
+     "upos": "ADV",
+     "xpos": "Dg-------2A----",
+     "feats": "Degree=Cmp|Polarity=Pos",
+     "head": 8,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=280:285",
+     "alto": {
+      "hpos": 1397.0,
+      "vpos": 535.0,
+      "width": 137.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 11,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "punct",
+     "misc": "TokenRange=285:286",
+     "alto": {
+      "hpos": 1397.0,
+      "vpos": 535.0,
+      "width": 137.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "aby",
+     "lemma": "aby",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "mark",
+     "misc": "SpaceAfter=No|TokenRange=287:290",
+     "alto": {
+      "hpos": 1568.0,
+      "vpos": 538.0,
+      "width": 102.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "X",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 15,
+     "deprel": "nmod",
+     "misc": "TokenRange=290:291",
+     "alto": {
+      "hpos": 1568.0,
+      "vpos": 538.0,
+      "width": 102.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "chom",
+     "lemma": "chom",
+     "upos": "NOUN",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 16,
+     "deprel": "nsubj",
+     "misc": "TokenRange=292:296",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 594.0,
+      "width": 128.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "uplatnili",
+     "lemma": "uplatnit",
+     "upos": "VERB",
+     "xpos": "VpMP----R-AAP--",
+     "feats": "Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act",
+     "head": 4,
+     "deprel": "ccomp",
+     "misc": "TokenRange=297:306",
+     "alto": {
+      "hpos": 282.0,
+      "vpos": 595.0,
+      "width": 210.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "každý",
+     "lemma": "každý",
+     "upos": "DET",
+     "xpos": "PLIS4----------",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot",
+     "head": 18,
+     "deprel": "det",
+     "misc": "TokenRange=307:312",
+     "alto": {
+      "hpos": 533.0,
+      "vpos": 595.0,
+      "width": 139.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "prostředek",
+     "lemma": "prostředek",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 16,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=313:323",
+     "alto": {
+      "hpos": 714.0,
+      "vpos": 595.0,
+      "width": 279.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 19,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "TokenRange=323:324",
+     "alto": {
+      "hpos": 714.0,
+      "vpos": 595.0,
+      "width": 279.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "od",
+     "lemma": "od",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 21,
+     "deprel": "case",
+     "misc": "TokenRange=325:327",
+     "alto": {
+      "hpos": 1035.0,
+      "vpos": 597.0,
+      "width": 59.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "něhož",
+     "lemma": "jenž",
+     "upos": "PRON",
+     "xpos": "P4ZS2---------3",
+     "feats": "Case=Gen|Gender=Masc,Neut|Number=Sing|PrepCase=Pre|PronType=Rel",
+     "head": 25,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=328:333",
+     "alto": {
+      "hpos": 1134.0,
+      "vpos": 595.0,
+      "width": 142.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "možno",
+     "lemma": "možný",
+     "upos": "ADJ",
+     "xpos": "ACNS------A----",
+     "feats": "Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short",
+     "head": 18,
+     "deprel": "acl:relcl",
+     "misc": "TokenRange=334:339",
+     "alto": {
+      "hpos": 1316.0,
+      "vpos": 596.0,
+      "width": 157.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "očeká",
+     "lemma": "očekat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 22,
+     "deprel": "csubj",
+     "misc": "SpaceAfter=No|TokenRange=340:345",
+     "alto": {
+      "hpos": 1514.0,
+      "vpos": 595.0,
+      "width": 154.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "punct",
+     "misc": "TokenRange=345:346",
+     "alto": {
+      "hpos": 1514.0,
+      "vpos": 595.0,
+      "width": 154.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "vati",
+     "lemma": "vati",
+     "upos": "VERB",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 23,
+     "deprel": "xcomp",
+     "misc": "SpaceAfter=No|TokenRange=347:351",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 656.0,
+      "width": 104.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 26,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 28,
+     "deprel": "punct",
+     "misc": "TokenRange=351:352",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 656.0,
+      "width": 104.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 28,
+     "deprel": "mark",
+     "misc": "TokenRange=353:355",
+     "alto": {
+      "hpos": 266.0,
+      "vpos": 654.0,
+      "width": 49.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "prospěje",
+     "lemma": "prospět",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 25,
+     "deprel": "ccomp",
+     "misc": "TokenRange=356:364",
+     "alto": {
+      "hpos": 362.0,
+      "vpos": 655.0,
+      "width": 213.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "zvýšení",
+     "lemma": "zvýšení",
+     "upos": "NOUN",
+     "xpos": "NNNS3-----A----",
+     "feats": "Case=Dat|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 28,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=365:372",
+     "alto": {
+      "hpos": 624.0,
+      "vpos": 654.0,
+      "width": 180.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "duševní",
+     "lemma": "duševní",
+     "upos": "ADJ",
+     "xpos": "AAFS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+     "head": 31,
+     "deprel": "amod",
+     "misc": "TokenRange=373:380",
+     "alto": {
+      "hpos": 851.0,
+      "vpos": 655.0,
+      "width": 185.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "síly",
+     "lemma": "síla",
+     "upos": "NOUN",
+     "xpos": "NNFS2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Sing",
+     "head": 29,
+     "deprel": "nmod",
+     "misc": "TokenRange=381:385",
+     "alto": {
+      "hpos": 1083.0,
+      "vpos": 655.0,
+      "width": 86.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "národa",
+     "lemma": "národ",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 31,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=386:392",
+     "alto": {
+      "hpos": 1217.0,
+      "vpos": 654.0,
+      "width": 182.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 33,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=392:393",
+     "alto": {
+      "hpos": 1217.0,
+      "vpos": 654.0,
+      "width": 182.0,
+      "height": 55.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Prospěje",
+     "lemma": "prospět",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=394:402",
+     "alto": {
+      "hpos": 1449.0,
+      "vpos": 656.0,
+      "width": 217.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 1,
+     "deprel": "expl:pass",
+     "misc": "TokenRange=403:405",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 726.0,
+      "width": 48.0,
+      "height": 29.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "tím",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDZS7----------",
+     "feats": "Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+     "head": 1,
+     "deprel": "obl",
+     "misc": "TokenRange=406:409",
+     "alto": {
+      "hpos": 198.0,
+      "vpos": 716.0,
+      "width": 78.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "národu",
+     "lemma": "národ",
+     "upos": "NOUN",
+     "xpos": "NNIS3-----A----",
+     "feats": "Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing",
+     "head": 1,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=410:416",
+     "alto": {
+      "hpos": 307.0,
+      "vpos": 714.0,
+      "width": 173.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "cc",
+     "misc": "TokenRange=417:418",
+     "alto": {
+      "hpos": 517.0,
+      "vpos": 728.0,
+      "width": 25.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "státu",
+     "lemma": "stát",
+     "upos": "NOUN",
+     "xpos": "NNIS3-----A----",
+     "feats": "Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing",
+     "head": 4,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=419:424",
+     "alto": {
+      "hpos": 575.0,
+      "vpos": 714.0,
+      "width": 131.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 7,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=424:425",
+     "alto": {
+      "hpos": 575.0,
+      "vpos": 714.0,
+      "width": 131.0,
+      "height": 42.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Proto",
+     "lemma": "proto",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "cc",
+     "misc": "TokenRange=426:431",
+     "alto": {
+      "hpos": 744.0,
+      "vpos": 716.0,
+      "width": 135.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 4,
+     "deprel": "cop",
+     "misc": "TokenRange=432:434",
+     "alto": {
+      "hpos": 914.0,
+      "vpos": 716.0,
+      "width": 43.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "naší",
+     "lemma": "náš",
+     "upos": "DET",
+     "xpos": "PSFS7-P1-------",
+     "feats": "Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs",
+     "head": 4,
+     "deprel": "det",
+     "misc": "TokenRange=435:439",
+     "alto": {
+      "hpos": 993.0,
+      "vpos": 715.0,
+      "width": 96.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "povinností",
+     "lemma": "povinnost",
+     "upos": "NOUN",
+     "xpos": "NNFS7-----A----",
+     "feats": "Case=Ins|Gender=Fem|Number=Sing",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=440:450",
+     "alto": {
+      "hpos": 1123.0,
+      "vpos": 714.0,
+      "width": 258.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "dosah",
+     "lemma": "dosah",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 10,
+     "deprel": "obj",
+     "misc": "TokenRange=451:456",
+     "alto": {
+      "hpos": 1416.0,
+      "vpos": 714.0,
+      "width": 141.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "dě",
+     "lemma": "dě",
+     "upos": "NOUN",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 8,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=457:459",
+     "alto": {
+      "hpos": 1594.0,
+      "vpos": 715.0,
+      "width": 72.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Abbr=Yes",
+     "head": 8,
+     "deprel": "nmod",
+     "misc": "TokenRange=459:460",
+     "alto": {
+      "hpos": 1594.0,
+      "vpos": 715.0,
+      "width": 72.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "dičnosti",
+     "lemma": "dičnost",
+     "upos": "NOUN",
+     "xpos": "NNFS2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Sing",
+     "head": 5,
+     "deprel": "nmod",
+     "misc": "TokenRange=461:469",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 773.0,
+      "width": 194.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "alespoň",
+     "lemma": "alespoň",
+     "upos": "PART",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=470:477",
+     "alto": {
+      "hpos": 331.0,
+      "vpos": 773.0,
+      "width": 187.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "zmírniti",
+     "lemma": "zmírnit",
+     "upos": "VERB",
+     "xpos": "Vf--------A-P--",
+     "feats": "Aspect=Perf|Polarity=Pos|VerbForm=Inf",
+     "head": 4,
+     "deprel": "csubj",
+     "misc": "SpaceAfter=No|TokenRange=478:486",
+     "alto": {
+      "hpos": 546.0,
+      "vpos": 775.0,
+      "width": 203.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 11,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "punct",
+     "misc": "TokenRange=486:487",
+     "alto": {
+      "hpos": 546.0,
+      "vpos": 775.0,
+      "width": 203.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 16,
+     "deprel": "cop",
+     "misc": "SpaceAfter=No|TokenRange=488:490",
+     "alto": {
+      "hpos": 776.0,
+      "vpos": 775.0,
+      "width": 97.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=490:491",
+     "alto": {
+      "hpos": 776.0,
+      "vpos": 775.0,
+      "width": 97.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "li",
+     "lemma": "li",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "mark",
+     "misc": "TokenRange=491:493",
+     "alto": {
+      "hpos": 776.0,
+      "vpos": 775.0,
+      "width": 97.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "to",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDNS1----------",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing|PronType=Dem",
+     "head": 16,
+     "deprel": "nsubj",
+     "misc": "TokenRange=494:496",
+     "alto": {
+      "hpos": 897.0,
+      "vpos": 778.0,
+      "width": 45.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "možné",
+     "lemma": "možný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 10,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=497:502",
+     "alto": {
+      "hpos": 968.0,
+      "vpos": 773.0,
+      "width": 168.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 17,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "TokenRange=502:503",
+     "alto": {
+      "hpos": 968.0,
+      "vpos": 773.0,
+      "width": 168.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 22,
+     "deprel": "cop",
+     "misc": "SpaceAfter=No|TokenRange=504:506",
+     "alto": {
+      "hpos": 1161.0,
+      "vpos": 775.0,
+      "width": 98.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=506:507",
+     "alto": {
+      "hpos": 1161.0,
+      "vpos": 775.0,
+      "width": 98.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "li",
+     "lemma": "li",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "mark",
+     "misc": "TokenRange=507:509",
+     "alto": {
+      "hpos": 1161.0,
+      "vpos": 775.0,
+      "width": 98.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "to",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDNS1----------",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing|PronType=Dem",
+     "head": 22,
+     "deprel": "nsubj",
+     "misc": "TokenRange=510:512",
+     "alto": {
+      "hpos": 1283.0,
+      "vpos": 778.0,
+      "width": 47.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "proveditelné",
+     "lemma": "proveditelný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 16,
+     "deprel": "conj",
+     "misc": "TokenRange=513:525",
+     "alto": {
+      "hpos": 1356.0,
+      "vpos": 775.0,
+      "width": 310.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 24,
+     "deprel": "cc",
+     "misc": "TokenRange=526:527",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 845.0,
+      "width": 25.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "vyžaditjí",
+     "lemma": "vyžaditt",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 16,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=528:537",
+     "alto": {
+      "hpos": 161.0,
+      "vpos": 833.0,
+      "width": 264.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 24,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=537:538",
+     "alto": {
+      "hpos": 161.0,
+      "vpos": 833.0,
+      "width": 264.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "li",
+     "lemma": "li",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 24,
+     "deprel": "mark",
+     "misc": "TokenRange=538:540",
+     "alto": {
+      "hpos": 161.0,
+      "vpos": 833.0,
+      "width": 264.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "toho",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDZS2----------",
+     "feats": "Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+     "head": 24,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=541:545",
+     "alto": {
+      "hpos": 451.0,
+      "vpos": 833.0,
+      "width": 108.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "zájmy",
+     "lemma": "zájem",
+     "upos": "NOUN",
+     "xpos": "NNIP1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur",
+     "head": 24,
+     "deprel": "nsubj",
+     "misc": "TokenRange=546:551",
+     "alto": {
+      "hpos": 588.0,
+      "vpos": 832.0,
+      "width": 144.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "jnároda",
+     "lemma": "jnárod",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 28,
+     "deprel": "nmod",
+     "misc": "TokenRange=552:559",
+     "alto": {
+      "hpos": 753.0,
+      "vpos": 833.0,
+      "width": 176.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 31,
+     "deprel": "cc",
+     "misc": "TokenRange=560:561",
+     "alto": {
+      "hpos": 955.0,
+      "vpos": 847.0,
+      "width": 22.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "státui",
+     "lemma": "státue",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 29,
+     "deprel": "conj",
+     "misc": "TokenRange=562:568",
+     "alto": {
+      "hpos": 1005.0,
+      "vpos": 833.0,
+      "width": 122.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 41,
+     "deprel": "cc",
+     "misc": "TokenRange=569:570",
+     "alto": {
+      "hpos": 1150.0,
+      "vpos": 847.0,
+      "width": 22.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 33,
+     "form": "o",
+     "lemma": "o",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 34,
+     "deprel": "case",
+     "misc": "TokenRange=571:572",
+     "alto": {
+      "hpos": 1201.0,
+      "vpos": 847.0,
+      "width": 26.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 34,
+     "form": "ty",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDIP4----------",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem",
+     "head": 41,
+     "deprel": "obl:arg",
+     "misc": "SpaceAfter=No|TokenRange=573:575",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 836.0,
+      "width": 223.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 35,
+     "form": "'",
+     "lemma": "'",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=575:576",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 836.0,
+      "width": 223.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 36,
+     "form": "lse",
+     "lemma": "lse",
+     "upos": "NOUN",
+     "xpos": "F%-------------",
+     "feats": "_",
+     "head": 41,
+     "deprel": "obl:arg",
+     "misc": "SpaceAfter=No|TokenRange=576:579",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 836.0,
+      "width": 223.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 37,
+     "form": "|",
+     "lemma": "|",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=579:580",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 836.0,
+      "width": 223.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 38,
+     "form": "zde",
+     "lemma": "zde",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "PronType=Dem",
+     "head": 41,
+     "deprel": "advmod",
+     "misc": "TokenRange=580:583",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 836.0,
+      "width": 223.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 39,
+     "form": "zajisté",
+     "lemma": "zajisté",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 41,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=584:591",
+     "alto": {
+      "hpos": 1508.0,
+      "vpos": 834.0,
+      "width": 158.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 40,
+     "form": "nejvíce",
+     "lemma": "více",
+     "upos": "ADV",
+     "xpos": "Dg-------3A----",
+     "feats": "Degree=Sup|Polarity=Pos",
+     "head": 41,
+     "deprel": "advmod",
+     "misc": "TokenRange=592:599",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 892.0,
+      "width": 173.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 41,
+     "form": "jedná",
+     "lemma": "jednat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 16,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=600:605",
+     "alto": {
+      "hpos": 326.0,
+      "vpos": 892.0,
+      "width": 149.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 42,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=605:606",
+     "alto": {
+      "hpos": 326.0,
+      "vpos": 892.0,
+      "width": 149.0,
+      "height": 54.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Salus",
+     "lemma": "Salus",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=607:612",
+     "alto": {
+      "hpos": 522.0,
+      "vpos": 893.0,
+      "width": 129.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "respublicae",
+     "lemma": "respublicae",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 1,
+     "deprel": "flat",
+     "misc": "TokenRange=613:624",
+     "alto": {
+      "hpos": 698.0,
+      "vpos": 894.0,
+      "width": 280.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "suprema",
+     "lemma": "suprema",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 1,
+     "deprel": "flat",
+     "misc": "TokenRange=625:632",
+     "alto": {
+      "hpos": 1023.0,
+      "vpos": 906.0,
+      "width": 205.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "lex",
+     "lemma": "lex",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 1,
+     "deprel": "flat",
+     "misc": "TokenRange=633:636",
+     "alto": {
+      "hpos": 1274.0,
+      "vpos": 895.0,
+      "width": 71.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "esto",
+     "lemma": "esto",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 1,
+     "deprel": "flat",
+     "misc": "SpaceAfter=No|TokenRange=637:641",
+     "alto": {
+      "hpos": 1392.0,
+      "vpos": 895.0,
+      "width": 118.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "!",
+     "lemma": "!",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=641:642",
+     "alto": {
+      "hpos": 1392.0,
+      "vpos": 895.0,
+      "width": 118.0,
+      "height": 52.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Do",
+     "lemma": "do",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 2,
+     "deprel": "case",
+     "misc": "TokenRange=643:645",
+     "alto": {
+      "hpos": 176.0,
+      "vpos": 1047.0,
+      "width": 68.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "souboru",
+     "lemma": "soubor",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 6,
+     "deprel": "obl",
+     "misc": "TokenRange=646:653",
+     "alto": {
+      "hpos": 298.0,
+      "vpos": 1048.0,
+      "width": 197.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "sem",
+     "lemma": "sem",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "advmod",
+     "misc": "TokenRange=654:657",
+     "alto": {
+      "hpos": 545.0,
+      "vpos": 1060.0,
+      "width": 93.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "spadajících",
+     "lemma": "spadající",
+     "upos": "ADJ",
+     "xpos": "AGFP2-----A----",
+     "feats": "Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+     "head": 5,
+     "deprel": "amod",
+     "misc": "TokenRange=658:669",
+     "alto": {
+      "hpos": 690.0,
+      "vpos": 1047.0,
+      "width": 271.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "otázek",
+     "lemma": "otázka",
+     "upos": "NOUN",
+     "xpos": "NNFP2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Plur",
+     "head": 2,
+     "deprel": "nmod",
+     "misc": "TokenRange=670:676",
+     "alto": {
+      "hpos": 1013.0,
+      "vpos": 1047.0,
+      "width": 155.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "náleží",
+     "lemma": "náležet",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=677:683",
+     "alto": {
+      "hpos": 1217.0,
+      "vpos": 1046.0,
+      "width": 143.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "především",
+     "lemma": "především",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=684:693",
+     "alto": {
+      "hpos": 1412.0,
+      "vpos": 1046.0,
+      "width": 253.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "úprava",
+     "lemma": "úprava",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 6,
+     "deprel": "nsubj",
+     "misc": "TokenRange=694:700",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 1105.0,
+      "width": 228.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "smlouvy",
+     "lemma": "smlouva",
+     "upos": "NOUN",
+     "xpos": "NNFS2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Sing",
+     "head": 8,
+     "deprel": "nmod",
+     "misc": "TokenRange=701:708",
+     "alto": {
+      "hpos": 379.0,
+      "vpos": 1107.0,
+      "width": 280.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "manželské",
+     "lemma": "manželský",
+     "upos": "ADJ",
+     "xpos": "AAFS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+     "head": 9,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=709:718",
+     "alto": {
+      "hpos": 694.0,
+      "vpos": 1105.0,
+      "width": 365.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 11,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 12,
+     "deprel": "punct",
+     "misc": "TokenRange=718:719",
+     "alto": {
+      "hpos": 694.0,
+      "vpos": 1105.0,
+      "width": 365.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "vyšetření",
+     "lemma": "vyšetření",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 8,
+     "deprel": "conj",
+     "misc": "TokenRange=720:729",
+     "alto": {
+      "hpos": 1098.0,
+      "vpos": 1106.0,
+      "width": 324.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "zdraví",
+     "lemma": "zdraví",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 12,
+     "deprel": "nmod",
+     "misc": "TokenRange=730:736",
+     "alto": {
+      "hpos": 1458.0,
+      "vpos": 1107.0,
+      "width": 207.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "snoubenců",
+     "lemma": "snoubenec",
+     "upos": "NOUN",
+     "xpos": "NNMP2-----A----",
+     "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur",
+     "head": 13,
+     "deprel": "nmod",
+     "misc": "TokenRange=737:746",
+     "alto": {
+      "hpos": 115.0,
+      "vpos": 1165.0,
+      "width": 358.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "cc",
+     "misc": "TokenRange=747:748",
+     "alto": {
+      "hpos": 519.0,
+      "vpos": 1179.0,
+      "width": 23.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "zákaz",
+     "lemma": "zákaz",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 8,
+     "deprel": "conj",
+     "misc": "TokenRange=749:754",
+     "alto": {
+      "hpos": 586.0,
+      "vpos": 1165.0,
+      "width": 183.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "sňatku",
+     "lemma": "sňatek",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 16,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=755:761",
+     "alto": {
+      "hpos": 813.0,
+      "vpos": 1166.0,
+      "width": 235.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 18,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 30,
+     "deprel": "punct",
+     "misc": "TokenRange=761:762",
+     "alto": {
+      "hpos": 813.0,
+      "vpos": 1166.0,
+      "width": 235.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "n",
+     "lemma": "n",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=763:764",
+     "alto": {
+      "hpos": 1095.0,
+      "vpos": 1179.0,
+      "width": 25.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "e",
+     "lemma": "e",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=765:766",
+     "alto": {
+      "hpos": 1139.0,
+      "vpos": 1179.0,
+      "width": 21.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "v",
+     "lemma": "v",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=767:768",
+     "alto": {
+      "hpos": 1175.0,
+      "vpos": 1180.0,
+      "width": 28.0,
+      "height": 35.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "y",
+     "lemma": "y",
+     "upos": "X",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=769:770",
+     "alto": {
+      "hpos": 1217.0,
+      "vpos": 1180.0,
+      "width": 28.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "h",
+     "lemma": "h",
+     "upos": "X",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=771:772",
+     "alto": {
+      "hpos": 1260.0,
+      "vpos": 1167.0,
+      "width": 26.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "o",
+     "lemma": "o",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=773:774",
+     "alto": {
+      "hpos": 1303.0,
+      "vpos": 1179.0,
+      "width": 26.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "v",
+     "lemma": "v",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=775:776",
+     "alto": {
+      "hpos": 1344.0,
+      "vpos": 1181.0,
+      "width": 26.0,
+      "height": 39.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "u",
+     "lemma": "u",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=777:778",
+     "alto": {
+      "hpos": 1386.0,
+      "vpos": 1180.0,
+      "width": 27.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "j",
+     "lemma": "j",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "TokenRange=779:780",
+     "alto": {
+      "hpos": 1427.0,
+      "vpos": 1167.0,
+      "width": 15.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "e",
+     "lemma": "e",
+     "upos": "X",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 30,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=781:782",
+     "alto": {
+      "hpos": 1461.0,
+      "vpos": 1167.0,
+      "width": 58.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 28,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=782:783",
+     "alto": {
+      "hpos": 1461.0,
+      "vpos": 1167.0,
+      "width": 58.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "1",
+     "lemma": "1",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 6,
+     "deprel": "conj",
+     "misc": "TokenRange=783:784",
+     "alto": {
+      "hpos": 1461.0,
+      "vpos": 1167.0,
+      "width": 58.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "i",
+     "lemma": "i",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 30,
+     "deprel": "cc",
+     "misc": "TokenRange=785:786",
+     "alto": {
+      "hpos": 1536.0,
+      "vpos": 1167.0,
+      "width": 13.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 30,
+     "deprel": "cop",
+     "misc": "SpaceAfter=No|TokenRange=787:789",
+     "alto": {
+      "hpos": 1591.0,
+      "vpos": 1168.0,
+      "width": 74.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 33,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 34,
+     "deprel": "nmod",
+     "misc": "TokenRange=789:790",
+     "alto": {
+      "hpos": 1591.0,
+      "vpos": 1168.0,
+      "width": 74.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 34,
+     "form": "den",
+     "lemma": "den",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 30,
+     "deprel": "conj",
+     "misc": "TokenRange=791:794",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1225.0,
+      "width": 108.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 35,
+     "form": "neb",
+     "lemma": "neb",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "cc",
+     "misc": "TokenRange=795:798",
+     "alto": {
+      "hpos": 258.0,
+      "vpos": 1225.0,
+      "width": 109.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 36,
+     "form": "druhý",
+     "lemma": "druhý",
+     "upos": "ADJ",
+     "xpos": "CrMS1----------",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord",
+     "head": 34,
+     "deprel": "conj",
+     "misc": "TokenRange=799:804",
+     "alto": {
+      "hpos": 402.0,
+      "vpos": 1224.0,
+      "width": 192.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 37,
+     "form": "ze",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RV--2----------",
+     "feats": "AdpType=Voc|Case=Gen",
+     "head": 38,
+     "deprel": "case",
+     "misc": "TokenRange=805:807",
+     "alto": {
+      "hpos": 630.0,
+      "vpos": 1238.0,
+      "width": 60.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 38,
+     "form": "snoubenců",
+     "lemma": "snoubenec",
+     "upos": "NOUN",
+     "xpos": "NNMP2-----A----",
+     "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur",
+     "head": 36,
+     "deprel": "nmod",
+     "misc": "TokenRange=808:817",
+     "alto": {
+      "hpos": 725.0,
+      "vpos": 1224.0,
+      "width": 358.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 39,
+     "form": "podmínkám",
+     "lemma": "podmínka",
+     "upos": "NOUN",
+     "xpos": "NNFP3-----A----",
+     "feats": "Case=Dat|Gender=Fem|Number=Plur",
+     "head": 30,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=818:827",
+     "alto": {
+      "hpos": 1119.0,
+      "vpos": 1224.0,
+      "width": 396.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 40,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 41,
+     "deprel": "punct",
+     "misc": "TokenRange=827:828",
+     "alto": {
+      "hpos": 1119.0,
+      "vpos": 1224.0,
+      "width": 396.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 41,
+     "form": "kla",
+     "lemma": "kla",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 34,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=829:832",
+     "alto": {
+      "hpos": 1553.0,
+      "vpos": 1226.0,
+      "width": 113.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 42,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 43,
+     "deprel": "nmod",
+     "misc": "TokenRange=832:833",
+     "alto": {
+      "hpos": 1553.0,
+      "vpos": 1226.0,
+      "width": 113.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 43,
+     "form": "deným",
+     "lemma": "dený",
+     "upos": "NOUN",
+     "xpos": "NNNS7-----A----",
+     "feats": "Case=Ins|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 30,
+     "deprel": "conj",
+     "misc": "TokenRange=834:839",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1284.0,
+      "width": 210.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 44,
+     "form": "na",
+     "lemma": "na",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 45,
+     "deprel": "case",
+     "misc": "TokenRange=840:842",
+     "alto": {
+      "hpos": 368.0,
+      "vpos": 1297.0,
+      "width": 66.0,
+      "height": 37.0
+     }
+    },
+    {
+     "id": 45,
+     "form": "plození",
+     "lemma": "plození",
+     "upos": "NOUN",
+     "xpos": "NNNS4-----A----",
+     "feats": "Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 43,
+     "deprel": "nmod",
+     "misc": "TokenRange=843:850",
+     "alto": {
+      "hpos": 480.0,
+      "vpos": 1284.0,
+      "width": 252.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 46,
+     "form": "zdravého",
+     "lemma": "zdravý",
+     "upos": "ADJ",
+     "xpos": "AANS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 47,
+     "deprel": "amod",
+     "misc": "TokenRange=851:859",
+     "alto": {
+      "hpos": 777.0,
+      "vpos": 1284.0,
+      "width": 320.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 47,
+     "form": "potoms.tva",
+     "lemma": "potoms.tvo",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 45,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=860:870",
+     "alto": {
+      "hpos": 1143.0,
+      "vpos": 1288.0,
+      "width": 364.0,
+      "height": 51.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=870:871",
+     "ne": "B-ni",
+     "alto": {
+      "hpos": 1143.0,
+      "vpos": 1288.0,
+      "width": 364.0,
+      "height": 51.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Jak",
+     "lemma": "jak",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 5,
+     "deprel": "mark",
+     "misc": "TokenRange=872:875",
+     "alto": {
+      "hpos": 173.0,
+      "vpos": 1379.0,
+      "width": 81.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "z",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 4,
+     "deprel": "case",
+     "misc": "TokenRange=876:877",
+     "alto": {
+      "hpos": 288.0,
+      "vpos": 1392.0,
+      "width": 23.0,
+      "height": 38.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "předcházejících",
+     "lemma": "předcházející",
+     "upos": "ADJ",
+     "xpos": "AGFP2-----A----",
+     "feats": "Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+     "head": 4,
+     "deprel": "amod",
+     "misc": "TokenRange=878:893",
+     "alto": {
+      "hpos": 345.0,
+      "vpos": 1377.0,
+      "width": 379.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "úvah",
+     "lemma": "úvaha",
+     "upos": "NOUN",
+     "xpos": "NNFP2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Plur",
+     "head": 5,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=894:898",
+     "alto": {
+      "hpos": 760.0,
+      "vpos": 1379.0,
+      "width": 113.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "vysvítá",
+     "lemma": "vysvítat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 7,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=899:906",
+     "alto": {
+      "hpos": 907.0,
+      "vpos": 1378.0,
+      "width": 185.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 6,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 5,
+     "deprel": "punct",
+     "misc": "TokenRange=906:907",
+     "alto": {
+      "hpos": 907.0,
+      "vpos": 1378.0,
+      "width": 185.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "vyžaduje",
+     "lemma": "vyžadovat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=908:916",
+     "alto": {
+      "hpos": 1130.0,
+      "vpos": 1379.0,
+      "width": 215.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "přípustnost",
+     "lemma": "přípustnost",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 7,
+     "deprel": "nsubj",
+     "misc": "TokenRange=917:928",
+     "alto": {
+      "hpos": 1383.0,
+      "vpos": 1376.0,
+      "width": 282.0,
+      "height": 57.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "manželství",
+     "lemma": "manželství",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 8,
+     "deprel": "nmod",
+     "misc": "TokenRange=929:939",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1437.0,
+      "width": 259.0,
+      "height": 44.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "přesného",
+     "lemma": "přesný",
+     "upos": "ADJ",
+     "xpos": "AANS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 11,
+     "deprel": "amod",
+     "misc": "TokenRange=940:948",
+     "alto": {
+      "hpos": 408.0,
+      "vpos": 1437.0,
+      "width": 222.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "odlišování",
+     "lemma": "odlišování",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 7,
+     "deprel": "obl:arg",
+     "misc": "SpaceAfter=No|TokenRange=949:959",
+     "alto": {
+      "hpos": 667.0,
+      "vpos": 1438.0,
+      "width": 266.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 12,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 7,
+     "deprel": "punct",
+     "misc": "TokenRange=959:960",
+     "alto": {
+      "hpos": 667.0,
+      "vpos": 1438.0,
+      "width": 266.0,
+      "height": 53.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Uváží",
+     "lemma": "uvážit",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 22,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=961:966",
+     "alto": {
+      "hpos": 971.0,
+      "vpos": 1438.0,
+      "width": 189.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=966:967",
+     "alto": {
+      "hpos": 971.0,
+      "vpos": 1438.0,
+      "width": 189.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "li",
+     "lemma": "li",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "mark",
+     "misc": "TokenRange=967:969",
+     "alto": {
+      "hpos": 971.0,
+      "vpos": 1438.0,
+      "width": 189.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 1,
+     "deprel": "expl:pass",
+     "misc": "TokenRange=970:972",
+     "alto": {
+      "hpos": 1195.0,
+      "vpos": 1451.0,
+      "width": 47.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "však",
+     "lemma": "však",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "cc",
+     "misc": "SpaceAfter=No|TokenRange=973:977",
+     "alto": {
+      "hpos": 1278.0,
+      "vpos": 1438.0,
+      "width": 119.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 6,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 9,
+     "deprel": "punct",
+     "misc": "TokenRange=977:978",
+     "alto": {
+      "hpos": 1278.0,
+      "vpos": 1438.0,
+      "width": 119.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "jak",
+     "lemma": "jak",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "PronType=Int,Rel",
+     "head": 8,
+     "deprel": "advmod",
+     "misc": "TokenRange=979:982",
+     "alto": {
+      "hpos": 1432.0,
+      "vpos": 1439.0,
+      "width": 75.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "často",
+     "lemma": "často",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 9,
+     "deprel": "advmod",
+     "misc": "TokenRange=983:988",
+     "alto": {
+      "hpos": 1542.0,
+      "vpos": 1439.0,
+      "width": 122.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "rozhodují",
+     "lemma": "rozhodovat",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 1,
+     "deprel": "csubj:pass",
+     "misc": "TokenRange=989:998",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1496.0,
+      "width": 235.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "při",
+     "lemma": "při",
+     "upos": "ADP",
+     "xpos": "RR--6----------",
+     "feats": "AdpType=Prep|Case=Loc",
+     "head": 11,
+     "deprel": "case",
+     "misc": "TokenRange=999:1002",
+     "alto": {
+      "hpos": 389.0,
+      "vpos": 1498.0,
+      "width": 69.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "sňatku",
+     "lemma": "sňatek",
+     "upos": "NOUN",
+     "xpos": "NNIS6-----A----",
+     "feats": "Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing",
+     "head": 9,
+     "deprel": "obl",
+     "misc": "TokenRange=1003:1009",
+     "alto": {
+      "hpos": 497.0,
+      "vpos": 1498.0,
+      "width": 159.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "peněžní",
+     "lemma": "peněžní",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 13,
+     "deprel": "amod",
+     "misc": "TokenRange=1010:1017",
+     "alto": {
+      "hpos": 697.0,
+      "vpos": 1498.0,
+      "width": 186.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "pohnutky",
+     "lemma": "pohnutka",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 9,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1018:1026",
+     "alto": {
+      "hpos": 922.0,
+      "vpos": 1499.0,
+      "width": 231.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 19,
+     "deprel": "cc",
+     "misc": "TokenRange=1027:1028",
+     "alto": {
+      "hpos": 1192.0,
+      "vpos": 1512.0,
+      "width": 24.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "z",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 16,
+     "deprel": "case",
+     "misc": "TokenRange=1029:1030",
+     "alto": {
+      "hpos": 1255.0,
+      "vpos": 1513.0,
+      "width": 22.0,
+      "height": 39.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "nich",
+     "lemma": "on",
+     "upos": "PRON",
+     "xpos": "PEXP2--3-------",
+     "feats": "Case=Gen|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs",
+     "head": 17,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1031:1035",
+     "alto": {
+      "hpos": 1314.0,
+      "vpos": 1498.0,
+      "width": 100.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "plynoucí",
+     "lemma": "plynoucí",
+     "upos": "ADJ",
+     "xpos": "AGIS1-----A----",
+     "feats": "Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+     "head": 19,
+     "deprel": "amod",
+     "misc": "TokenRange=1036:1044",
+     "alto": {
+      "hpos": 1453.0,
+      "vpos": 1499.0,
+      "width": 212.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "hmotný",
+     "lemma": "hmotný",
+     "upos": "ADJ",
+     "xpos": "AAIS1----1A----",
+     "feats": "Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos",
+     "head": 19,
+     "deprel": "amod",
+     "misc": "TokenRange=1045:1051",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 1557.0,
+      "width": 184.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "zisk",
+     "lemma": "zisk",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 13,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=1052:1056",
+     "alto": {
+      "hpos": 325.0,
+      "vpos": 1557.0,
+      "width": 106.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 20,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=1056:1057",
+     "alto": {
+      "hpos": 325.0,
+      "vpos": 1557.0,
+      "width": 106.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "není",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-NAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 22,
+     "deprel": "cop",
+     "misc": "TokenRange=1058:1062",
+     "alto": {
+      "hpos": 462.0,
+      "vpos": 1560.0,
+      "width": 103.0,
+      "height": 47.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "snadné",
+     "lemma": "snadný",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1063:1069",
+     "alto": {
+      "hpos": 596.0,
+      "vpos": 1559.0,
+      "width": 169.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "docíliti",
+     "lemma": "docílit",
+     "upos": "VERB",
+     "xpos": "Vf--------A-P--",
+     "feats": "Aspect=Perf|Polarity=Pos|VerbForm=Inf",
+     "head": 22,
+     "deprel": "csubj",
+     "misc": "SpaceAfter=No|TokenRange=1070:1078",
+     "alto": {
+      "hpos": 795.0,
+      "vpos": 1558.0,
+      "width": 186.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 24,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 29,
+     "deprel": "punct",
+     "misc": "TokenRange=1078:1079",
+     "alto": {
+      "hpos": 795.0,
+      "vpos": 1558.0,
+      "width": 186.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "aby",
+     "lemma": "aby",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 29,
+     "deprel": "mark",
+     "misc": "TokenRange=1080:1083",
+     "alto": {
+      "hpos": 1013.0,
+      "vpos": 1558.0,
+      "width": 87.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "každý",
+     "lemma": "každý",
+     "upos": "DET",
+     "xpos": "PLMS1----------",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot",
+     "head": 28,
+     "deprel": "det",
+     "misc": "TokenRange=1084:1089",
+     "alto": {
+      "hpos": 1130.0,
+      "vpos": 1558.0,
+      "width": 141.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "snoubenec",
+     "lemma": "snoubenec",
+     "upos": "NOUN",
+     "xpos": "NNMS1-----A----",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 29,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1090:1099",
+     "alto": {
+      "hpos": 1301.0,
+      "vpos": 1559.0,
+      "width": 256.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "vzal",
+     "lemma": "vzít",
+     "upos": "VERB",
+     "xpos": "VpYS----R-AAP--",
+     "feats": "Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act",
+     "head": 23,
+     "deprel": "ccomp",
+     "misc": "TokenRange=1100:1104",
+     "alto": {
+      "hpos": 1570.0,
+      "vpos": 1560.0,
+      "width": 95.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "z",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 32,
+     "deprel": "case",
+     "misc": "TokenRange=1105:1106",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 1630.0,
+      "width": 23.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "vlastního",
+     "lemma": "vlastní",
+     "upos": "ADJ",
+     "xpos": "AAIS2----1A----",
+     "feats": "Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos",
+     "head": 32,
+     "deprel": "amod",
+     "misc": "TokenRange=1107:1116",
+     "alto": {
+      "hpos": 164.0,
+      "vpos": 1617.0,
+      "width": 224.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "popudu",
+     "lemma": "popud",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 29,
+     "deprel": "obl",
+     "misc": "TokenRange=1117:1123",
+     "alto": {
+      "hpos": 424.0,
+      "vpos": 1618.0,
+      "width": 184.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 33,
+     "form": "zřetel",
+     "lemma": "zřetel",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 29,
+     "deprel": "obj",
+     "misc": "TokenRange=1124:1130",
+     "alto": {
+      "hpos": 643.0,
+      "vpos": 1618.0,
+      "width": 136.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 34,
+     "form": "na",
+     "lemma": "na",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 37,
+     "deprel": "case",
+     "misc": "TokenRange=1131:1133",
+     "alto": {
+      "hpos": 813.0,
+      "vpos": 1631.0,
+      "width": 54.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 35,
+     "form": "možné",
+     "lemma": "možný",
+     "upos": "ADJ",
+     "xpos": "AANS4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 37,
+     "deprel": "amod",
+     "misc": "TokenRange=1134:1139",
+     "alto": {
+      "hpos": 901.0,
+      "vpos": 1617.0,
+      "width": 154.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 36,
+     "form": "duševní",
+     "lemma": "duševní",
+     "upos": "ADJ",
+     "xpos": "AANS4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 37,
+     "deprel": "amod",
+     "misc": "TokenRange=1140:1147",
+     "alto": {
+      "hpos": 1089.0,
+      "vpos": 1617.0,
+      "width": 187.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 37,
+     "form": "zatížení",
+     "lemma": "zatížení",
+     "upos": "NOUN",
+     "xpos": "NNNS4-----A----",
+     "feats": "Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 33,
+     "deprel": "nmod",
+     "misc": "TokenRange=1148:1156",
+     "alto": {
+      "hpos": 1309.0,
+      "vpos": 1616.0,
+      "width": 185.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 38,
+     "form": "svého",
+     "lemma": "svůj",
+     "upos": "DET",
+     "xpos": "P8ZS2----------",
+     "feats": "Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes",
+     "head": 39,
+     "deprel": "det",
+     "misc": "TokenRange=1157:1162",
+     "alto": {
+      "hpos": 1527.0,
+      "vpos": 1617.0,
+      "width": 136.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 39,
+     "form": "potomstva",
+     "lemma": "potomstvo",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 37,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1163:1172",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1681.0,
+      "width": 266.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 40,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "TokenRange=1172:1173",
+     "alto": {
+      "hpos": 113.0,
+      "vpos": 1681.0,
+      "width": 266.0,
+      "height": 50.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Takové",
+     "lemma": "takový",
+     "upos": "DET",
+     "xpos": "PDFP1----------",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur|PronType=Dem",
+     "head": 2,
+     "deprel": "det",
+     "misc": "TokenRange=1174:1180",
+     "alto": {
+      "hpos": 421.0,
+      "vpos": 1677.0,
+      "width": 178.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "otázky",
+     "lemma": "otázka",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 6,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1181:1187",
+     "alto": {
+      "hpos": 637.0,
+      "vpos": 1678.0,
+      "width": 162.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "svědomí",
+     "lemma": "svědomí",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 2,
+     "deprel": "nmod",
+     "misc": "TokenRange=1188:1195",
+     "alto": {
+      "hpos": 838.0,
+      "vpos": 1678.0,
+      "width": 199.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "jsou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 6,
+     "deprel": "cop",
+     "misc": "TokenRange=1196:1200",
+     "alto": {
+      "hpos": 1074.0,
+      "vpos": 1679.0,
+      "width": 104.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "dnes",
+     "lemma": "dnes",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "advmod",
+     "misc": "TokenRange=1201:1205",
+     "alto": {
+      "hpos": 1217.0,
+      "vpos": 1680.0,
+      "width": 110.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "nepopulární",
+     "lemma": "populární",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1N----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1206:1217",
+     "alto": {
+      "hpos": 1368.0,
+      "vpos": 1677.0,
+      "width": 297.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "cc",
+     "misc": "TokenRange=1218:1219",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 1750.0,
+      "width": 27.0,
+      "height": 27.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "přes",
+     "lemma": "přes",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 9,
+     "deprel": "case",
+     "misc": "TokenRange=1220:1224",
+     "alto": {
+      "hpos": 180.0,
+      "vpos": 1736.0,
+      "width": 103.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "výstrahy",
+     "lemma": "výstraha",
+     "upos": "NOUN",
+     "xpos": "NNFP4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Plur",
+     "head": 10,
+     "deprel": "obl",
+     "misc": "TokenRange=1225:1233",
+     "alto": {
+      "hpos": 324.0,
+      "vpos": 1737.0,
+      "width": 214.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "dává",
+     "lemma": "dávat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 6,
+     "deprel": "conj",
+     "misc": "TokenRange=1234:1238",
+     "alto": {
+      "hpos": 582.0,
+      "vpos": 1737.0,
+      "width": 111.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 10,
+     "deprel": "expl:pass",
+     "misc": "TokenRange=1239:1241",
+     "alto": {
+      "hpos": 735.0,
+      "vpos": 1751.0,
+      "width": 48.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "život",
+     "lemma": "život",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 10,
+     "deprel": "nsubj:pass",
+     "misc": "TokenRange=1242:1247",
+     "alto": {
+      "hpos": 827.0,
+      "vpos": 1737.0,
+      "width": 116.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "potomkům",
+     "lemma": "potomek",
+     "upos": "NOUN",
+     "xpos": "NNMP3-----A----",
+     "feats": "Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur",
+     "head": 10,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1248:1256",
+     "alto": {
+      "hpos": 988.0,
+      "vpos": 1737.0,
+      "width": 259.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "duševně",
+     "lemma": "duševně",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 17,
+     "deprel": "advmod",
+     "misc": "TokenRange=1257:1264",
+     "alto": {
+      "hpos": 1290.0,
+      "vpos": 1737.0,
+      "width": 196.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "nedo",
+     "lemma": "nedo",
+     "upos": "ADJ",
+     "xpos": "S2--------A----",
+     "feats": "Degree=Pos|Hyph=Yes|Polarity=Pos",
+     "head": 17,
+     "deprel": "advmod",
+     "misc": "SpaceAfter=No|TokenRange=1265:1269",
+     "alto": {
+      "hpos": 1532.0,
+      "vpos": 1737.0,
+      "width": 133.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 17,
+     "deprel": "punct",
+     "misc": "TokenRange=1269:1270",
+     "alto": {
+      "hpos": 1532.0,
+      "vpos": 1737.0,
+      "width": 133.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "statečným",
+     "lemma": "statečný",
+     "upos": "ADJ",
+     "xpos": "AAMP3----1A----",
+     "feats": "Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos",
+     "head": 13,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=1271:1280",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 1797.0,
+      "width": 258.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 18,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "TokenRange=1280:1281",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 1797.0,
+      "width": 258.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "citově",
+     "lemma": "citově",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 22,
+     "deprel": "advmod",
+     "misc": "TokenRange=1282:1288",
+     "alto": {
+      "hpos": 405.0,
+      "vpos": 1797.0,
+      "width": 142.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 21,
+     "deprel": "cc",
+     "misc": "TokenRange=1289:1290",
+     "alto": {
+      "hpos": 582.0,
+      "vpos": 1812.0,
+      "width": 23.0,
+      "height": 35.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "mravně",
+     "lemma": "mravně",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 19,
+     "deprel": "conj",
+     "misc": "TokenRange=1291:1297",
+     "alto": {
+      "hpos": 641.0,
+      "vpos": 1798.0,
+      "width": 177.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "zvrhlým",
+     "lemma": "zvrhlý",
+     "upos": "ADJ",
+     "xpos": "AAMP3----1A----",
+     "feats": "Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos",
+     "head": 17,
+     "deprel": "conj",
+     "misc": "TokenRange=1298:1305",
+     "alto": {
+      "hpos": 852.0,
+      "vpos": 1797.0,
+      "width": 197.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "cc",
+     "misc": "TokenRange=1306:1307",
+     "alto": {
+      "hpos": 1083.0,
+      "vpos": 1811.0,
+      "width": 22.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "všeobecnosti",
+     "lemma": "všeobecnost",
+     "upos": "NOUN",
+     "xpos": "NNFS3-----A----",
+     "feats": "Case=Dat|Gender=Fem|Number=Sing",
+     "head": 25,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1308:1320",
+     "alto": {
+      "hpos": 1140.0,
+      "vpos": 1797.0,
+      "width": 313.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "vnucují",
+     "lemma": "vnucovat",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 6,
+     "deprel": "conj",
+     "misc": "TokenRange=1321:1328",
+     "alto": {
+      "hpos": 1486.0,
+      "vpos": 1797.0,
+      "width": 178.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 25,
+     "deprel": "expl:pv",
+     "misc": "TokenRange=1329:1331",
+     "alto": {
+      "hpos": 112.0,
+      "vpos": 1869.0,
+      "width": 48.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "noví",
+     "lemma": "nový",
+     "upos": "ADJ",
+     "xpos": "AAMP1----1A----",
+     "feats": "Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos",
+     "head": 28,
+     "deprel": "amod",
+     "misc": "TokenRange=1332:1336",
+     "alto": {
+      "hpos": 196.0,
+      "vpos": 1858.0,
+      "width": 102.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "parasiti",
+     "lemma": "parasit",
+     "upos": "NOUN",
+     "xpos": "NNMP1-----A---1",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur",
+     "head": 25,
+     "deprel": "nsubj",
+     "misc": "SpaceAfter=No|TokenRange=1337:1345",
+     "alto": {
+      "hpos": 333.0,
+      "vpos": 1857.0,
+      "width": 199.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 29,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "punct",
+     "misc": "TokenRange=1345:1346",
+     "alto": {
+      "hpos": 333.0,
+      "vpos": 1857.0,
+      "width": 199.0,
+      "height": 52.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Významno",
+     "lemma": "významný",
+     "upos": "ADJ",
+     "xpos": "ACNS------A----",
+     "feats": "Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1347:1355",
+     "alto": {
+      "hpos": 569.0,
+      "vpos": 1857.0,
+      "width": 255.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "však",
+     "lemma": "však",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "cc",
+     "misc": "TokenRange=1356:1360",
+     "alto": {
+      "hpos": 858.0,
+      "vpos": 1857.0,
+      "width": 109.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 1,
+     "deprel": "cop",
+     "misc": "TokenRange=1361:1363",
+     "alto": {
+      "hpos": 999.0,
+      "vpos": 1858.0,
+      "width": 45.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 5,
+     "deprel": "cc",
+     "misc": "TokenRange=1364:1365",
+     "alto": {
+      "hpos": 1079.0,
+      "vpos": 1870.0,
+      "width": 23.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "zaráží",
+     "lemma": "zarážet",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 1,
+     "deprel": "conj",
+     "misc": "TokenRange=1366:1372",
+     "alto": {
+      "hpos": 1140.0,
+      "vpos": 1855.0,
+      "width": 140.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "přímo",
+     "lemma": "přímo",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 1,
+     "deprel": "advmod",
+     "misc": "SpaceAfter=No|TokenRange=1373:1378",
+     "alto": {
+      "hpos": 1316.0,
+      "vpos": 1856.0,
+      "width": 158.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 7,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "punct",
+     "misc": "TokenRange=1378:1379",
+     "alto": {
+      "hpos": 1316.0,
+      "vpos": 1856.0,
+      "width": 158.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "mark",
+     "misc": "TokenRange=1380:1382",
+     "alto": {
+      "hpos": 1513.0,
+      "vpos": 1856.0,
+      "width": 46.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "ro",
+     "lemma": "ro",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 11,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1383:1385",
+     "alto": {
+      "hpos": 1597.0,
+      "vpos": 1870.0,
+      "width": 68.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 11,
+     "deprel": "nmod",
+     "misc": "TokenRange=1385:1386",
+     "alto": {
+      "hpos": 1597.0,
+      "vpos": 1870.0,
+      "width": 68.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "diče",
+     "lemma": "diče",
+     "upos": "NOUN",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 14,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1387:1391",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 1915.0,
+      "width": 97.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "stále",
+     "lemma": "stále",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 14,
+     "deprel": "advmod",
+     "misc": "TokenRange=1392:1397",
+     "alto": {
+      "hpos": 242.0,
+      "vpos": 1914.0,
+      "width": 113.0,
+      "height": 43.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "ještě",
+     "lemma": "ještě",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "advmod",
+     "misc": "TokenRange=1398:1403",
+     "alto": {
+      "hpos": 386.0,
+      "vpos": 1915.0,
+      "width": 116.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "žení",
+     "lemma": "ženit",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 1,
+     "deprel": "csubj",
+     "misc": "TokenRange=1404:1408",
+     "alto": {
+      "hpos": 538.0,
+      "vpos": 1916.0,
+      "width": 96.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "cc",
+     "misc": "TokenRange=1409:1410",
+     "alto": {
+      "hpos": 666.0,
+      "vpos": 1929.0,
+      "width": 24.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "vdávají",
+     "lemma": "vdávat",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 14,
+     "deprel": "conj",
+     "misc": "TokenRange=1411:1418",
+     "alto": {
+      "hpos": 721.0,
+      "vpos": 1915.0,
+      "width": 178.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "své",
+     "lemma": "svůj",
+     "upos": "DET",
+     "xpos": "P8FP4---------1",
+     "feats": "Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes",
+     "head": 26,
+     "deprel": "det",
+     "misc": "TokenRange=1419:1422",
+     "alto": {
+      "hpos": 932.0,
+      "vpos": 1915.0,
+      "width": 75.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "slabomyslné",
+     "lemma": "slabomyslný",
+     "upos": "ADJ",
+     "xpos": "AAFP4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 26,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=1423:1434",
+     "alto": {
+      "hpos": 1042.0,
+      "vpos": 1915.0,
+      "width": 319.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 19,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 20,
+     "deprel": "punct",
+     "misc": "TokenRange=1434:1435",
+     "alto": {
+      "hpos": 1042.0,
+      "vpos": 1915.0,
+      "width": 319.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "hysterické",
+     "lemma": "hysterický",
+     "upos": "ADJ",
+     "xpos": "AAFP4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 18,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=1436:1446",
+     "alto": {
+      "hpos": 1397.0,
+      "vpos": 1915.0,
+      "width": 264.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 21,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "punct",
+     "misc": "TokenRange=1446:1447",
+     "alto": {
+      "hpos": 1397.0,
+      "vpos": 1915.0,
+      "width": 264.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "neb",
+     "lemma": "neb",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "cc",
+     "misc": "TokenRange=1448:1451",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 1976.0,
+      "width": 87.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "jinak",
+     "lemma": "jinak",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 25,
+     "deprel": "advmod",
+     "misc": "TokenRange=1452:1457",
+     "alto": {
+      "hpos": 213.0,
+      "vpos": 1976.0,
+      "width": 122.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "duševně",
+     "lemma": "duševně",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 25,
+     "deprel": "advmod",
+     "misc": "TokenRange=1458:1465",
+     "alto": {
+      "hpos": 352.0,
+      "vpos": 1975.0,
+      "width": 194.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "vadné",
+     "lemma": "vadný",
+     "upos": "ADJ",
+     "xpos": "AAFP4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 18,
+     "deprel": "conj",
+     "misc": "TokenRange=1466:1471",
+     "alto": {
+      "hpos": 562.0,
+      "vpos": 1975.0,
+      "width": 144.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "děti",
+     "lemma": "dítě",
+     "upos": "NOUN",
+     "xpos": "NNFP4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Plur",
+     "head": 14,
+     "deprel": "obj",
+     "misc": "TokenRange=1472:1476",
+     "alto": {
+      "hpos": 724.0,
+      "vpos": 1977.0,
+      "width": 91.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "jen",
+     "lemma": "jen",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 30,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=1477:1480",
+     "alto": {
+      "hpos": 829.0,
+      "vpos": 1979.0,
+      "width": 75.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "za",
+     "lemma": "za",
+     "upos": "ADP",
+     "xpos": "RR--7----------",
+     "feats": "AdpType=Prep|Case=Ins",
+     "head": 30,
+     "deprel": "case",
+     "misc": "TokenRange=1481:1483",
+     "alto": {
+      "hpos": 923.0,
+      "vpos": 1990.0,
+      "width": 48.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "tím",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDZS7----------",
+     "feats": "Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+     "head": 30,
+     "deprel": "det",
+     "misc": "TokenRange=1484:1487",
+     "alto": {
+      "hpos": 989.0,
+      "vpos": 1976.0,
+      "width": 76.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "účelem",
+     "lemma": "účel",
+     "upos": "NOUN",
+     "xpos": "NNIS7-----A----",
+     "feats": "Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing",
+     "head": 14,
+     "deprel": "obl",
+     "misc": "SpaceAfter=No|TokenRange=1488:1494",
+     "alto": {
+      "hpos": 1082.0,
+      "vpos": 1976.0,
+      "width": 182.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 31,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 42,
+     "deprel": "punct",
+     "misc": "TokenRange=1494:1495",
+     "alto": {
+      "hpos": 1082.0,
+      "vpos": 1976.0,
+      "width": 182.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "aby",
+     "lemma": "aby",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 42,
+     "deprel": "mark",
+     "misc": "TokenRange=1496:1499",
+     "alto": {
+      "hpos": 1318.0,
+      "vpos": 1978.0,
+      "width": 87.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 34,
+     "form": "je",
+     "lemma": "on",
+     "upos": "PRON",
+     "xpos": "PEXP4--3-------",
+     "feats": "Case=Acc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs",
+     "head": 42,
+     "deprel": "obj",
+     "misc": "TokenRange=1500:1502",
+     "alto": {
+      "hpos": 1418.0,
+      "vpos": 1979.0,
+      "width": 44.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 35,
+     "form": "„",
+     "lemma": "\"",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=1503:1504",
+     "alto": {
+      "hpos": 1481.0,
+      "vpos": 1976.0,
+      "width": 184.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 36,
+     "form": "vyléči",
+     "lemma": "vyléčit",
+     "upos": "VERB",
+     "xpos": "Vi-S---2--A-P--",
+     "feats": "Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin",
+     "head": 42,
+     "deprel": "advcl",
+     "misc": "SpaceAfter=No|TokenRange=1504:1510",
+     "alto": {
+      "hpos": 1481.0,
+      "vpos": 1976.0,
+      "width": 184.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 37,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "TokenRange=1510:1511",
+     "alto": {
+      "hpos": 1481.0,
+      "vpos": 1976.0,
+      "width": 184.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 38,
+     "form": "li",
+     "lemma": "li",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "mark",
+     "misc": "SpaceAfter=No|TokenRange=1512:1514",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2036.0,
+      "width": 78.0,
+      "height": 47.0
+     }
+    },
+    {
+     "id": 39,
+     "form": "“",
+     "lemma": "\"",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=1514:1515",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2036.0,
+      "width": 78.0,
+      "height": 47.0
+     }
+    },
+    {
+     "id": 40,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "TokenRange=1515:1516",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2036.0,
+      "width": 78.0,
+      "height": 47.0
+     }
+    },
+    {
+     "id": 41,
+     "form": "majetek",
+     "lemma": "majetek",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 42,
+     "deprel": "obj",
+     "misc": "TokenRange=1517:1524",
+     "alto": {
+      "hpos": 240.0,
+      "vpos": 2036.0,
+      "width": 192.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 42,
+     "form": "zachránili",
+     "lemma": "zachránit",
+     "upos": "VERB",
+     "xpos": "VpMP----R-AAP--",
+     "feats": "Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act",
+     "head": 30,
+     "deprel": "acl",
+     "misc": "SpaceAfter=No|TokenRange=1525:1535",
+     "alto": {
+      "hpos": 449.0,
+      "vpos": 2036.0,
+      "width": 252.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 43,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 49,
+     "deprel": "punct",
+     "misc": "TokenRange=1535:1536",
+     "alto": {
+      "hpos": 449.0,
+      "vpos": 2036.0,
+      "width": 252.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 44,
+     "form": "neb",
+     "lemma": "neb",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 49,
+     "deprel": "cc",
+     "misc": "TokenRange=1537:1540",
+     "alto": {
+      "hpos": 720.0,
+      "vpos": 2038.0,
+      "width": 83.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 45,
+     "form": "jim",
+     "lemma": "on",
+     "upos": "PRON",
+     "xpos": "PEXP3--3-------",
+     "feats": "Case=Dat|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs",
+     "head": 49,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1541:1544",
+     "alto": {
+      "hpos": 819.0,
+      "vpos": 2037.0,
+      "width": 80.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 46,
+     "form": "doživotní",
+     "lemma": "doživotní",
+     "upos": "ADJ",
+     "xpos": "AANS4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 47,
+     "deprel": "amod",
+     "misc": "TokenRange=1545:1554",
+     "alto": {
+      "hpos": 929.0,
+      "vpos": 2036.0,
+      "width": 224.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 47,
+     "form": "ošetřování",
+     "lemma": "ošetřování",
+     "upos": "NOUN",
+     "xpos": "NNNS4-----A----",
+     "feats": "Case=Acc|Gender=Neut|Number=Sing|VerbForm=Vnoun",
+     "head": 49,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=1555:1565",
+     "alto": {
+      "hpos": 1170.0,
+      "vpos": 2035.0,
+      "width": 261.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 48,
+     "form": "|",
+     "lemma": "|",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 49,
+     "deprel": "punct",
+     "misc": "TokenRange=1565:1566",
+     "alto": {
+      "hpos": 1170.0,
+      "vpos": 2035.0,
+      "width": 261.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 49,
+     "form": "zabezpe",
+     "lemma": "zabezpout",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 42,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=1567:1574",
+     "alto": {
+      "hpos": 1457.0,
+      "vpos": 2037.0,
+      "width": 208.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 50,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "X",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 49,
+     "deprel": "punct",
+     "misc": "TokenRange=1574:1575",
+     "alto": {
+      "hpos": 1457.0,
+      "vpos": 2037.0,
+      "width": 208.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 51,
+     "form": "čili",
+     "lemma": "čili",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 49,
+     "deprel": "cc",
+     "misc": "SpaceAfter=No|TokenRange=1576:1580",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2093.0,
+      "width": 87.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 52,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=1580:1581",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2093.0,
+      "width": 87.0,
+      "height": 42.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Najde",
+     "lemma": "najít",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1582:1587",
+     "alto": {
+      "hpos": 230.0,
+      "vpos": 2094.0,
+      "width": 146.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 1,
+     "deprel": "expl:pv",
+     "misc": "TokenRange=1588:1590",
+     "alto": {
+      "hpos": 406.0,
+      "vpos": 2108.0,
+      "width": 47.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "ovšem",
+     "lemma": "ovšem",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=1591:1596",
+     "alto": {
+      "hpos": 482.0,
+      "vpos": 2095.0,
+      "width": 155.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "mnoho",
+     "lemma": "mnoho",
+     "upos": "DET",
+     "xpos": "Ca--1----------",
+     "feats": "Case=Nom|NumType=Card|PronType=Ind",
+     "head": 5,
+     "deprel": "det:numgov",
+     "misc": "TokenRange=1597:1602",
+     "alto": {
+      "hpos": 666.0,
+      "vpos": 2095.0,
+      "width": 165.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "chudáků",
+     "lemma": "chudák",
+     "upos": "NOUN",
+     "xpos": "NNMP2-----A----",
+     "feats": "Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur",
+     "head": 1,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1603:1610",
+     "alto": {
+      "hpos": 862.0,
+      "vpos": 2094.0,
+      "width": 202.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "u",
+     "lemma": "u",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 8,
+     "deprel": "case",
+     "misc": "TokenRange=1611:1612",
+     "alto": {
+      "hpos": 1096.0,
+      "vpos": 2109.0,
+      "width": 25.0,
+      "height": 39.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "obou",
+     "lemma": "oba",
+     "upos": "NUM",
+     "xpos": "CnXP2----------",
+     "feats": "Case=Gen|Number=Plur|NumForm=Word|NumType=Card",
+     "head": 8,
+     "deprel": "nummod",
+     "misc": "TokenRange=1613:1617",
+     "alto": {
+      "hpos": 1152.0,
+      "vpos": 2095.0,
+      "width": 120.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "stran",
+     "lemma": "strana",
+     "upos": "NOUN",
+     "xpos": "NNFP2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Plur",
+     "head": 5,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1618:1623",
+     "alto": {
+      "hpos": 1304.0,
+      "vpos": 2097.0,
+      "width": 134.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 9,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 15,
+     "deprel": "punct",
+     "misc": "TokenRange=1623:1624",
+     "alto": {
+      "hpos": 1304.0,
+      "vpos": 2097.0,
+      "width": 134.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "kteří",
+     "lemma": "který",
+     "upos": "DET",
+     "xpos": "P4MP1----------",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel",
+     "head": 15,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1625:1630",
+     "alto": {
+      "hpos": 1472.0,
+      "vpos": 2094.0,
+      "width": 112.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7-X4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 15,
+     "deprel": "expl:pv",
+     "misc": "TokenRange=1631:1633",
+     "alto": {
+      "hpos": 1612.0,
+      "vpos": 2107.0,
+      "width": 50.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "k",
+     "lemma": "k",
+     "upos": "ADP",
+     "xpos": "RR--3----------",
+     "feats": "AdpType=Prep|Case=Dat",
+     "head": 14,
+     "deprel": "case",
+     "misc": "TokenRange=1634:1635",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2154.0,
+      "width": 27.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "těmto",
+     "lemma": "tento",
+     "upos": "DET",
+     "xpos": "PDXP3----------",
+     "feats": "Case=Dat|Number=Plur|PronType=Dem",
+     "head": 14,
+     "deprel": "det",
+     "misc": "TokenRange=1636:1641",
+     "alto": {
+      "hpos": 178.0,
+      "vpos": 2153.0,
+      "width": 135.0,
+      "height": 44.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "službám",
+     "lemma": "služba",
+     "upos": "NOUN",
+     "xpos": "NNFP3-----A----",
+     "feats": "Case=Dat|Gender=Fem|Number=Plur",
+     "head": 15,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1642:1649",
+     "alto": {
+      "hpos": 356.0,
+      "vpos": 2154.0,
+      "width": 200.0,
+      "height": 43.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "propůjčí",
+     "lemma": "propůjčit",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 5,
+     "deprel": "acl:relcl",
+     "misc": "SpaceAfter=No|TokenRange=1650:1658",
+     "alto": {
+      "hpos": 599.0,
+      "vpos": 2154.0,
+      "width": 217.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 16,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=1658:1659",
+     "alto": {
+      "hpos": 599.0,
+      "vpos": 2154.0,
+      "width": 217.0,
+      "height": 55.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Při",
+     "lemma": "při",
+     "upos": "ADP",
+     "xpos": "RR--6----------",
+     "feats": "AdpType=Prep|Case=Loc",
+     "head": 2,
+     "deprel": "case",
+     "misc": "TokenRange=1660:1663",
+     "alto": {
+      "hpos": 860.0,
+      "vpos": 2154.0,
+      "width": 73.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "tom",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDZS6----------",
+     "feats": "Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+     "head": 3,
+     "deprel": "obl",
+     "misc": "TokenRange=1664:1667",
+     "alto": {
+      "hpos": 974.0,
+      "vpos": 2158.0,
+      "width": 91.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "zapomínají",
+     "lemma": "zapomínat",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1668:1678",
+     "alto": {
+      "hpos": 1108.0,
+      "vpos": 2154.0,
+      "width": 269.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "ovšem",
+     "lemma": "ovšem",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 3,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=1679:1684",
+     "alto": {
+      "hpos": 1417.0,
+      "vpos": 2154.0,
+      "width": 150.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "na",
+     "lemma": "na",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 6,
+     "deprel": "case",
+     "misc": "TokenRange=1685:1687",
+     "alto": {
+      "hpos": 1609.0,
+      "vpos": 2168.0,
+      "width": 53.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "spousty",
+     "lemma": "spousta",
+     "upos": "NOUN",
+     "xpos": "NNFP4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Plur",
+     "head": 3,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1688:1695",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2216.0,
+      "width": 191.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "běd",
+     "lemma": "běda",
+     "upos": "NOUN",
+     "xpos": "NNFP2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Plur",
+     "head": 6,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1696:1699",
+     "alto": {
+      "hpos": 346.0,
+      "vpos": 2213.0,
+      "width": 99.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 8,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "punct",
+     "misc": "TokenRange=1699:1700",
+     "alto": {
+      "hpos": 346.0,
+      "vpos": 2213.0,
+      "width": 99.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "které",
+     "lemma": "který",
+     "upos": "DET",
+     "xpos": "P4FP1----------",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel",
+     "head": 14,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1701:1706",
+     "alto": {
+      "hpos": 491.0,
+      "vpos": 2213.0,
+      "width": 121.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "z",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 12,
+     "deprel": "case",
+     "misc": "TokenRange=1707:1708",
+     "alto": {
+      "hpos": 658.0,
+      "vpos": 2228.0,
+      "width": 23.0,
+      "height": 39.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "takových",
+     "lemma": "takový",
+     "upos": "DET",
+     "xpos": "PDXP2----------",
+     "feats": "Case=Gen|Number=Plur|PronType=Dem",
+     "head": 12,
+     "deprel": "det",
+     "misc": "TokenRange=1709:1717",
+     "alto": {
+      "hpos": 722.0,
+      "vpos": 2214.0,
+      "width": 217.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "sňatků",
+     "lemma": "sňatek",
+     "upos": "NOUN",
+     "xpos": "NNIP2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur",
+     "head": 14,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=1718:1724",
+     "alto": {
+      "hpos": 984.0,
+      "vpos": 2213.0,
+      "width": 161.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "pravidelně",
+     "lemma": "pravidelně",
+     "upos": "ADV",
+     "xpos": "Dg-------1A----",
+     "feats": "Degree=Pos|Polarity=Pos",
+     "head": 14,
+     "deprel": "advmod",
+     "misc": "TokenRange=1725:1735",
+     "alto": {
+      "hpos": 1190.0,
+      "vpos": 2213.0,
+      "width": 260.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "plynou",
+     "lemma": "plynout",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 7,
+     "deprel": "acl:relcl",
+     "misc": "TokenRange=1736:1742",
+     "alto": {
+      "hpos": 1494.0,
+      "vpos": 2214.0,
+      "width": 169.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 18,
+     "deprel": "cc",
+     "misc": "TokenRange=1743:1744",
+     "alto": {
+      "hpos": 115.0,
+      "vpos": 2286.0,
+      "width": 24.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "také",
+     "lemma": "také",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=1745:1749",
+     "alto": {
+      "hpos": 178.0,
+      "vpos": 2273.0,
+      "width": 100.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "na",
+     "lemma": "na",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 18,
+     "deprel": "case",
+     "misc": "TokenRange=1750:1752",
+     "alto": {
+      "hpos": 316.0,
+      "vpos": 2287.0,
+      "width": 55.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "to",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDNS4----------",
+     "feats": "Case=Acc|Gender=Neut|Number=Sing|PronType=Dem",
+     "head": 6,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=1753:1755",
+     "alto": {
+      "hpos": 412.0,
+      "vpos": 2277.0,
+      "width": 58.0,
+      "height": 45.0
+     }
+    },
+    {
+     "id": 19,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "punct",
+     "misc": "TokenRange=1755:1756",
+     "alto": {
+      "hpos": 412.0,
+      "vpos": 2277.0,
+      "width": 58.0,
+      "height": 45.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 22,
+     "deprel": "mark",
+     "misc": "TokenRange=1757:1759",
+     "alto": {
+      "hpos": 511.0,
+      "vpos": 2273.0,
+      "width": 48.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "sňatek",
+     "lemma": "sňatek",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 22,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1760:1766",
+     "alto": {
+      "hpos": 598.0,
+      "vpos": 2274.0,
+      "width": 157.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "má",
+     "lemma": "mít",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 18,
+     "deprel": "acl",
+     "misc": "TokenRange=1767:1769",
+     "alto": {
+      "hpos": 794.0,
+      "vpos": 2274.0,
+      "width": 68.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "míti",
+     "lemma": "mít",
+     "upos": "VERB",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 22,
+     "deprel": "xcomp",
+     "misc": "TokenRange=1770:1774",
+     "alto": {
+      "hpos": 902.0,
+      "vpos": 2275.0,
+      "width": 93.0,
+      "height": 47.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "největší",
+     "lemma": "velký",
+     "upos": "ADJ",
+     "xpos": "AAIS4----3A----",
+     "feats": "Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos",
+     "head": 25,
+     "deprel": "amod",
+     "misc": "TokenRange=1775:1783",
+     "alto": {
+      "hpos": 1035.0,
+      "vpos": 2273.0,
+      "width": 190.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "význam",
+     "lemma": "význam",
+     "upos": "NOUN",
+     "xpos": "NNIS4-----A----",
+     "feats": "Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing",
+     "head": 23,
+     "deprel": "obj",
+     "misc": "TokenRange=1784:1790",
+     "alto": {
+      "hpos": 1263.0,
+      "vpos": 2273.0,
+      "width": 181.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "pro",
+     "lemma": "pro",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 32,
+     "deprel": "case",
+     "misc": "TokenRange=1791:1794",
+     "alto": {
+      "hpos": 1488.0,
+      "vpos": 2287.0,
+      "width": 81.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "tě",
+     "lemma": "ty",
+     "upos": "PRON",
+     "xpos": "PH-S4--2-------",
+     "feats": "Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short",
+     "head": 32,
+     "deprel": "det",
+     "misc": "SpaceAfter=No|TokenRange=1795:1797",
+     "alto": {
+      "hpos": 1603.0,
+      "vpos": 2274.0,
+      "width": 60.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 29,
+     "deprel": "punct",
+     "misc": "TokenRange=1797:1798",
+     "alto": {
+      "hpos": 1603.0,
+      "vpos": 2274.0,
+      "width": 60.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "lesné",
+     "lemma": "lesný",
+     "upos": "ADJ",
+     "xpos": "AANS4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 32,
+     "deprel": "amod",
+     "misc": "TokenRange=1799:1804",
+     "alto": {
+      "hpos": 111.0,
+      "vpos": 2333.0,
+      "width": 124.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 31,
+     "deprel": "cc",
+     "misc": "TokenRange=1805:1806",
+     "alto": {
+      "hpos": 265.0,
+      "vpos": 2347.0,
+      "width": 25.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "duševní",
+     "lemma": "duševní",
+     "upos": "ADJ",
+     "xpos": "AANS4----1A----",
+     "feats": "Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 29,
+     "deprel": "conj",
+     "misc": "TokenRange=1807:1814",
+     "alto": {
+      "hpos": 318.0,
+      "vpos": 2333.0,
+      "width": 186.0,
+      "height": 43.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "blaho",
+     "lemma": "blaho",
+     "upos": "NOUN",
+     "xpos": "NNNS4-----A----",
+     "feats": "Case=Acc|Gender=Neut|Number=Sing",
+     "head": 25,
+     "deprel": "nmod",
+     "misc": "TokenRange=1815:1820",
+     "alto": {
+      "hpos": 535.0,
+      "vpos": 2334.0,
+      "width": 135.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 33,
+     "form": "národa",
+     "lemma": "národ",
+     "upos": "NOUN",
+     "xpos": "NNIS2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing",
+     "head": 32,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1821:1827",
+     "alto": {
+      "hpos": 699.0,
+      "vpos": 2333.0,
+      "width": 182.0,
+      "height": 43.0
+     }
+    },
+    {
+     "id": 34,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 3,
+     "deprel": "punct",
+     "misc": "TokenRange=1827:1828",
+     "alto": {
+      "hpos": 699.0,
+      "vpos": 2333.0,
+      "width": 182.0,
+      "height": 43.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "S",
+     "lemma": "s",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 9,
+     "deprel": "case",
+     "misc": "TokenRange=1829:1830",
+     "alto": {
+      "hpos": 914.0,
+      "vpos": 2334.0,
+      "width": 27.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "lékařského",
+     "lemma": "lékařský",
+     "upos": "ADJ",
+     "xpos": "AANS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 9,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=1831:1841",
+     "alto": {
+      "hpos": 973.0,
+      "vpos": 2333.0,
+      "width": 280.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 3,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "TokenRange=1841:1842",
+     "alto": {
+      "hpos": 973.0,
+      "vpos": 2333.0,
+      "width": 280.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "ale",
+     "lemma": "ale",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "cc",
+     "misc": "TokenRange=1843:1846",
+     "alto": {
+      "hpos": 1285.0,
+      "vpos": 2333.0,
+      "width": 69.0,
+      "height": 48.0
+     }
+    },
+    {
+     "id": 5,
+     "form": "též",
+     "lemma": "též",
+     "upos": "PART",
+     "xpos": "TT-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "advmod:emph",
+     "misc": "TokenRange=1847:1850",
+     "alto": {
+      "hpos": 1384.0,
+      "vpos": 2332.0,
+      "width": 70.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "z.euge",
+     "lemma": "z.euge",
+     "upos": "ADJ",
+     "xpos": "S2--------A----",
+     "feats": "Degree=Pos|Hyph=Yes|Polarity=Pos",
+     "head": 8,
+     "deprel": "amod",
+     "misc": "SpaceAfter=No|TokenRange=1851:1857",
+     "alto": {
+      "hpos": 1482.0,
+      "vpos": 2343.0,
+      "width": 182.0,
+      "height": 46.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "-",
+     "lemma": "-",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "punct",
+     "misc": "TokenRange=1857:1858",
+     "alto": {
+      "hpos": 1482.0,
+      "vpos": 2343.0,
+      "width": 182.0,
+      "height": 46.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "nického",
+     "lemma": "nický",
+     "upos": "ADJ",
+     "xpos": "AANS2----1A----",
+     "feats": "Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 2,
+     "deprel": "conj",
+     "misc": "TokenRange=1859:1866",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2391.0,
+      "width": 188.0,
+      "height": 43.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "stanoviska",
+     "lemma": "stanovisko",
+     "upos": "NOUN",
+     "xpos": "NNNS2-----A----",
+     "feats": "Case=Gen|Gender=Neut|Number=Sing",
+     "head": 11,
+     "deprel": "obl",
+     "misc": "TokenRange=1867:1877",
+     "alto": {
+      "hpos": 348.0,
+      "vpos": 2393.0,
+      "width": 257.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 11,
+     "deprel": "cop",
+     "misc": "TokenRange=1878:1880",
+     "alto": {
+      "hpos": 650.0,
+      "vpos": 2394.0,
+      "width": 45.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "nemožno",
+     "lemma": "nemožný",
+     "upos": "ADJ",
+     "xpos": "ACNS------A----",
+     "feats": "Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=1881:1888",
+     "alto": {
+      "hpos": 744.0,
+      "vpos": 2393.0,
+      "width": 217.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "nechati",
+     "lemma": "nechat",
+     "upos": "VERB",
+     "xpos": "Vf--------A-P--",
+     "feats": "Aspect=Perf|Polarity=Pos|VerbForm=Inf",
+     "head": 11,
+     "deprel": "csubj",
+     "misc": "TokenRange=1889:1896",
+     "alto": {
+      "hpos": 1011.0,
+      "vpos": 2394.0,
+      "width": 173.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "se",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7--4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 14,
+     "deprel": "expl:pv",
+     "misc": "TokenRange=1897:1899",
+     "alto": {
+      "hpos": 1233.0,
+      "vpos": 2406.0,
+      "width": 48.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "odbýti",
+     "lemma": "odbýt",
+     "upos": "VERB",
+     "xpos": "Vf--------A-P--",
+     "feats": "Aspect=Perf|Polarity=Pos|VerbForm=Inf",
+     "head": 12,
+     "deprel": "xcomp",
+     "misc": "TokenRange=1900:1906",
+     "alto": {
+      "hpos": 1330.0,
+      "vpos": 2392.0,
+      "width": 155.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "názo",
+     "lemma": "názo",
+     "upos": "ADJ",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 17,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=1907:1911",
+     "alto": {
+      "hpos": 1532.0,
+      "vpos": 2391.0,
+      "width": 131.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 17,
+     "deprel": "punct",
+     "misc": "TokenRange=1911:1912",
+     "alto": {
+      "hpos": 1532.0,
+      "vpos": 2391.0,
+      "width": 131.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "rem",
+     "lemma": "r",
+     "upos": "NOUN",
+     "xpos": "NNIS7-----A----",
+     "feats": "Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing",
+     "head": 14,
+     "deprel": "obl:arg",
+     "misc": "SpaceAfter=No|TokenRange=1913:1916",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2465.0,
+      "width": 104.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 18,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 23,
+     "deprel": "punct",
+     "misc": "TokenRange=1916:1917",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2465.0,
+      "width": 104.0,
+      "height": 36.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 23,
+     "deprel": "mark",
+     "misc": "TokenRange=1918:1920",
+     "alto": {
+      "hpos": 252.0,
+      "vpos": 2452.0,
+      "width": 47.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "láska",
+     "lemma": "láska",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 23,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1921:1926",
+     "alto": {
+      "hpos": 334.0,
+      "vpos": 2451.0,
+      "width": 123.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 23,
+     "deprel": "cop",
+     "misc": "TokenRange=1927:1929",
+     "alto": {
+      "hpos": 492.0,
+      "vpos": 2454.0,
+      "width": 43.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "nejvznešenější",
+     "lemma": "vznešený",
+     "upos": "ADJ",
+     "xpos": "AAIS1----3A----",
+     "feats": "Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos",
+     "head": 23,
+     "deprel": "amod",
+     "misc": "TokenRange=1930:1944",
+     "alto": {
+      "hpos": 569.0,
+      "vpos": 2452.0,
+      "width": 359.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "pocit",
+     "lemma": "pocit",
+     "upos": "NOUN",
+     "xpos": "NNIS1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing",
+     "head": 17,
+     "deprel": "acl",
+     "misc": "SpaceAfter=No|TokenRange=1945:1950",
+     "alto": {
+      "hpos": 964.0,
+      "vpos": 2453.0,
+      "width": 132.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 24,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 30,
+     "deprel": "punct",
+     "misc": "TokenRange=1950:1951",
+     "alto": {
+      "hpos": 964.0,
+      "vpos": 2453.0,
+      "width": 132.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "který",
+     "lemma": "který",
+     "upos": "DET",
+     "xpos": "P4YS1----------",
+     "feats": "Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel",
+     "head": 30,
+     "deprel": "nsubj",
+     "misc": "TokenRange=1952:1957",
+     "alto": {
+      "hpos": 1135.0,
+      "vpos": 2451.0,
+      "width": 123.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "sám",
+     "lemma": "samý",
+     "upos": "DET",
+     "xpos": "PLYS1----------",
+     "feats": "Case=Nom|Gender=Masc|Number=Sing|PronType=Emp|Variant=Short",
+     "head": 30,
+     "deprel": "advcl:pred",
+     "misc": "TokenRange=1958:1961",
+     "alto": {
+      "hpos": 1292.0,
+      "vpos": 2451.0,
+      "width": 93.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "sebou",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P6--7----------",
+     "feats": "Case=Ins|PronType=Prs|Reflex=Yes",
+     "head": 30,
+     "deprel": "obl",
+     "misc": "TokenRange=1962:1967",
+     "alto": {
+      "hpos": 1418.0,
+      "vpos": 2453.0,
+      "width": 141.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "ur",
+     "lemma": "ur",
+     "upos": "X",
+     "xpos": "F%-------------",
+     "feats": "Foreign=Yes",
+     "head": 30,
+     "deprel": "advmod",
+     "misc": "SpaceAfter=No|TokenRange=1968:1970",
+     "alto": {
+      "hpos": 1594.0,
+      "vpos": 2465.0,
+      "width": 68.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "¬",
+     "lemma": "¬",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 28,
+     "deprel": "punct",
+     "misc": "TokenRange=1970:1971",
+     "alto": {
+      "hpos": 1594.0,
+      "vpos": 2465.0,
+      "width": 68.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "čuje",
+     "lemma": "čovat",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 23,
+     "deprel": "acl:relcl",
+     "misc": "SpaceAfter=No|TokenRange=1972:1976",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 2511.0,
+      "width": 111.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 31,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 44,
+     "deprel": "punct",
+     "misc": "TokenRange=1976:1977",
+     "alto": {
+      "hpos": 114.0,
+      "vpos": 2511.0,
+      "width": 111.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 32,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 44,
+     "deprel": "mark",
+     "misc": "TokenRange=1978:1980",
+     "alto": {
+      "hpos": 259.0,
+      "vpos": 2511.0,
+      "width": 48.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 33,
+     "form": "dvě",
+     "lemma": "dva",
+     "upos": "NUM",
+     "xpos": "CnHP1----------",
+     "feats": "Case=Nom|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card",
+     "head": 34,
+     "deprel": "nummod",
+     "misc": "TokenRange=1981:1984",
+     "alto": {
+      "hpos": 339.0,
+      "vpos": 2512.0,
+      "width": 80.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 34,
+     "form": "osoby",
+     "lemma": "osoba",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 44,
+     "deprel": "nsubj:pass",
+     "misc": "SpaceAfter=No|TokenRange=1985:1990",
+     "alto": {
+      "hpos": 450.0,
+      "vpos": 2512.0,
+      "width": 162.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 35,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "TokenRange=1990:1991",
+     "alto": {
+      "hpos": 450.0,
+      "vpos": 2512.0,
+      "width": 162.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 36,
+     "form": "cítící",
+     "lemma": "cítící",
+     "upos": "ADJ",
+     "xpos": "AGFP1-----A----",
+     "feats": "Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+     "head": 34,
+     "deprel": "amod",
+     "misc": "TokenRange=1992:1998",
+     "alto": {
+      "hpos": 645.0,
+      "vpos": 2511.0,
+      "width": 115.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 37,
+     "form": "k",
+     "lemma": "k",
+     "upos": "ADP",
+     "xpos": "RR--3----------",
+     "feats": "AdpType=Prep|Case=Dat",
+     "head": 38,
+     "deprel": "case",
+     "misc": "TokenRange=1999:2000",
+     "alto": {
+      "hpos": 791.0,
+      "vpos": 2512.0,
+      "width": 25.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 38,
+     "form": "sobě",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P6--3----------",
+     "feats": "Case=Dat|PronType=Prs|Reflex=Yes",
+     "head": 36,
+     "deprel": "obl",
+     "misc": "TokenRange=2001:2005",
+     "alto": {
+      "hpos": 848.0,
+      "vpos": 2512.0,
+      "width": 110.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 39,
+     "form": "náklonnost",
+     "lemma": "náklonnost",
+     "upos": "NOUN",
+     "xpos": "NNFS4-----A----",
+     "feats": "Case=Acc|Gender=Fem|Number=Sing",
+     "head": 36,
+     "deprel": "obj",
+     "misc": "SpaceAfter=No|TokenRange=2006:2016",
+     "alto": {
+      "hpos": 990.0,
+      "vpos": 2511.0,
+      "width": 285.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 40,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 36,
+     "deprel": "punct",
+     "misc": "TokenRange=2016:2017",
+     "alto": {
+      "hpos": 990.0,
+      "vpos": 2511.0,
+      "width": 285.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 41,
+     "form": "jsou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 44,
+     "deprel": "aux:pass",
+     "misc": "TokenRange=2018:2022",
+     "alto": {
+      "hpos": 1305.0,
+      "vpos": 2512.0,
+      "width": 104.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 42,
+     "form": "pro",
+     "lemma": "pro",
+     "upos": "ADP",
+     "xpos": "RR--4----------",
+     "feats": "AdpType=Prep|Case=Acc",
+     "head": 43,
+     "deprel": "case",
+     "misc": "TokenRange=2023:2026",
+     "alto": {
+      "hpos": 1441.0,
+      "vpos": 2524.0,
+      "width": 81.0,
+      "height": 41.0
+     }
+    },
+    {
+     "id": 43,
+     "form": "sebe",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P6--4----------",
+     "feats": "Case=Acc|PronType=Prs|Reflex=Yes",
+     "head": 44,
+     "deprel": "obl",
+     "misc": "TokenRange=2027:2031",
+     "alto": {
+      "hpos": 1554.0,
+      "vpos": 2513.0,
+      "width": 106.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 44,
+     "form": "určeny",
+     "lemma": "určený",
+     "upos": "ADJ",
+     "xpos": "VsTP----X-APP--",
+     "feats": "Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Fem,Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass",
+     "head": 23,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=2032:2038",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2571.0,
+      "width": 178.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 45,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 11,
+     "deprel": "punct",
+     "misc": "TokenRange=2038:2039",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2571.0,
+      "width": 178.0,
+      "height": 53.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "To",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDNS1----------",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing|PronType=Dem",
+     "head": 4,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2040:2042",
+     "alto": {
+      "hpos": 325.0,
+      "vpos": 2573.0,
+      "width": 63.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "jsou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 4,
+     "deprel": "cop",
+     "misc": "TokenRange=2043:2047",
+     "alto": {
+      "hpos": 424.0,
+      "vpos": 2572.0,
+      "width": 104.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "prosté",
+     "lemma": "prostý",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 4,
+     "deprel": "amod",
+     "misc": "TokenRange=2048:2054",
+     "alto": {
+      "hpos": 568.0,
+      "vpos": 2571.0,
+      "width": 152.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "opentlovačky",
+     "lemma": "opentlovačka",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 0,
+     "deprel": "root",
+     "misc": "SpaceAfter=No|TokenRange=2055:2067",
+     "alto": {
+      "hpos": 757.0,
+      "vpos": 2571.0,
+      "width": 340.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 5,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "punct",
+     "misc": "TokenRange=2067:2068",
+     "alto": {
+      "hpos": 757.0,
+      "vpos": 2571.0,
+      "width": 340.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "které",
+     "lemma": "který",
+     "upos": "DET",
+     "xpos": "P4FP1----------",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel",
+     "head": 8,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2069:2074",
+     "alto": {
+      "hpos": 1137.0,
+      "vpos": 2571.0,
+      "width": 120.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "ničeho",
+     "lemma": "nic",
+     "upos": "PRON",
+     "xpos": "PY--2----------",
+     "feats": "Case=Gen|PronType=Neg",
+     "head": 8,
+     "deprel": "obl:arg",
+     "misc": "TokenRange=2075:2081",
+     "alto": {
+      "hpos": 1295.0,
+      "vpos": 2571.0,
+      "width": 155.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "nemění",
+     "lemma": "měnit",
+     "upos": "VERB",
+     "xpos": "VB-P---3P-NAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 4,
+     "deprel": "acl:relcl",
+     "misc": "TokenRange=2082:2088",
+     "alto": {
+      "hpos": 1488.0,
+      "vpos": 2570.0,
+      "width": 173.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "na",
+     "lemma": "na",
+     "upos": "ADP",
+     "xpos": "RR--6----------",
+     "feats": "AdpType=Prep|Case=Loc",
+     "head": 10,
+     "deprel": "case",
+     "misc": "TokenRange=2089:2091",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2643.0,
+      "width": 57.0,
+      "height": 28.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "pravdě",
+     "lemma": "pravda",
+     "upos": "NOUN",
+     "xpos": "NNFS6-----A----",
+     "feats": "Case=Loc|Gender=Fem|Number=Sing",
+     "head": 8,
+     "deprel": "obl:arg",
+     "misc": "SpaceAfter=No|TokenRange=2092:2098",
+     "alto": {
+      "hpos": 210.0,
+      "vpos": 2630.0,
+      "width": 178.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 11,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 19,
+     "deprel": "punct",
+     "misc": "TokenRange=2098:2099",
+     "alto": {
+      "hpos": 210.0,
+      "vpos": 2630.0,
+      "width": 178.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 19,
+     "deprel": "mark",
+     "misc": "TokenRange=2100:2102",
+     "alto": {
+      "hpos": 433.0,
+      "vpos": 2630.0,
+      "width": 48.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "velmi",
+     "lemma": "velmi",
+     "upos": "ADV",
+     "xpos": "Db-------------",
+     "feats": "_",
+     "head": 14,
+     "deprel": "advmod",
+     "misc": "TokenRange=2103:2108",
+     "alto": {
+      "hpos": 523.0,
+      "vpos": 2631.0,
+      "width": 134.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 14,
+     "form": "četná",
+     "lemma": "četný",
+     "upos": "ADJ",
+     "xpos": "AANP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos",
+     "head": 15,
+     "deprel": "amod",
+     "misc": "TokenRange=2109:2114",
+     "alto": {
+      "hpos": 701.0,
+      "vpos": 2630.0,
+      "width": 124.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "manželství",
+     "lemma": "manželství",
+     "upos": "NOUN",
+     "xpos": "NNNP1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Plur",
+     "head": 19,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2115:2125",
+     "alto": {
+      "hpos": 871.0,
+      "vpos": 2630.0,
+      "width": 258.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "z",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RR--2----------",
+     "feats": "AdpType=Prep|Case=Gen",
+     "head": 17,
+     "deprel": "case",
+     "misc": "TokenRange=2126:2127",
+     "alto": {
+      "hpos": 1172.0,
+      "vpos": 2645.0,
+      "width": 23.0,
+      "height": 38.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "lásky",
+     "lemma": "láska",
+     "upos": "NOUN",
+     "xpos": "NNFS2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Sing",
+     "head": 15,
+     "deprel": "nmod",
+     "misc": "TokenRange=2128:2133",
+     "alto": {
+      "hpos": 1235.0,
+      "vpos": 2630.0,
+      "width": 127.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "jsou",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-P---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 19,
+     "deprel": "cop",
+     "misc": "TokenRange=2134:2138",
+     "alto": {
+      "hpos": 1402.0,
+      "vpos": 2631.0,
+      "width": 104.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "vším",
+     "lemma": "všechen",
+     "upos": "DET",
+     "xpos": "PLZS7----------",
+     "feats": "Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Tot",
+     "head": 8,
+     "deprel": "ccomp",
+     "misc": "TokenRange=2139:2143",
+     "alto": {
+      "hpos": 1549.0,
+      "vpos": 2630.0,
+      "width": 111.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "jiným",
+     "lemma": "jiný",
+     "upos": "ADJ",
+     "xpos": "AANS7----1A----",
+     "feats": "Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 19,
+     "deprel": "amod",
+     "misc": "TokenRange=2144:2149",
+     "alto": {
+      "hpos": 107.0,
+      "vpos": 2689.0,
+      "width": 143.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "než",
+     "lemma": "než",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 23,
+     "deprel": "mark",
+     "misc": "TokenRange=2150:2153",
+     "alto": {
+      "hpos": 283.0,
+      "vpos": 2690.0,
+      "width": 80.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "rozumovými",
+     "lemma": "rozumový",
+     "upos": "ADJ",
+     "xpos": "AAIP7----1A----",
+     "feats": "Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos",
+     "head": 23,
+     "deprel": "amod",
+     "misc": "TokenRange=2154:2164",
+     "alto": {
+      "hpos": 394.0,
+      "vpos": 2690.0,
+      "width": 302.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "sňatky",
+     "lemma": "sňatek",
+     "upos": "NOUN",
+     "xpos": "NNIP7-----A----",
+     "feats": "Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur",
+     "head": 20,
+     "deprel": "advcl",
+     "misc": "TokenRange=2165:2171",
+     "alto": {
+      "hpos": 732.0,
+      "vpos": 2690.0,
+      "width": 159.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 31,
+     "deprel": "cc",
+     "misc": "TokenRange=2172:2173",
+     "alto": {
+      "hpos": 923.0,
+      "vpos": 2704.0,
+      "width": 23.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 25,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 31,
+     "deprel": "mark",
+     "misc": "TokenRange=2174:2176",
+     "alto": {
+      "hpos": 980.0,
+      "vpos": 2691.0,
+      "width": 46.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 26,
+     "form": "láska",
+     "lemma": "láska",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 31,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2177:2182",
+     "alto": {
+      "hpos": 1061.0,
+      "vpos": 2690.0,
+      "width": 123.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 27,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 31,
+     "deprel": "cop",
+     "misc": "TokenRange=2183:2185",
+     "alto": {
+      "hpos": 1215.0,
+      "vpos": 2692.0,
+      "width": 44.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 28,
+     "form": "ze",
+     "lemma": "z",
+     "upos": "ADP",
+     "xpos": "RV--2----------",
+     "feats": "AdpType=Voc|Case=Gen",
+     "head": 30,
+     "deprel": "case",
+     "misc": "TokenRange=2186:2188",
+     "alto": {
+      "hpos": 1293.0,
+      "vpos": 2704.0,
+      "width": 48.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 29,
+     "form": "všech",
+     "lemma": "všechen",
+     "upos": "DET",
+     "xpos": "PLXP2----------",
+     "feats": "Case=Gen|Number=Plur|PronType=Tot",
+     "head": 30,
+     "deprel": "det",
+     "misc": "TokenRange=2189:2194",
+     "alto": {
+      "hpos": 1373.0,
+      "vpos": 2690.0,
+      "width": 133.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 30,
+     "form": "pudů",
+     "lemma": "pud",
+     "upos": "NOUN",
+     "xpos": "NNIP2-----A----",
+     "feats": "Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur",
+     "head": 31,
+     "deprel": "obl",
+     "misc": "TokenRange=2195:2199",
+     "alto": {
+      "hpos": 1540.0,
+      "vpos": 2689.0,
+      "width": 120.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 31,
+     "form": "nejsobečtější",
+     "lemma": "sobecký",
+     "upos": "ADJ",
+     "xpos": "AAFS1----3A----",
+     "feats": "Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos",
+     "head": 19,
+     "deprel": "conj",
+     "misc": "SpaceAfter=No|TokenRange=2200:2213",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2749.0,
+      "width": 336.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 32,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=2213:2214",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2749.0,
+      "width": 336.0,
+      "height": 55.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "Žádný",
+     "lemma": "žádný",
+     "upos": "DET",
+     "xpos": "PWYS1----------",
+     "feats": "Case=Nom|Gender=Masc|Number=Sing|PronType=Neg",
+     "head": 2,
+     "deprel": "det",
+     "misc": "TokenRange=2215:2220",
+     "alto": {
+      "hpos": 483.0,
+      "vpos": 2748.0,
+      "width": 154.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "milující",
+     "lemma": "milující",
+     "upos": "ADJ",
+     "xpos": "AGMS1-----A----",
+     "feats": "Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act",
+     "head": 3,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2221:2229",
+     "alto": {
+      "hpos": 668.0,
+      "vpos": 2749.0,
+      "width": 185.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "neuvědomí",
+     "lemma": "uvědomit",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-NAP--",
+     "feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=2230:2239",
+     "alto": {
+      "hpos": 885.0,
+      "vpos": 2748.0,
+      "width": 265.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "si",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P7--3----------",
+     "feats": "Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short",
+     "head": 3,
+     "deprel": "expl:pv",
+     "misc": "SpaceAfter=No|TokenRange=2240:2242",
+     "alto": {
+      "hpos": 1181.0,
+      "vpos": 2750.0,
+      "width": 50.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 5,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "punct",
+     "misc": "TokenRange=2242:2243",
+     "alto": {
+      "hpos": 1181.0,
+      "vpos": 2750.0,
+      "width": 50.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "že",
+     "lemma": "že",
+     "upos": "SCONJ",
+     "xpos": "J,-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "mark",
+     "misc": "TokenRange=2244:2246",
+     "alto": {
+      "hpos": 1266.0,
+      "vpos": 2750.0,
+      "width": 47.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 7,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=2247:2248",
+     "alto": {
+      "hpos": 1347.0,
+      "vpos": 2749.0,
+      "width": 153.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 8,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 10,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=2248:2249",
+     "alto": {
+      "hpos": 1347.0,
+      "vpos": 2749.0,
+      "width": 153.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "láska",
+     "lemma": "láska",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 10,
+     "deprel": "nsubj",
+     "misc": "TokenRange=2249:2254",
+     "alto": {
+      "hpos": 1347.0,
+      "vpos": 2749.0,
+      "width": 153.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "nemá",
+     "lemma": "mít",
+     "upos": "VERB",
+     "xpos": "VB-S---3P-NAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 3,
+     "deprel": "ccomp",
+     "misc": "TokenRange=2255:2259",
+     "alto": {
+      "hpos": 1532.0,
+      "vpos": 2749.0,
+      "width": 128.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 11,
+     "form": "býti",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "Vf--------A-I--",
+     "feats": "Aspect=Imp|Polarity=Pos|VerbForm=Inf",
+     "head": 13,
+     "deprel": "cop",
+     "misc": "TokenRange=2260:2264",
+     "alto": {
+      "hpos": 109.0,
+      "vpos": 2808.0,
+      "width": 94.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 12,
+     "form": "sobě",
+     "lemma": "se",
+     "upos": "PRON",
+     "xpos": "P6--3----------",
+     "feats": "Case=Dat|PronType=Prs|Reflex=Yes",
+     "head": 13,
+     "deprel": "obl",
+     "misc": "TokenRange=2265:2269",
+     "alto": {
+      "hpos": 233.0,
+      "vpos": 2809.0,
+      "width": 109.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 13,
+     "form": "účelem",
+     "lemma": "účel",
+     "upos": "NOUN",
+     "xpos": "NNIS7-----A----",
+     "feats": "Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing",
+     "head": 10,
+     "deprel": "xcomp",
+     "misc": "SpaceAfter=No|TokenRange=2270:2276",
+     "alto": {
+      "hpos": 372.0,
+      "vpos": 2808.0,
+      "width": 182.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 14,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "punct",
+     "misc": "TokenRange=2276:2277",
+     "alto": {
+      "hpos": 372.0,
+      "vpos": 2808.0,
+      "width": 182.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 15,
+     "form": "nýbrž",
+     "lemma": "nýbrž",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 16,
+     "deprel": "cc",
+     "misc": "TokenRange=2278:2283",
+     "alto": {
+      "hpos": 586.0,
+      "vpos": 2808.0,
+      "width": 138.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 16,
+     "form": "prostředkem",
+     "lemma": "prostředek",
+     "upos": "NOUN",
+     "xpos": "NNIS7-----A----",
+     "feats": "Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing",
+     "head": 13,
+     "deprel": "conj",
+     "misc": "TokenRange=2284:2295",
+     "alto": {
+      "hpos": 752.0,
+      "vpos": 2809.0,
+      "width": 309.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 17,
+     "form": "k",
+     "lemma": "k",
+     "upos": "ADP",
+     "xpos": "RR--3----------",
+     "feats": "AdpType=Prep|Case=Dat",
+     "head": 18,
+     "deprel": "case",
+     "misc": "TokenRange=2296:2297",
+     "alto": {
+      "hpos": 1091.0,
+      "vpos": 2809.0,
+      "width": 24.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 18,
+     "form": "účelu",
+     "lemma": "účel",
+     "upos": "NOUN",
+     "xpos": "NNIS3-----A----",
+     "feats": "Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing",
+     "head": 16,
+     "deprel": "nmod",
+     "misc": "TokenRange=2298:2303",
+     "alto": {
+      "hpos": 1144.0,
+      "vpos": 2808.0,
+      "width": 127.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 19,
+     "form": "a",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 20,
+     "deprel": "cc",
+     "misc": "TokenRange=2304:2305",
+     "alto": {
+      "hpos": 1302.0,
+      "vpos": 2823.0,
+      "width": 21.0,
+      "height": 39.0
+     }
+    },
+    {
+     "id": 20,
+     "form": "tím",
+     "lemma": "ten",
+     "upos": "DET",
+     "xpos": "PDZS7----------",
+     "feats": "Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem",
+     "head": 10,
+     "deprel": "conj",
+     "misc": "TokenRange=2306:2309",
+     "alto": {
+      "hpos": 1354.0,
+      "vpos": 2812.0,
+      "width": 76.0,
+      "height": 50.0
+     }
+    },
+    {
+     "id": 21,
+     "form": "je",
+     "lemma": "být",
+     "upos": "AUX",
+     "xpos": "VB-S---3P-AAI--",
+     "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act",
+     "head": 20,
+     "deprel": "cop",
+     "misc": "TokenRange=2310:2312",
+     "alto": {
+      "hpos": 1458.0,
+      "vpos": 2811.0,
+      "width": 43.0,
+      "height": 52.0
+     }
+    },
+    {
+     "id": 22,
+     "form": "příští",
+     "lemma": "příští",
+     "upos": "ADJ",
+     "xpos": "AANS1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 23,
+     "deprel": "amod",
+     "misc": "TokenRange=2313:2319",
+     "alto": {
+      "hpos": 1530.0,
+      "vpos": 2808.0,
+      "width": 130.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 23,
+     "form": "potomstvo^",
+     "lemma": "potomstvo^",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing",
+     "head": 20,
+     "deprel": "nsubj",
+     "misc": "SpaceAfter=No|TokenRange=2320:2330",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2870.0,
+      "width": 305.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 24,
+     "form": "'",
+     "lemma": "'",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 23,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=2330:2331",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2870.0,
+      "width": 305.0,
+      "height": 51.0
+     }
+    },
+    {
+     "id": 25,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 3,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=2331:2332",
+     "alto": {
+      "hpos": 110.0,
+      "vpos": 2870.0,
+      "width": 305.0,
+      "height": 51.0
+     }
+    }
+   ]
+  }
+ ]
+}

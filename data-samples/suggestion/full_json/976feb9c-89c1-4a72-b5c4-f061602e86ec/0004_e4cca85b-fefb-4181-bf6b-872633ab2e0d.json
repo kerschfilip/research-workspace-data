@@ -1,0 +1,387 @@
+{
+  "schema": "elc-dhlr-page/0.1",
+  "doc_uuid": "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "page_uuid": "uuid:e4cca85b-fefb-4181-bf6b-872633ab2e0d",
+  "pageIndex": 4,
+  "pageNumber": "[2]",
+  "pageType": null,
+  "language": "cze",
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz",
+    "url": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec?page=uuid:e4cca85b-fefb-4181-bf6b-872633ab2e0d"
+  },
+  "paradata": {
+    "ocr": {
+      "engine": "tuzkaocr dec-B-v2",
+      "version": null,
+      "when": "2026-11-03T15:32:23.176819+00:00"
+    },
+    "udpipe": {
+      "model": "czech-pdtc-ud-2.17-251125",
+      "when": "2026-11-03T16:36:54.125237+00:00"
+    },
+    "nametag": {
+      "model": "nametag3-czech-cnec2.0-240830",
+      "when": "2026-11-03T16:36:54.285910+00:00"
+    },
+    "morphodita": {
+      "model": "czech-morfflex2.1-pdtc2.0-250909",
+      "when": "2026-11-03T16:36:54.294393+00:00"
+    }
+  },
+  "geometry": {
+    "width": 1910,
+    "height": 3300,
+    "unit": "pixel"
+  },
+  "text": "VEŠKERÁ PRÁVA VYHRAŽ ENA\n\nKNÍHTISKARNA HVELESLAVÍN“\n\nPRAHA-V, JOSEFOVSKÁ4\n\n(",
+  "paragraphs": [
+    {
+      "index": 1,
+      "lines": 1,
+      "sentences": [
+        {
+          "index": 1,
+          "tokens": [
+            {
+              "index": 0,
+              "id": 1,
+              "form": "VEŠKERÁ",
+              "start": 0,
+              "end": 7,
+              "ling": {
+                "lemma": "veškerý",
+                "upos": "PRON",
+                "xpos": "PLNP4----------",
+                "feats": "Case=Acc|Gender=Neut|Number=Plur|PronType=Tot",
+                "head": 2,
+                "deprel": "nmod",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 246,
+                "vpos": 384,
+                "width": 319,
+                "height": 65
+              }
+            },
+            {
+              "index": 1,
+              "id": 2,
+              "form": "PRÁVA",
+              "start": 8,
+              "end": 13,
+              "ling": {
+                "lemma": "právo",
+                "upos": "NOUN",
+                "xpos": "NNNP4-----A----",
+                "feats": "Case=Acc|Gender=Neut|Number=Plur",
+                "head": 3,
+                "deprel": "obj",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 567,
+                "vpos": 384,
+                "width": 235,
+                "height": 64
+              }
+            },
+            {
+              "index": 2,
+              "id": 3,
+              "form": "VYHRAŽ",
+              "start": 14,
+              "end": 20,
+              "ling": {
+                "lemma": "VYHRAŽ",
+                "upos": "VERB",
+                "xpos": "Vi-S---2--A-P--",
+                "feats": "Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin",
+                "head": 0,
+                "deprel": "root",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 804,
+                "vpos": 383,
+                "width": 256,
+                "height": 65
+              }
+            },
+            {
+              "index": 3,
+              "id": 4,
+              "form": "ENA",
+              "start": 21,
+              "end": 24,
+              "ling": {
+                "lemma": "ENA",
+                "upos": "PROPN",
+                "xpos": "NNFS1-----A----",
+                "feats": "Case=Nom|Gender=Fem|NameType=Oth|Number=Sing",
+                "head": 3,
+                "deprel": "nsubj",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 1062,
+                "vpos": 383,
+                "width": 89,
+                "height": 64
+              }
+            },
+            {
+              "index": 4,
+              "id": 5,
+              "form": "KNÍHTISKARNA",
+              "start": 26,
+              "end": 38,
+              "ling": {
+                "lemma": "Kníhtiskarna",
+                "upos": "PROPN",
+                "xpos": "NNFS1-----A----",
+                "feats": "Case=Nom|Gender=Fem|NameType=Oth|Number=Sing",
+                "head": 4,
+                "deprel": "nmod",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 335,
+                "vpos": 2905,
+                "width": 203,
+                "height": 35
+              }
+            },
+            {
+              "index": 5,
+              "id": 6,
+              "form": "HVELESLAVÍN",
+              "start": 39,
+              "end": 50,
+              "ling": {
+                "lemma": "Hveleslavín",
+                "upos": "PROPN",
+                "xpos": "NNIS1-----A----",
+                "feats": "Animacy=Inan|Case=Nom|Gender=Masc|NameType=Geo|Number=Sing",
+                "head": 5,
+                "deprel": "nmod",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 6,
+              "id": 7,
+              "form": "“",
+              "start": 50,
+              "end": 51,
+              "ling": {
+                "lemma": "\"",
+                "upos": "PUNCT",
+                "xpos": "Z:-------------",
+                "feats": null,
+                "head": 3,
+                "deprel": "punct",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "lines": 1,
+      "sentences": [
+        {
+          "index": 2,
+          "tokens": [
+            {
+              "index": 7,
+              "id": 1,
+              "form": "PRAHA",
+              "start": 53,
+              "end": 58,
+              "ling": {
+                "lemma": "Praha",
+                "upos": "PROPN",
+                "xpos": "NNFS1-----A----",
+                "feats": "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+                "head": 0,
+                "deprel": "root",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": "B-gu",
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 8,
+              "id": 2,
+              "form": "-",
+              "start": 58,
+              "end": 59,
+              "ling": {
+                "lemma": "-",
+                "upos": "PUNCT",
+                "xpos": "Z:-------------",
+                "feats": null,
+                "head": 3,
+                "deprel": "punct",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 9,
+              "id": 3,
+              "form": "V",
+              "start": 59,
+              "end": 60,
+              "ling": {
+                "lemma": "V",
+                "upos": "NOUN",
+                "xpos": "Q3-------------",
+                "feats": "Abbr=Yes",
+                "head": 1,
+                "deprel": "conj",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 10,
+              "id": 4,
+              "form": ",",
+              "start": 60,
+              "end": 61,
+              "ling": {
+                "lemma": ",",
+                "upos": "PUNCT",
+                "xpos": "Z:-------------",
+                "feats": null,
+                "head": 5,
+                "deprel": "punct",
+                "misc": null
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 11,
+              "id": 5,
+              "form": "JOSEFOVSKÁ",
+              "start": 62,
+              "end": 72,
+              "ling": {
+                "lemma": "josefovský",
+                "upos": "ADJ",
+                "xpos": "AAFS1----1A----",
+                "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos",
+                "head": 1,
+                "deprel": "conj",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": "B-gs",
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 12,
+              "id": 6,
+              "form": "4",
+              "start": 72,
+              "end": 73,
+              "ling": {
+                "lemma": "4",
+                "upos": "NUM",
+                "xpos": "C=-------------",
+                "feats": "NumForm=Digit|NumType=Card",
+                "head": 5,
+                "deprel": "nummod",
+                "misc": null
+              },
+              "ne": "B-ah",
+              "mwt": null,
+              "alto": null
+            },
+            {
+              "index": 13,
+              "id": 7,
+              "form": "(",
+              "start": 75,
+              "end": 76,
+              "ling": {
+                "lemma": "(",
+                "upos": "PUNCT",
+                "xpos": "Z:-------------",
+                "feats": null,
+                "head": 1,
+                "deprel": "punct",
+                "misc": "SpaceAfter=No"
+              },
+              "ne": null,
+              "mwt": null,
+              "alto": {
+                "hpos": 1597,
+                "vpos": 2908,
+                "width": 7,
+                "height": 128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "type": "gu",
+      "tokens": [
+        7
+      ],
+      "form": "PRAHA",
+      "lemma": "Praha",
+      "base": "PRAHA"
+    },
+    {
+      "type": "gs",
+      "tokens": [
+        11
+      ],
+      "form": "JOSEFOVSKÁ",
+      "lemma": "josefovský",
+      "base": "JOSEFOVSKÁ"
+    },
+    {
+      "type": "ah",
+      "tokens": [
+        12
+      ],
+      "form": "4",
+      "lemma": "4",
+      "base": "4"
+    }
+  ]
+}

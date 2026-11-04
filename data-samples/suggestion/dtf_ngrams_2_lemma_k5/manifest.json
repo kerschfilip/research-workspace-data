@@ -1,0 +1,65 @@
+{
+  "format": "dtf/ngrams",
+  "format_version": "0.1-draft",
+  "parameters": {
+    "n": 2,
+    "unit": "lemma",
+    "k": 5
+  },
+  "conditions": {
+    "n_max": 5,
+    "k": 5,
+    "min_documents": 50,
+    "min_words": 200000,
+    "met": false
+  },
+  "selection": {
+    "documents": 1,
+    "pages": 60,
+    "words": 20117,
+    "doc_uuids": [
+      "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec"
+    ]
+  },
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz"
+  },
+  "provenance": {
+    "ocr": [
+      {
+        "engine": "tuzkaocr dec-B-v2",
+        "version": ""
+      }
+    ],
+    "enrichment": {
+      "udpipe": "czech-pdtc-ud-2.17-251125",
+      "nametag": "nametag3-czech-cnec2.0-240830",
+      "morphodita": "czech-morfflex2.1-pdtc2.0-250909"
+    },
+    "enriched_at": "2026-11-03",
+    "intermediate_format_version": null
+  },
+  "generator": {
+    "name": "krakatit-plus dtf_export",
+    "version": "0.1-draft"
+  },
+  "licence": {
+    "data": "TBD",
+    "metadata": "TBD",
+    "note": "To be resolved: licence of the derived data and of the Kramerius metadata, and whether the licence of the UDPipe model (CC BY-NC-SA) carries over to derived counts."
+  },
+  "transformations": [
+    "Text recognised by OCR (tuzkaocr dec-B-v2) from the page scans.",
+    "Tokenised, lemmatised and tagged with UDPipe (czech-pdtc-ud-2.17-251125).",
+    "Counts of sequences of 2 consecutive lemmas (punctuation excluded, within sentences), summed over the whole selection.",
+    "Only n-grams occurring in at least 5 different documents of the selection are released.",
+    "Which document an n-gram came from is not recorded.",
+    "The full text is not part of this package and cannot be reconstructed from it.",
+    "WARNING: the selection does not meet the download conditions; generated for testing only, not for publication."
+  ],
+  "encoding": "CSV, UTF-8, comma-separated, header row",
+  "checksums": {
+    "metadata.csv": "sha256:4b9fd6f29d94896716c6f6606d11d5548e1e0d63dd5635b42a7a0202df4917e7",
+    "ngrams.csv": "sha256:721322b251e1793e7d61a3567dd8c0173a259d6c4f9e8cd4896526c1aa6d00cb"
+  }
+}

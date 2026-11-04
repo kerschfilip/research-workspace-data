@@ -1,0 +1,382 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:elc-dhlr:full:page:0.1-draft",
+  "title": "Enriched page (full JSON format)",
+  "type": "object",
+  "required": [
+    "schema",
+    "doc_uuid",
+    "page_uuid",
+    "pageIndex",
+    "pageNumber",
+    "pageType",
+    "language",
+    "source",
+    "paradata",
+    "geometry",
+    "text",
+    "paragraphs",
+    "entities"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "elc-dhlr-page/0.1"
+    },
+    "doc_uuid": {
+      "$ref": "#/$defs/uuid"
+    },
+    "page_uuid": {
+      "$ref": "#/$defs/uuid"
+    },
+    "pageIndex": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pageNumber": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pageType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "kramerius",
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kramerius": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "paradata": {
+      "type": "object",
+      "required": [
+        "ocr",
+        "udpipe"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "ocr": {
+          "$ref": "#/$defs/tool"
+        },
+        "udpipe": {
+          "$ref": "#/$defs/tool"
+        },
+        "nametag": {
+          "$ref": "#/$defs/tool"
+        },
+        "morphodita": {
+          "$ref": "#/$defs/tool"
+        }
+      }
+    },
+    "geometry": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "width",
+        "height",
+        "unit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "unit": {
+          "const": "pixel"
+        }
+      }
+    },
+    "text": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "index",
+          "lines",
+          "sentences"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "lines": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "sentences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "index",
+                "tokens"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "tokens": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/token"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "tokens",
+          "form",
+          "lemma",
+          "base"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "tokens": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "form": {
+            "type": "string"
+          },
+          "lemma": {
+            "type": "string"
+          },
+          "base": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "pattern": "^uuid:[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "tool": {
+      "type": "object",
+      "required": [
+        "when"
+      ],
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "engine": {
+          "type": "string"
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "when": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "token": {
+      "type": "object",
+      "required": [
+        "index",
+        "id",
+        "form",
+        "start",
+        "end",
+        "ling",
+        "ne",
+        "mwt",
+        "alto"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "form": {
+          "type": "string"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ling": {
+          "type": "object",
+          "required": [
+            "lemma",
+            "upos",
+            "xpos",
+            "feats",
+            "head",
+            "deprel",
+            "misc"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "lemma": {
+              "type": "string"
+            },
+            "upos": {
+              "type": "string"
+            },
+            "xpos": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "feats": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "head": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "deprel": {
+              "type": "string"
+            },
+            "misc": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "ne": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[BI]-[A-Za-z_]+(\\|[BI]-[A-Za-z_]+)*$"
+        },
+        "mwt": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "form",
+            "tokens"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "form": {
+              "type": "string"
+            },
+            "tokens": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "alto": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "hpos",
+            "vpos",
+            "width",
+            "height"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "hpos": {
+              "type": "number"
+            },
+            "vpos": {
+              "type": "number"
+            },
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

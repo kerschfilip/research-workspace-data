@@ -1,0 +1,383 @@
+{
+  "id" : "uuid:e4cca85b-fefb-4181-bf6b-872633ab2e0d",
+  "created" : "2025-11-07T09:21:51.843Z",
+  "updated" : "2025-11-07T09:21:51.843Z",
+  "parentId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "index" : 3,
+  "rootId" : "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "title" : "[2]",
+  "context" : [ ],
+  "tokens" : [ {
+    "tokenIndex" : 0,
+    "content" : "VEŠKERÁ",
+    "startOffset" : 0,
+    "endOffset" : 7,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "veškerý",
+      "feats" : "Case=Acc|Gender=Neut|Number=Plur|PronType=Tot",
+      "head" : "2",
+      "depRel" : "nmod",
+      "misc" : "TokenRange=0:7",
+      "uPosTag" : "PRON",
+      "xPosTag" : "PLNP4----------"
+    },
+    "altoMetadata" : {
+      "height" : 49.0,
+      "width" : 297.0,
+      "vpos" : 391.0,
+      "hpos" : 244.0
+    }
+  }, {
+    "tokenIndex" : 1,
+    "content" : "PRÁVA",
+    "startOffset" : 8,
+    "endOffset" : 13,
+    "linguisticMetadata" : {
+      "position" : 2,
+      "lemma" : "právo",
+      "feats" : "Case=Acc|Gender=Neut|Number=Plur",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "TokenRange=8:13",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNNP4-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 48.0,
+      "width" : 204.0,
+      "vpos" : 392.0,
+      "hpos" : 568.0
+    }
+  }, {
+    "tokenIndex" : 2,
+    "content" : "VYHRAZENA",
+    "startOffset" : 14,
+    "endOffset" : 23,
+    "linguisticMetadata" : {
+      "position" : 3,
+      "lemma" : "vyhrazený",
+      "feats" : "Aspect=Perf|Degree=Pos|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass",
+      "head" : "2",
+      "depRel" : "dep",
+      "misc" : "TokenRange=14:23",
+      "uPosTag" : "ADJ",
+      "xPosTag" : "VsQW----X-APP--"
+    },
+    "altoMetadata" : {
+      "height" : 38.0,
+      "width" : 376.0,
+      "vpos" : 402.0,
+      "hpos" : 800.0
+    }
+  }, {
+    "tokenIndex" : 3,
+    "content" : "knihtiskárna",
+    "startOffset" : 24,
+    "endOffset" : 36,
+    "linguisticMetadata" : {
+      "position" : 4,
+      "lemma" : "knihtiskárna",
+      "feats" : "Case=Nom|Gender=Fem|Number=Sing",
+      "head" : "3",
+      "depRel" : "nsubj:pass",
+      "misc" : "TokenRange=24:36",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "altoMetadata" : {
+      "height" : 20.0,
+      "width" : 191.0,
+      "vpos" : 2914.0,
+      "hpos" : 335.0
+    }
+  }, {
+    "tokenIndex" : 4,
+    "content" : "í",
+    "startOffset" : 37,
+    "endOffset" : 38,
+    "linguisticMetadata" : {
+      "position" : 5,
+      "lemma" : "í",
+      "feats" : "Abbr=Yes",
+      "head" : "4",
+      "depRel" : "nmod",
+      "misc" : "SpaceAfter=No|TokenRange=37:38",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "Q3-------------"
+    },
+    "altoMetadata" : {
+      "height" : 30.0,
+      "width" : 194.0,
+      "vpos" : 2913.0,
+      "hpos" : 542.0
+    }
+  }, {
+    "tokenIndex" : 5,
+    "content" : ",",
+    "startOffset" : 38,
+    "endOffset" : 39,
+    "linguisticMetadata" : {
+      "position" : 6,
+      "lemma" : ",",
+      "head" : "7",
+      "depRel" : "punct",
+      "misc" : "SpaceAfter=No|TokenRange=38:39",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 30.0,
+      "width" : 194.0,
+      "vpos" : 2913.0,
+      "hpos" : 542.0
+    }
+  }, {
+    "tokenIndex" : 6,
+    "content" : "VELESLAVÍN‘",
+    "startOffset" : 39,
+    "endOffset" : 50,
+    "linguisticMetadata" : {
+      "position" : 7,
+      "lemma" : "Veleslavín‘",
+      "feats" : "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+      "head" : "4",
+      "depRel" : "nmod",
+      "misc" : "SpaceAfter=No|TokenRange=39:50",
+      "uPosTag" : "PROPN",
+      "xPosTag" : "NNNXX-----A----"
+    },
+    "nameTagMetadata" : "B-gs",
+    "altoMetadata" : {
+      "height" : 30.0,
+      "width" : 194.0,
+      "vpos" : 2913.0,
+      "hpos" : 542.0
+    }
+  }, {
+    "tokenIndex" : 7,
+    "content" : "\\",
+    "startOffset" : 50,
+    "endOffset" : 51,
+    "linguisticMetadata" : {
+      "position" : 8,
+      "lemma" : "\\",
+      "head" : "7",
+      "depRel" : "punct",
+      "misc" : "TokenRange=50:51",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "nameTagMetadata" : "I-gs",
+    "altoMetadata" : {
+      "height" : 30.0,
+      "width" : 194.0,
+      "vpos" : 2913.0,
+      "hpos" : 542.0
+    }
+  }, {
+    "tokenIndex" : 8,
+    "content" : "PRAHA",
+    "startOffset" : 52,
+    "endOffset" : 57,
+    "linguisticMetadata" : {
+      "position" : 9,
+      "lemma" : "Praha",
+      "feats" : "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+      "head" : "7",
+      "depRel" : "nmod",
+      "misc" : "SpaceAfter=No|TokenRange=52:57",
+      "uPosTag" : "PROPN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "nameTagMetadata" : "I-gs",
+    "altoMetadata" : {
+      "height" : 26.0,
+      "width" : 122.0,
+      "vpos" : 2917.0,
+      "hpos" : 753.0
+    }
+  }, {
+    "tokenIndex" : 9,
+    "content" : ".",
+    "startOffset" : 57,
+    "endOffset" : 58,
+    "linguisticMetadata" : {
+      "position" : 10,
+      "lemma" : ".",
+      "head" : "2",
+      "depRel" : "punct",
+      "misc" : "SpaceAfter=No|TokenRange=57:58",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 26.0,
+      "width" : 122.0,
+      "vpos" : 2917.0,
+      "hpos" : 753.0
+    }
+  }, {
+    "tokenIndex" : 10,
+    "content" : "V",
+    "startOffset" : 58,
+    "endOffset" : 59,
+    "linguisticMetadata" : {
+      "position" : 1,
+      "lemma" : "V",
+      "feats" : "Abbr=Yes",
+      "head" : "0",
+      "depRel" : "root",
+      "misc" : "SpaceAfter=No|TokenRange=58:59",
+      "uPosTag" : "NOUN",
+      "xPosTag" : "Q3-------------"
+    },
+    "altoMetadata" : {
+      "height" : 26.0,
+      "width" : 122.0,
+      "vpos" : 2917.0,
+      "hpos" : 753.0
+    }
+  }, {
+    "tokenIndex" : 11,
+    "content" : ",",
+    "startOffset" : 59,
+    "endOffset" : 60,
+    "linguisticMetadata" : {
+      "position" : 2,
+      "lemma" : ",",
+      "head" : "3",
+      "depRel" : "punct",
+      "misc" : "TokenRange=59:60",
+      "uPosTag" : "PUNCT",
+      "xPosTag" : "Z:-------------"
+    },
+    "altoMetadata" : {
+      "height" : 26.0,
+      "width" : 122.0,
+      "vpos" : 2917.0,
+      "hpos" : 753.0
+    }
+  }, {
+    "tokenIndex" : 12,
+    "content" : "JOSEFOVSKA",
+    "startOffset" : 61,
+    "endOffset" : 71,
+    "linguisticMetadata" : {
+      "position" : 3,
+      "lemma" : "Josefovska",
+      "feats" : "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+      "head" : "1",
+      "depRel" : "conj",
+      "misc" : "TokenRange=61:71",
+      "uPosTag" : "PROPN",
+      "xPosTag" : "NNFS1-----A----"
+    },
+    "nameTagMetadata" : "B-gs",
+    "altoMetadata" : {
+      "height" : 31.0,
+      "width" : 167.0,
+      "vpos" : 2912.0,
+      "hpos" : 887.0
+    }
+  }, {
+    "tokenIndex" : 13,
+    "content" : "4",
+    "startOffset" : 72,
+    "endOffset" : 73,
+    "linguisticMetadata" : {
+      "position" : 4,
+      "lemma" : "4",
+      "feats" : "NumForm=Digit|NumType=Card",
+      "head" : "1",
+      "depRel" : "dep",
+      "misc" : "SpaceAfter=No|TokenRange=72:73",
+      "uPosTag" : "NUM",
+      "xPosTag" : "C=-------------"
+    },
+    "nameTagMetadata" : "B-ah",
+    "altoMetadata" : {
+      "height" : 26.0,
+      "width" : 14.0,
+      "vpos" : 2917.0,
+      "hpos" : 1067.0
+    }
+  } ],
+  "policy" : "private",
+  "pageType" : "normalPage",
+  "pageNumber" : "[2]",
+  "nameTagMetadata" : {
+    "namedEntities" : {
+      "GEOGRAPHICAL_NAMES" : [ {
+        "tokens" : [ {
+          "tokenIndex" : 6,
+          "content" : "VELESLAVÍN‘",
+          "startOffset" : 39,
+          "endOffset" : 50,
+          "linguisticMetadata" : {
+            "position" : 7,
+            "lemma" : "Veleslavín‘",
+            "feats" : "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+            "head" : "4",
+            "depRel" : "nmod",
+            "misc" : "SpaceAfter=No|TokenRange=39:50",
+            "uPosTag" : "PROPN",
+            "xPosTag" : "NNNXX-----A----"
+          },
+          "nameTagMetadata" : "B-gs",
+          "altoMetadata" : {
+            "height" : 30.0,
+            "width" : 194.0,
+            "vpos" : 2913.0,
+            "hpos" : 542.0
+          }
+        }, {
+          "tokenIndex" : 7,
+          "content" : "\\",
+          "startOffset" : 50,
+          "endOffset" : 51,
+          "linguisticMetadata" : {
+            "position" : 8,
+            "lemma" : "\\",
+            "head" : "7",
+            "depRel" : "punct",
+            "misc" : "TokenRange=50:51",
+            "uPosTag" : "PUNCT",
+            "xPosTag" : "Z:-------------"
+          },
+          "nameTagMetadata" : "I-gs",
+          "altoMetadata" : {
+            "height" : 30.0,
+            "width" : 194.0,
+            "vpos" : 2913.0,
+            "hpos" : 542.0
+          }
+        }, {
+          "tokenIndex" : 8,
+          "content" : "PRAHA",
+          "startOffset" : 52,
+          "endOffset" : 57,
+          "linguisticMetadata" : {
+            "position" : 9,
+            "lemma" : "Praha",
+            "feats" : "Case=Nom|Gender=Fem|NameType=Geo|Number=Sing",
+            "head" : "7",
+            "depRel" : "nmod",
+            "misc" : "SpaceAfter=No|TokenRange=52:57",
+            "uPosTag" : "PROPN",
+            "xPosTag" : "NNFS1-----A----"
+          },
+          "nameTagMetadata" : "I-gs",
+          "altoMetadata" : {
+            "height" : 26.0,
+            "width" : 122.0,
+            "vpos" : 2917.0,
+            "hpos" : 753.0
+          }
+        } ],
+        "entityType" : "gs"
+      } ]
+    }
+  },
+  "model" : "PAGE"
+}

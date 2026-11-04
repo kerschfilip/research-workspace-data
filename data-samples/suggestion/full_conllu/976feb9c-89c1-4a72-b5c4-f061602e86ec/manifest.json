@@ -1,0 +1,48 @@
+{
+  "format": "full/conllu",
+  "format_version": "0.1-draft",
+  "doc_uuid": "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz",
+    "url": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+    "citation": "Eugenické a kulturní úkoly ženy, 1928. Kramerius, uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec."
+  },
+  "provenance": {
+    "ocr": [
+      {
+        "engine": "tuzkaocr dec-B-v2",
+        "version": ""
+      }
+    ],
+    "enrichment": {
+      "udpipe": "czech-pdtc-ud-2.17-251125",
+      "nametag": "nametag3-czech-cnec2.0-240830",
+      "morphodita": "czech-morfflex2.1-pdtc2.0-250909"
+    },
+    "enriched_at": "2026-11-03",
+    "intermediate_format_version": null
+  },
+  "generator": {
+    "name": "krakatit-plus full_export",
+    "version": "0.1-draft"
+  },
+  "licence": {
+    "data": "TBD",
+    "metadata": "TBD",
+    "note": "To be resolved: licence of the derived data and of the Kramerius metadata, and whether the licence of the UDPipe model (CC BY-NC-SA) carries over to derived counts."
+  },
+  "transformations": [
+    "Text recognised by OCR (tuzkaocr dec-B-v2) from the page scans.",
+    "Tokenised, lemmatised, tagged and parsed with UDPipe (czech-pdtc-ud-2.17-251125); multiword tokens are kept with all their words.",
+    "Named entities recognised by NameTag (nametag3-czech-cnec2.0-240830); base forms of entities generated with MorphoDiTa (czech-morfflex2.1-pdtc2.0-250909).",
+    "Paragraphs are ALTO TextBlocks; a sentence stays whole and belongs to the paragraph where it starts.",
+    "Contains the full text of the document."
+  ],
+  "encoding": "CoNLL-U, UTF-8",
+  "checksums": {
+    "metadata.json": "sha256:9c79094ac76aed170f2ba0f09636b3359105b28e4477dfed5d1e43143deb12c9",
+    "mods.xml": "sha256:6214f50343fcbfd25343bb094c7f67b224209b1e12aa09289ec7cc6dcc0f9eba",
+    "pages.csv": "sha256:0e7a1d5678883c32841969418cfc4dcd844781a8e47ad38f5986bd2c90f90e36",
+    "document.conllu": "sha256:4d19244622cad70cb3c5c07fb95b149f5c6fd157cd2ea76afcb4774ebcb4f08b"
+  }
+}

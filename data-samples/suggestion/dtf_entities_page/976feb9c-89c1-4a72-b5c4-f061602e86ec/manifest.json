@@ -1,0 +1,63 @@
+{
+  "format": "dtf/entities",
+  "format_version": "0.1-draft",
+  "granularity": "page",
+  "columns": [
+    "doc_uuid",
+    "pageIndex",
+    "pageNumber",
+    "entity_form",
+    "entity_lemma",
+    "entity_base",
+    "type",
+    "count"
+  ],
+  "doc_uuid": "uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+  "source": {
+    "kramerius": "https://kramerius.lib.cas.cz",
+    "url": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec",
+    "citation": "Eugenické a kulturní úkoly ženy, 1928. Kramerius, uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec."
+  },
+  "provenance": {
+    "ocr": [
+      {
+        "engine": "tuzkaocr dec-B-v2",
+        "version": ""
+      }
+    ],
+    "enrichment": {
+      "udpipe": "czech-pdtc-ud-2.17-251125",
+      "nametag": "nametag3-czech-cnec2.0-240830",
+      "morphodita": "czech-morfflex2.1-pdtc2.0-250909"
+    },
+    "enriched_at": "2026-11-03",
+    "intermediate_format_version": null
+  },
+  "generator": {
+    "name": "krakatit-plus dtf_export",
+    "version": "0.1-draft"
+  },
+  "licence": {
+    "data": "TBD",
+    "metadata": "TBD",
+    "note": "To be resolved: licence of the derived data and of the Kramerius metadata, and whether the licence of the UDPipe model (CC BY-NC-SA) carries over to derived counts."
+  },
+  "transformations": [
+    "Text recognised by OCR (tuzkaocr dec-B-v2) from the page scans.",
+    "Tokenised, lemmatised and tagged with UDPipe (czech-pdtc-ud-2.17-251125).",
+    "Named entities recognised by NameTag (nametag3-czech-cnec2.0-240830); types are CNEC 2.0 codes.",
+    "entity_base is the whole entity in the nominative: words agreeing in case with the head of the entity (UDPipe dependency parse) are inflected with MorphoDiTa (czech-morfflex2.1-pdtc2.0-250909); other words, words MorphoDiTa does not know, and entities where no base form was computed keep the form found in the text; surrounding quotation marks, brackets and commas are removed.",
+    "Only counts of (entity_form, entity_lemma, entity_base, type) per unit are kept; nested entities (e.g. first name and surname inside a person) are counted as rows of their own.",
+    "Counts are per page.",
+    "Entities longer than 10 tokens (citations, titles of works) are left out.",
+    "The full text is not part of this package and cannot be reconstructed from it."
+  ],
+  "encoding": "CSV, UTF-8, comma-separated, header row",
+  "checksums": {
+    "metadata.json": "sha256:9c79094ac76aed170f2ba0f09636b3359105b28e4477dfed5d1e43143deb12c9",
+    "mods.xml": "sha256:6214f50343fcbfd25343bb094c7f67b224209b1e12aa09289ec7cc6dcc0f9eba",
+    "pages.csv": "sha256:0e7a1d5678883c32841969418cfc4dcd844781a8e47ad38f5986bd2c90f90e36",
+    "entities.csv": "sha256:270055e90310da455a8ad40a882f09214d4ea1b274e1a3a6835e72194d46a470"
+  },
+  "entities_dropped_too_long": 46
+}

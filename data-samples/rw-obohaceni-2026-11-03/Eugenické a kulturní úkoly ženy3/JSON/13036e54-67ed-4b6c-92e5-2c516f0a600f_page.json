@@ -1,0 +1,823 @@
+{
+ "schema": "dl-enricher-page/0.1",
+ "id": "uuid:13036e54-67ed-4b6c-92e5-2c516f0a600f",
+ "title": "[1a]",
+ "source": "https://kramerius.lib.cas.cz/view/uuid:976feb9c-89c1-4a72-b5c4-f061602e86ec?page=uuid:13036e54-67ed-4b6c-92e5-2c516f0a600f",
+ "index": 0,
+ "language": "ces",
+ "paradata": {
+  "udpipe": {
+   "model": "czech-pdtc-ud-2.17-251125",
+   "generator": "UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe",
+   "licence": "CC BY-NC-SA",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "nametag": {
+   "model": "nametag3-czech-cnec2.0-240830",
+   "engine": "nametag",
+   "when": "2026-09-08T13:56:26.686585Z"
+  },
+  "ocr": {
+   "creator": "I2S",
+   "software": "Limb",
+   "version": "4.3.0.0",
+   "description": "Abbyy11 OCR Engine"
+  }
+ },
+ "geometry": {
+  "width": 1910.0,
+  "height": 3300.0,
+  "unit": "pixel",
+  "source": "enricher-page"
+ },
+ "sentences": [
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "ČÍSLO",
+     "lemma": "číslo",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=0:5",
+     "alto": {
+      "hpos": 32.0,
+      "vpos": 58.0,
+      "width": 151.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "171",
+     "lemma": "171",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 1,
+     "deprel": "nummod",
+     "misc": "SpaceAfter=No|TokenRange=6:9",
+     "ne": "B-n_",
+     "alto": {
+      "hpos": 214.0,
+      "vpos": 55.0,
+      "width": 107.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 3,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "SpacesAfter=\\n\\n|TokenRange=9:10",
+     "alto": {
+      "hpos": 214.0,
+      "vpos": 55.0,
+      "width": 107.0,
+      "height": 55.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "VÉ",
+     "lemma": "vůj",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=12:14",
+     "alto": {
+      "hpos": 505.0,
+      "vpos": 256.0,
+      "width": 160.0,
+      "height": 93.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "*",
+     "lemma": "*",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=15:16",
+     "alto": {
+      "hpos": 721.0,
+      "vpos": 296.0,
+      "width": 32.0,
+      "height": 53.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "•",
+     "lemma": "•",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=17:18",
+     "alto": {
+      "hpos": 815.0,
+      "vpos": 298.0,
+      "width": 28.0,
+      "height": 51.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "*",
+     "lemma": "*",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "SpaceAfter=No|TokenRange=19:20",
+     "alto": {
+      "hpos": 488.0,
+      "vpos": 400.0,
+      "width": 360.0,
+      "height": 74.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "RAVY",
+     "lemma": "rava",
+     "upos": "NOUN",
+     "xpos": "NNFP1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Plur",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=20:24",
+     "alto": {
+      "hpos": 488.0,
+      "vpos": 400.0,
+      "width": 360.0,
+      "height": 74.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "ŘSKÉ",
+     "lemma": "řský",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 2,
+     "deprel": "amod",
+     "misc": "TokenRange=25:29",
+     "ne": "B-gc",
+     "alto": {
+      "hpos": 514.0,
+      "vpos": 510.0,
+      "width": 336.0,
+      "height": 94.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "Prof",
+     "lemma": "prof",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 10,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=30:34",
+     "ne": "B-P|B-pd",
+     "alto": {
+      "hpos": 169.0,
+      "vpos": 768.0,
+      "width": 129.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 5,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=34:35",
+     "ne": "I-P|I-pd",
+     "alto": {
+      "hpos": 169.0,
+      "vpos": 768.0,
+      "width": 129.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "Dr",
+     "lemma": "Dr",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 10,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=36:38",
+     "ne": "I-P|B-pd",
+     "alto": {
+      "hpos": 339.0,
+      "vpos": 766.0,
+      "width": 76.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 7,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "punct",
+     "misc": "TokenRange=38:39",
+     "ne": "I-P|I-pd",
+     "alto": {
+      "hpos": 339.0,
+      "vpos": 766.0,
+      "width": 76.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 8,
+     "form": "Lad",
+     "lemma": "Lad",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 10,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=40:43",
+     "ne": "I-P|B-pf",
+     "alto": {
+      "hpos": 454.0,
+      "vpos": 766.0,
+      "width": 106.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 9,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 8,
+     "deprel": "punct",
+     "misc": "TokenRange=43:44",
+     "ne": "I-P|I-pf",
+     "alto": {
+      "hpos": 454.0,
+      "vpos": 766.0,
+      "width": 106.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "Haškovec",
+     "lemma": "Haškovec",
+     "upos": "PROPN",
+     "xpos": "NNMS1-----A----",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing",
+     "head": 2,
+     "deprel": "parataxis",
+     "misc": "SpaceAfter=No|TokenRange=45:53",
+     "ne": "I-P|B-ps",
+     "alto": {
+      "hpos": 602.0,
+      "vpos": 764.0,
+      "width": 252.0,
+      "height": 44.0
+     }
+    },
+    {
+     "id": 11,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "SpacesAfter=\\n\\n|TokenRange=53:54",
+     "alto": {
+      "hpos": 602.0,
+      "vpos": 764.0,
+      "width": 252.0,
+      "height": 44.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "EUGENICKÉ",
+     "lemma": "eugenický",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=56:65",
+     "alto": {
+      "hpos": 131.0,
+      "vpos": 1498.0,
+      "width": 781.0,
+      "height": 171.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "A",
+     "lemma": "a",
+     "upos": "CCONJ",
+     "xpos": "J^-------------",
+     "feats": "_",
+     "head": 3,
+     "deprel": "cc",
+     "misc": "TokenRange=66:67",
+     "alto": {
+      "hpos": 975.0,
+      "vpos": 1538.0,
+      "width": 89.0,
+      "height": 131.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "KULTURNÍ",
+     "lemma": "kulturní",
+     "upos": "ADJ",
+     "xpos": "AAFP1----1A----",
+     "feats": "Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos",
+     "head": 1,
+     "deprel": "conj",
+     "misc": "SpacesAfter=\\n\\n|TokenRange=68:76",
+     "alto": {
+      "hpos": 1139.0,
+      "vpos": 1495.0,
+      "width": 741.0,
+      "height": 174.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "ÚKOLY",
+     "lemma": "úkol",
+     "upos": "NOUN",
+     "xpos": "NNIP1-----A----",
+     "feats": "Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=78:83",
+     "alto": {
+      "hpos": 552.0,
+      "vpos": 1790.0,
+      "width": 465.0,
+      "height": 137.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "ZENY",
+     "lemma": "zena",
+     "upos": "NOUN",
+     "xpos": "NNFS2-----A----",
+     "feats": "Case=Gen|Gender=Fem|Number=Sing",
+     "head": 1,
+     "deprel": "nmod",
+     "misc": "SpacesAfter=\\n\\n|TokenRange=84:88",
+     "ne": "B-pf",
+     "alto": {
+      "hpos": 1084.0,
+      "vpos": 1788.0,
+      "width": 365.0,
+      "height": 139.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "NAPSAL",
+     "lemma": "napsat",
+     "upos": "VERB",
+     "xpos": "VpYS----R-AAP--",
+     "feats": "Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=90:96",
+     "alto": {
+      "hpos": 871.0,
+      "vpos": 2044.0,
+      "width": 268.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "MUDr",
+     "lemma": "MUDr",
+     "upos": "NOUN",
+     "xpos": "BNXXX-----A----",
+     "feats": "Abbr=Yes",
+     "head": 6,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=97:101",
+     "ne": "B-P|B-pd",
+     "alto": {
+      "hpos": 650.0,
+      "vpos": 2215.0,
+      "width": 262.0,
+      "height": 61.0
+     }
+    },
+    {
+     "id": 3,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "TokenRange=101:102",
+     "ne": "I-P|I-pd",
+     "alto": {
+      "hpos": 650.0,
+      "vpos": 2215.0,
+      "width": 262.0,
+      "height": 61.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "J",
+     "lemma": "J",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 6,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=103:104",
+     "ne": "I-P|B-pf",
+     "alto": {
+      "hpos": 950.0,
+      "vpos": 2215.0,
+      "width": 51.0,
+      "height": 61.0
+     }
+    },
+    {
+     "id": 5,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 4,
+     "deprel": "punct",
+     "misc": "TokenRange=104:105",
+     "ne": "I-P|I-pf",
+     "alto": {
+      "hpos": 950.0,
+      "vpos": 2215.0,
+      "width": 51.0,
+      "height": 61.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "HRASE",
+     "lemma": "Hrase",
+     "upos": "PROPN",
+     "xpos": "NNMS1-----A----",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing",
+     "head": 1,
+     "deprel": "nsubj",
+     "misc": "SpaceAfter=No|TokenRange=106:111",
+     "ne": "I-P|B-ps",
+     "alto": {
+      "hpos": 1044.0,
+      "vpos": 2205.0,
+      "width": 301.0,
+      "height": 71.0
+     }
+    },
+    {
+     "id": 7,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 1,
+     "deprel": "punct",
+     "misc": "TokenRange=111:112",
+     "alto": {
+      "hpos": 1044.0,
+      "vpos": 2205.0,
+      "width": 301.0,
+      "height": 71.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "v",
+     "lemma": "v",
+     "upos": "ADP",
+     "xpos": "RR--6----------",
+     "feats": "AdpType=Prep|Case=Loc",
+     "head": 2,
+     "deprel": "case",
+     "misc": "TokenRange=113:114",
+     "alto": {
+      "hpos": 757.0,
+      "vpos": 2837.0,
+      "width": 43.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "PRAZE",
+     "lemma": "Praha",
+     "upos": "PROPN",
+     "xpos": "NNFS6-----A----",
+     "feats": "Case=Loc|Gender=Fem|NameType=Geo|Number=Sing",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=115:120",
+     "ne": "B-gu",
+     "alto": {
+      "hpos": 844.0,
+      "vpos": 2835.0,
+      "width": 230.0,
+      "height": 55.0
+     }
+    },
+    {
+     "id": 3,
+     "form": "1928",
+     "lemma": "1928",
+     "upos": "NUM",
+     "xpos": "C=-------------",
+     "feats": "NumForm=Digit|NumType=Card",
+     "head": 2,
+     "deprel": "dep",
+     "misc": "SpaceAfter=No|TokenRange=121:125",
+     "ne": "B-ty",
+     "alto": {
+      "hpos": 1118.0,
+      "vpos": 2836.0,
+      "width": 149.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 4,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "TokenRange=125:126",
+     "alto": {
+      "hpos": 1118.0,
+      "vpos": 2836.0,
+      "width": 149.0,
+      "height": 54.0
+     }
+    }
+   ]
+  },
+  {
+   "tokens": [
+    {
+     "id": 1,
+     "form": "NAKLADATELSTVÍ",
+     "lemma": "nakladatelství",
+     "upos": "NOUN",
+     "xpos": "NNNS1-----A----",
+     "feats": "Case=Nom|Gender=Neut|Number=Sing",
+     "head": 0,
+     "deprel": "root",
+     "misc": "TokenRange=127:141",
+     "alto": {
+      "hpos": 515.0,
+      "vpos": 2929.0,
+      "width": 677.0,
+      "height": 76.0
+     }
+    },
+    {
+     "id": 2,
+     "form": "J",
+     "lemma": "J",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 4,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=142:143",
+     "ne": "B-P|B-pf",
+     "alto": {
+      "hpos": 1227.0,
+      "vpos": 2951.0,
+      "width": 46.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 3,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 2,
+     "deprel": "punct",
+     "misc": "TokenRange=143:144",
+     "ne": "I-P|I-pf",
+     "alto": {
+      "hpos": 1227.0,
+      "vpos": 2951.0,
+      "width": 46.0,
+      "height": 54.0
+     }
+    },
+    {
+     "id": 4,
+     "form": "OTTO",
+     "lemma": "Otto",
+     "upos": "PROPN",
+     "xpos": "NNMS1-----A----",
+     "feats": "Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing",
+     "head": 1,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=145:149",
+     "ne": "I-P|B-ps",
+     "alto": {
+      "hpos": 1306.0,
+      "vpos": 2949.0,
+      "width": 229.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 5,
+     "form": ",",
+     "lemma": ",",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 6,
+     "deprel": "punct",
+     "misc": "TokenRange=149:150",
+     "alto": {
+      "hpos": 1306.0,
+      "vpos": 2949.0,
+      "width": 229.0,
+      "height": 56.0
+     }
+    },
+    {
+     "id": 6,
+     "form": "SPOLEČNOST",
+     "lemma": "společnost",
+     "upos": "NOUN",
+     "xpos": "NNFS1-----A----",
+     "feats": "Case=Nom|Gender=Fem|Number=Sing",
+     "head": 1,
+     "deprel": "conj",
+     "misc": "TokenRange=151:161",
+     "ne": "B-if",
+     "alto": {
+      "hpos": 735.0,
+      "vpos": 3054.0,
+      "width": 352.0,
+      "height": 49.0
+     }
+    },
+    {
+     "id": 7,
+     "form": "S",
+     "lemma": "S",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 10,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=162:163",
+     "ne": "I-if",
+     "alto": {
+      "hpos": 1115.0,
+      "vpos": 3061.0,
+      "width": 40.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 8,
+     "form": ".",
+     "lemma": ".",
+     "upos": "PUNCT",
+     "xpos": "Z:-------------",
+     "feats": "_",
+     "head": 7,
+     "deprel": "punct",
+     "misc": "TokenRange=163:164",
+     "ne": "I-if",
+     "alto": {
+      "hpos": 1115.0,
+      "vpos": 3061.0,
+      "width": 40.0,
+      "height": 42.0
+     }
+    },
+    {
+     "id": 9,
+     "form": "R",
+     "lemma": "R",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 10,
+     "deprel": "nmod",
+     "misc": "TokenRange=165:166",
+     "ne": "I-if",
+     "alto": {
+      "hpos": 1181.0,
+      "vpos": 3063.0,
+      "width": 33.0,
+      "height": 40.0
+     }
+    },
+    {
+     "id": 10,
+     "form": "O",
+     "lemma": "O",
+     "upos": "NOUN",
+     "xpos": "Q3-------------",
+     "feats": "Abbr=Yes",
+     "head": 6,
+     "deprel": "nmod",
+     "misc": "SpaceAfter=No|TokenRange=167:168",
+     "ne": "I-if",
+     "alto": {
+      "hpos": 1252.0,
+      "vpos": 3060.0,
+      "width": 38.0,
+      "height": 43.0
+     }
+    }
+   ]
+  }
+ ]
+}
